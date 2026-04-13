@@ -1,61 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Welcome to BunnyThatBoings's GitHub Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Efficient Demon List</title>
+  <style>
+    body {
+      background: #000;
+      color: #fff;
+      font-family: 'Times New Roman', Times, serif;
+      padding: 16px;
+    }
 
-        .container {
-            text-align: center;
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
+    h1 { font-size: 24px; }
+    p { font-size: 13px; margin-bottom: 16px; }
+    hr { border-color: #fff; margin-bottom: 12px; }
 
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-        }
+    .vid-btn {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border: 1px solid #fff;
+      padding: 8px;
+      margin-bottom: 6px;
+      text-decoration: none;
+      color: #fff;
+    }
 
-        p {
-            color: #555;
-            margin-bottom: 30px;
-        }
+    .thumb {
+      width: 80px;
+      height: 50px;
+      border: 1px solid #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      overflow: hidden;
+    }
 
-        button {
-            padding: 12px 24px;
-            font-size: 18px;
-            font-weight: bold;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
+    .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
 
-        button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    .play-tri {
+      width: 0;
+      height: 0;
+      border-top: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+      border-left: 10px solid #fff;
+      margin-left: 2px;
+    }
+
+    .name { font-weight: bold; }
+    .url { font-size: 11px; font-family: monospace; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to BunnyThatBoing's Page</h1>
-        <p>Explore my latest project by clicking the button below:</p>
-        <button onclick="window.location.href='https://BunnyThatBoings.github.io/myapp/';">
-            Go to My Testing App
-        </button>
-    </div>
+
+  <h1>Efficient Demon List</h1>
+  <p>made by CircularCyclone</p>
+  <hr />
+  <div id="list"></div>
+
+  <script>
+    /* -------------------------------------------------------
+       EDIT PLACEMENTS HERE // DO NOT TOUCH ANYTHING ELSE
+    ------------------------------------------------------- */
+    const videos = [
+      { name: "Amethyst",  url: "https://www.youtube.com/watch?v=4lfkzz1VCbA" },
+      { name: "Thinking Space II",  url: "https://www.youtube.com/watch?v=CELNmHwln_c" },
+      { name: "Tidal Wave",  url: "https://www.youtube.com/watch?v=9fsZ014qB3s" },
+      { name: "ORBIT",  url: "https://www.youtube.com/watch?v=QKcv8DkNPd0" },
+      { name: "Flamewall",  url: "https://www.youtube.com/watch?v=x4Io4zkWVRw" },
+      { name: "Sakupen circles",  url: "https://www.youtube.com/watch?v=AdrmZsy52EY" },
+      { name: "Nullscapes",  url: "https://www.youtube.com/watch?v=EztneTPp5CU" },
+      { name: "Quanteuse processing",  url: "https://www.youtube.com/watch?v=j5NC0u1Q91Q" },
+      { name: "BOOBAWAMBA",  url: "https://www.youtube.com/watch?v=20fYiqLAo_E" },
+      { name: "Every End", url: "https://www.youtube.com/watch?v=AO--mVVFtKI" },
+      { name: "Penumbral", url: "https://www.youtube.com/watch?v=nVHPFf13M-I" },
+      { name: "roses and flowers", url: "https://www.youtube.com/watch?v=5QeIp5fC1hE" },
+      { name: "Subsuming Vortex", url: "https://www.youtube.com/watch?v=0eYG1ogJpIQ" },
+      { name: "andromeda", url: "https://www.youtube.com/watch?v=3PuK6AFY3BI" },
+      { name: "Silent clubstep", url: "https://www.youtube.com/watch?v=GR4OMkS3SN8" },
+      { name: "Ashley Wave Trials", url: "https://www.youtube.com/watch?v=aTxt76U3e2Q" },
+      { name: "Avernus", url: "https://www.youtube.com/watch?v=16Zh8jssanc" },
+      { name: "Anathema", url: "https://www.youtube.com/watch?v=_uKwmjHmySI" },
+      { name: "Lesopawol", url: "https://www.youtube.com/watch?v=RTXnFHkGO_g" },
+      { name: "Aquamarine", url: "https://www.youtube.com/watch?v=Q__EnRojGt4" },
+      { name: "Acheron", url: "https://www.youtube.com/watch?v=sBKR6aUorzA" },
+      { name: "Spectre", url: "https://www.youtube.com/watch?v=MzsSLKJrLSI" },
+      { name: "Menace", url: "https://www.youtube.com/watch?v=nnkgghxxsEE" },
+      { name: "Abyss of Darkness", url: "https://www.youtube.com/watch?v=ejJkpqcMMCY" },
+      { name: "Abyss of Darkness", url: "https://www.youtube.com/watch?v=RWBEfS4mLbw" },
+      { name: "Defeated Circles", url: "https://www.youtube.com/watch?v=nU5AQPzd2YA" },
+      { name: "SWI Slithium", url: "https://www.youtube.com/watch?v=av5D0_M6hso" },
+      { name: "Tunnel of Despair", url: "https://www.youtube.com/watch?v=LpS4JREhW98" },
+      { name: "Kyouki", url: "https://www.youtube.com/watch?v=KDa5c0CJTHs" },
+      { name: "Based After Based", url: "https://www.youtube.com/watch?v=yQBFyUvB3lY" },
+    ];
+    /* ------------------------------------------------------- */
+
+    function getVideoId(url) { 
+      const match = url.match(/[?&]v=([^&]+)/);
+      return match ? match[1] : null;
+    }
+
+    const list = document.getElementById('list');
+
+    for (let l = 0; l < videos.length; l++) { 
+      const v = videos[l];
+      const id = getVideoId(v.url);
+      const thumbSrc = v.thumb || (id ? `https://img.youtube.com/vi/${id}/mqdefault.jpg` : null);
+
+      const thumbHTML = thumbSrc
+        ? `<img src="${thumbSrc}" alt="thumbnail" />`
+        : `<span class="play-tri"></span>`;
+
+      const a = document.createElement('a');
+      a.className = 'vid-btn';
+      a.href = v.url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+
+      a.innerHTML = `
+        <span>${String(l + 1).padStart(2, '0')}</span>
+        <span class="thumb">${thumbHTML}</span>
+        <span>
+          <div class="name">${v.name}</div>
+          <div class="url">${v.url}</div>
+        </span>
+      `;
+
+      list.appendChild(a);
+    }
+  </script>
+
 </body>
 </html>
