@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Efficient Demon List (v1.2)</title>
+  <title>Efficient Demon List (v1.3)</title>
   
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   
@@ -34,6 +34,9 @@
       --body-width: 80rem;
       --spacing: 1.25rem;
       --border-radius: calc(var(--spacing) * 0.5);
+      --future-blue: #5b9cf6;
+      --future-blue-dim: #3a6db5;
+      --future-glow: rgba(91, 156, 246, 0.15);
       
     }
 
@@ -70,13 +73,81 @@
       
     }
 
-    #list > * {
+    /* ---- TABS ---- */
+
+    .tabs {
+      
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 0.5rem;
+      margin-bottom: calc(var(--spacing) * -1);
+      
+    }
+
+    .tab-btn {
+      
+      background: none;
+      border: none;
+      color: #888888;
+      font-family: "Inter", sans-serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 0.5rem 1.1rem;
+      border-radius: var(--border-radius) var(--border-radius) 0 0;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+      position: relative;
+      bottom: 0;
+      
+    }
+
+    .tab-btn:hover {
+      
+      color: #cccccc;
+      background: rgba(255,255,255,0.04);
+      
+    }
+
+    .tab-btn.active {
+      
+      color: #ffffff;
+      border-bottom: 2px solid #ffffff;
+      background: rgba(255,255,255,0.06);
+      
+    }
+
+    .tab-btn.active.future-tab {
+      
+      color: var(--future-blue);
+      border-bottom: 2px solid var(--future-blue);
+      background: var(--future-glow);
+      
+    }
+
+    /* ---- PANELS ---- */
+
+    .tab-panel {
+      
+      display: none;
+      
+    }
+
+    .tab-panel.active {
+      
+      display: block;
+      
+    }
+
+    /* ---- LIST ITEMS ---- */
+
+    #list > *, #future-list > * {
       
       margin-top: var(--spacing);
       
     }
 
-    #list a {
+    #list a, #future-list a {
       
       display: flex;
       flex-flow: row nowrap;
@@ -99,7 +170,7 @@
       
     }
 
-    #list a .thumb {
+    #list a .thumb, #future-list a .thumb {
       
       flex-shrink: 0;
       width: min(12rem, 40%);
@@ -108,7 +179,7 @@
       
     }
 
-    #list a .thumb img {
+    #list a .thumb img, #future-list a .thumb img {
       
       width: 100%;
       height: auto;
@@ -117,14 +188,14 @@
       
     }
  
-    #list a .info {
+    #list a .info, #future-list a .info {
       
       flex: 1;
       min-width: 0;
       
     }
 
-    #list a .info .name {
+    #list a .info .name, #future-list a .info .name {
       
       font-size: 1.5rem;
       font-weight: 600;
@@ -132,7 +203,7 @@
       
     }
 
-    #list a .info .url {
+    #list a .info .url, #future-list a .info .url {
       
       font-style: italic;
       font-size: 0.8rem;
@@ -143,11 +214,111 @@
       
     }
 
-    #list a .rank {
+    #list a .rank, #future-list a .rank {
       
       flex-shrink: 0;
       color: #888888;
       font-size: 0.95rem;
+      
+    }
+
+    /* ---- UNVERIFIED ITEM STYLES ---- */
+
+    .unverified-item {
+      
+      border: 1px solid rgba(91, 156, 246, 0.3) !important;
+      background: linear-gradient(135deg, #2b2a33 0%, rgba(91,156,246,0.07) 100%) !important;
+      
+    }
+
+    .unverified-item .info .name {
+      
+      color: var(--future-blue) !important;
+      
+    }
+
+    .unverified-item .rank {
+      
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.3rem;
+      
+    }
+
+    .unverified-badge {
+      
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--future-blue);
+      background: rgba(91, 156, 246, 0.12);
+      border: 1px solid rgba(91, 156, 246, 0.3);
+      border-radius: 4px;
+      padding: 0.15rem 0.45rem;
+      white-space: nowrap;
+      
+    }
+
+    .progress-wrap {
+      
+      margin-top: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      
+    }
+
+    .progress-bar {
+      
+      width: 8rem;
+      height: 5px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 999px;
+      overflow: hidden;
+      
+    }
+
+    .progress-bar-fill {
+      
+      height: 100%;
+      background: linear-gradient(90deg, var(--future-blue-dim), var(--future-blue));
+      border-radius: 999px;
+      transition: width 0.4s ease;
+      
+    }
+
+    .progress-label {
+      
+      font-size: 0.8rem;
+      color: var(--future-blue);
+      font-weight: 600;
+      white-space: nowrap;
+      
+    }
+
+    /* thumb overlay for unverified */
+    .thumb-overlay-wrap {
+      
+      position: relative;
+      
+    }
+
+    .thumb-overlay-wrap .unverified-label {
+      
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0,0,0,0.55);
+      color: var(--future-blue);
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      text-align: center;
+      padding: 0.2rem 0;
       
     }
     
@@ -157,14 +328,30 @@
   
 <body>
 
-  <h1>Efficient Demon List (v1.2)</h1>
+  <h1>Efficient Demon List (v1.3)</h1>
   
   <p>made by CircularCyclone & ThePastaNebula</p>
   <p>This list was made because we didn't like the arbitrary restrictions that Pointercrate and the Global Demon List put on levels, as their rate status (which is decided by RobTop, who has basically no connection to modern top play). Additionally, we didn't agree with the methodology of the other lists, as they take too long to place levels, don't listen to actual top player feedback, and cater too much to players who are opinion lying.</p>
     
   <hr />
-  
-  <div id="list"></div>
+
+  <!-- TABS -->
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="main">Main List</button>
+    <button class="tab-btn future-tab" data-tab="future">Future List</button>
+  </div>
+
+  <hr />
+
+  <!-- MAIN LIST PANEL -->
+  <div class="tab-panel active" id="panel-main">
+    <div id="list"></div>
+  </div>
+
+  <!-- FUTURE LIST PANEL -->
+  <div class="tab-panel" id="panel-future">
+    <div id="future-list"></div>
+  </div>
 
   <script>
     
@@ -227,6 +414,73 @@
       
     ];
 
+    /* -------------------------------------------------------
+       FUTURE LIST — edit unverified levels here
+       Each entry: { name, url, progress (0–100) }
+       The first entry will always appear at the top with
+       the unverified styling and progress bar.
+    ------------------------------------------------------- */
+
+    const futureVideos = [
+
+      { name: "KOCMOC UNLEASHED", url: "https://www.youtube.com/watch?v=cnEQHGQ4gbI", progress: 68, unverified: true},
+      { name: "Vehemence", url: "https://www.youtube.com/watch?v=E6Q80ud1EaY", progress: 41, unverified: true},
+      { name: "Sweeping Demon II", url: "https://www.youtube.com/watch?v=L8DeyBdD9oc", progress: 86, unverified: true},
+      { name: "Society", url: "https://www.youtube.com/watch?v=kPgG2g-XmL8", progress: 63, unverified: true},
+      { name: "GRIEF", url: "https://www.youtube.com/watch?v=VLqlssP1Dxw", progress: 84, unverified: true},
+      { name: "Heliopolis", url: "https://www.youtube.com/watch?v=4u5aQmb7Ofw", progress: 47, unverified: true},
+      { name: "Amethyst", url: "https://www.youtube.com/watch?v=4lfkzz1VCbA" },
+      { name: "Misanthrope", url: "https://www.youtube.com/watch?v=1WJ_FM1ODbw", progress: 41, unverified: true},
+      { name: "Thinking Space II", url: "https://www.youtube.com/watch?v=CELNmHwln_c" },
+      { name: "Antarctic Lights", url: "https://www.youtube.com/watch?v=D5HC5DUj0d8", progress: 90, unverified: true},
+      { name: "Green Bullet", url: "https://www.youtube.com/watch?v=B7vl5z-jqtE", progress: 86, unverified: true},
+      { name: "Angelicide", url: "https://www.youtube.com/watch?v=dqkMUi7J7TY", progress: 47, unverified: true},
+      { name: "Tidal Wave", url: "https://www.youtube.com/watch?v=9fsZ014qB3s" },
+      { name: "Flamewall", url: "https://www.youtube.com/watch?v=x4Io4zkWVRw" },
+      { name: "It Means Everything", url: "https://youtube.com/watch?v=HUvZzy00Rek", progress: 74, unverified: true},
+      { name: "BANSHEE", url: "https://www.youtube.com/watch?v=AkAcvx32BII", progress: 86, unverified: true},
+      { name: "Labryinth", url: "https://www.youtube.com/watch?v=bvU88Sm5Naw", progress: 68, unverified: true},
+      { name: "Africa Circles", url: "https://www.youtube.com/watch?v=UHVqmFxujbA", progress: 61, unverified: true},
+      { name: "Silent Circles", url: "https://www.youtube.com/watch?v=3ANI557EzW8", progress: 58, unverified: true},
+      { name: "ORBIT", url: "https://www.youtube.com/watch?v=QKcv8DkNPd0" },
+      { name: "Eternal Silence", url: "https://www.youtube.com/watch?v=by88qCcfKkM", progress: 74, unverified: true},
+      { name: "Sakupen circles", url: "https://www.youtube.com/watch?v=AdrmZsy52EY" },
+      { name: "Tunnel of Serpent", url: "https://www.youtube.com/watch?v=M0ZY-laukRg", progress: 58, unverified: true},
+      { name: "Nullscapes", url: "https://www.youtube.com/watch?v=EztneTPp5CU" },
+      { name: "Quanteuse processing", url: "https://www.youtube.com/watch?v=j5NC0u1Q91Q" },
+      { name: "BOOBAWAMBA", url: "https://www.youtube.com/watch?v=20fYiqLAo_E" },
+      { name: "SARY NEVER CLEAR", url: "https://www.youtube.com/watch?v=Hpo77uVq75M" },
+      { name: "Every End", url: "https://www.youtube.com/watch?v=AO--mVVFtKI" },
+      { name: "KILLSTEALER", url: "https://www.youtube.com/watch?v=uhH4oqWrsfo" },
+      { name: "Silent Oppenheimer", url: "https://www.youtube.com/watch?v=8qDtiDYbKPA", progress: 67, unverified: true},
+      { name: "Lesopowal", url: "https://www.youtube.com/watch?v=RTXnFHkGO_g" },
+      { name: "Penumbral", url: "https://www.youtube.com/watch?v=nVHPFf13M-I" },
+      { name: "Ultra Paracosm", url: "https://www.youtube.com/watch?v=4V24spYQWuE" },
+      { name: "Subconscious", url: "https://www.youtube.com/watch?v=lBXO2CTEMfs" },
+      { name: "Ashley Wave Trials", url: "https://www.youtube.com/watch?v=aTxt76U3e2Q" },
+      { name: "Subsuming Vortex", url: "https://www.youtube.com/watch?v=0eYG1ogJpIQ" },
+      { name: "Old Orochi", url: "https://www.youtube.com/watch?v=YxtFAQtLYQY" },
+      { name: "Silent clubstep", url: "https://www.youtube.com/watch?v=GR4OMkS3SN8" },
+      { name: "andromeda", url: "https://www.youtube.com/watch?v=3PuK6AFY3BI" },
+      { name: "Aquamarine", url: "https://www.youtube.com/watch?v=Q__EnRojGt4" },
+      { name: "Avernus", url: "https://www.youtube.com/watch?v=16Zh8jssanc" },
+      { name: "Anathema", url: "https://www.youtube.com/watch?v=_uKwmjHmySI" },
+      { name: "Diabolic ClubStep", url: "https://www.youtube.com/watch?v=WHOfO0OxbvM" },
+      { name: "Acheron", url: "https://www.youtube.com/watch?v=sBKR6aUorzA" },
+      { name: "ECHO", url: "https://www.youtube.com/watch?v=-yHGEIcr4d8", progress: 86, unverified: true},
+      { name: "Spectre", url: "https://www.youtube.com/watch?v=MzsSLKJrLSI" },
+      { name: "roses and flowers", url: "https://www.youtube.com/watch?v=5QeIp5fC1hE" },
+      { name: "Menace", url: "https://www.youtube.com/watch?v=nnkgghxxsEE" },
+      { name: "Abyss of Darkness", url: "https://www.youtube.com/watch?v=ejJkpqcMMCY" },
+      { name: "Abyss of Darkness", url: "https://www.youtube.com/watch?v=RWBEfS4mLbw" },
+	
+
+    ];
+
+    /* -------------------------------------------------------
+       DO NOT TOUCH ANYTHING BELOW
+    ------------------------------------------------------- */
+
     function getVideoId(url) {
       
       const match = url.match(/[?&]v=([^&]+)/);
@@ -234,46 +488,74 @@
       
     }
 
-    const list = document.getElementById('list');
+    function buildList(container, items, startRank) {
 
-    for (let l = 0; l < videos.length; l++) {
+      for (let l = 0; l < items.length; l++) {
 
-      const v = videos[l];
-      const id = getVideoId(v.url);
-      const thumbSrc = v.thumb || (id ? `https://img.youtube.com/vi/${id}/mqdefault.jpg` : null);
-      const thumbHTML = thumbSrc
-        
-        ? `<img src="${thumbSrc}" alt="thumbnail" />`
-        
-        : `<span class="play-tri"></span>`;
-      
-      const a = document.createElement('a');
-      a.href = v.url;
-      a.target = '_blank';
-      a.rel = 'noopener noreferrer';
-      a.innerHTML = `
-        <div class="thumb">
-        
-        ${thumbHTML}</div>
-        
-        <div class="info">
-        
-        <div class="name">
-        
-        ${v.name}</div>
-        
-        <div class="url">
-          
-        ${v.url}</div>
-          
-        </div>
-        
-        <div class="rank">
-        
-        ${String(l + 1).padStart(2, '0')}</div>`;
+        const v = items[l];
+        const rank = startRank + l;
+        const id = getVideoId(v.url);
+        const thumbSrc = v.thumb || (id ? `https://img.youtube.com/vi/${id}/mqdefault.jpg` : null);
+        const thumbHTML = thumbSrc
+          ? `<img src="${thumbSrc}" alt="thumbnail" />`
+          : `<span class="play-tri"></span>`;
 
-      list.appendChild(a);
+        const a = document.createElement('a');
+        a.href = v.url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+
+        if (v.unverified) {
+
+          a.classList.add('unverified-item');
+          const pct = Math.min(100, Math.max(0, v.progress ?? 0));
+
+          a.innerHTML = `
+            <div class="thumb thumb-overlay-wrap">
+              ${thumbHTML}
+              <div class="unverified-label">Unverified</div>
+            </div>
+            <div class="info">
+              <div class="name">${v.name}</div>
+              <div class="url">${pct}% progress</div>
+            </div>
+            <div class="rank">
+              <div>${String(rank).padStart(2, '0')}</div>
+              <div class="unverified-badge">Unverified</div>
+            </div>`;
+
+        } else {
+
+          a.innerHTML = `
+            <div class="thumb">${thumbHTML}</div>
+            <div class="info">
+              <div class="name">${v.name}</div>
+              <div class="url">${v.url}</div>
+            </div>
+            <div class="rank">${String(rank).padStart(2, '0')}</div>`;
+
+        }
+
+        container.appendChild(a);
+      }
     }
+
+    // Build main list
+    buildList(document.getElementById('list'), videos, 1);
+
+    // Build future list in the exact order defined above
+    buildList(document.getElementById('future-list'), futureVideos, 1);
+
+    // Tab switching
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const target = btn.dataset.tab;
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('panel-' + target).classList.add('active');
+      });
+    });
     
   </script>
 
