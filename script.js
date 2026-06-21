@@ -1,7 +1,3 @@
-/* -------------------------------------------------------
-   LOAD DATA FROM lists.json
-------------------------------------------------------- */
-
 async function loadData() {
   try {
     const response = await fetch("lists.json");
@@ -13,10 +9,6 @@ async function loadData() {
   }
 }
 
-/* -------------------------------------------------------
-   TAG BUILDER
-------------------------------------------------------- */
-
 function buildTagsHTML(tags) {
   if (!tags || tags.length === 0) return "";
   return `<div class="tags">${tags
@@ -24,18 +16,10 @@ function buildTagsHTML(tags) {
     .join("")}</div>`;
 }
 
-/* -------------------------------------------------------
-   YOUTUBE ID PARSER
-------------------------------------------------------- */
-
 function getVideoId(url) {
   const match = url.match(/[?&]v=([^&]+)/);
   return match ? match[1] : null;
 }
-
-/* -------------------------------------------------------
-   LIST BUILDER
-------------------------------------------------------- */
 
 function buildList(container, items, startRank) {
   for (let l = 0; l < items.length; l++) {
@@ -88,20 +72,12 @@ function buildList(container, items, startRank) {
   }
 }
 
-/* -------------------------------------------------------
-   INITIALIZE PAGE
-------------------------------------------------------- */
-
 loadData().then(data => {
   const { videos, futureVideos } = data;
 
   buildList(document.getElementById("list"), videos, 1);
   buildList(document.getElementById("future-list"), futureVideos, 1);
 });
-
-/* -------------------------------------------------------
-   TAB SWITCHING
-------------------------------------------------------- */
 
 document.querySelectorAll(".tab-btn").forEach(btn => {
   btn.addEventListener("click", () => {
