@@ -78,6 +78,11 @@
       "tags": ["cube", "nerve control", "timings", "XXL+"]
     },
     {
+      "name": "Old Orochi",
+      "url": "https://www.youtube.com/watch?v=YxtFAQtLYQY",
+      "tags": ["ship", "nerve control", "long"]
+    },
+    {
       "name": "Penumbral",
       "url": "https://www.youtube.com/watch?v=nVHPFf13M-I",
       "tags": ["ball", "UFO", "timings", "chokepoints", "long"]
@@ -101,11 +106,6 @@
       "name": "Subsuming Vortex",
       "url": "https://www.youtube.com/watch?v=0eYG1ogJpIQ",
       "tags": ["wave", "chokepoints", "long"]
-    },
-    {
-      "name": "Old Orochi",
-      "url": "https://www.youtube.com/watch?v=YxtFAQtLYQY",
-      "tags": ["ship", "nerve control", "long"]
     },
     {
       "name": "Silent clubstep",
@@ -468,6 +468,16 @@
       "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g"
     },
     {
+      "name": "Old Orochi",
+      "url": "https://www.youtube.com/watch?v=YxtFAQtLYQY"
+    },
+    {
+      "name": "CYBERPSYCHOSIS",
+      "url": "https://www.youtube.com/watch?v=M1X24uXAAGY",
+      "progress": 52,
+      "unverified": true
+    },
+    {
       "name": "Penumbral",
       "url": "https://www.youtube.com/watch?v=nVHPFf13M-I"
     },
@@ -484,14 +494,12 @@
       "url": "https://www.youtube.com/watch?v=aTxt76U3e2Q"
     },
     {
-      "name": "CYBERPSYCHOSIS",
-      "url": "https://www.youtube.com/watch?v=M1X24uXAAGY",
-      "progress": 52,
-      "unverified": true
-    },
-    {
       "name": "Subsuming Vortex",
       "url": "https://www.youtube.com/watch?v=0eYG1ogJpIQ"
+    },
+    {
+      "name": "Silent clubstep",
+      "url": "https://www.youtube.com/watch?v=GR4OMkS3SN8"
     },
     {
       "name": "Minus World",
@@ -499,14 +507,6 @@
       "thumb": "https://i.ytimg.com/vi/apiLRRNoefI/maxresdefault.jpg",
       "progress": 69,
       "unverified": true
-    },
-    {
-      "name": "Old Orochi",
-      "url": "https://www.youtube.com/watch?v=YxtFAQtLYQY"
-    },
-    {
-      "name": "Silent clubstep",
-      "url": "https://www.youtube.com/watch?v=GR4OMkS3SN8"
     },
     {
       "name": "andromeda",
