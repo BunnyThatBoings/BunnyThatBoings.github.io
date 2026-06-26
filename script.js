@@ -82,12 +82,12 @@ const playerCompletions = {
 
   "wPopoff": ["Society (V)", "Amethyst (V)", "Thinking Space II (1)", "Tidal Wave", "BOOBAWAMBA", "Every End", "Subsuming Vortex", "Silent clubstep", "andromeda", "Avernus", "Anathema", "Acheron", "Spectre", "roses and flowers (V)", "Menace", "Abyss of Darkness", "Defeated Circles", "Tunnel of Despair (1)", "Kyouki", "Subterminal Point", "Slaughterhouse", "KOCMOC", "The Lightning Rod", "Deimos"],
   //BUOC
-  "Zoink": ["Amethyst (1)", "Thinking Space II (V)", "Flamewall (1)", "Tidal Wave (V)", "ORBIT (V)", "Nullscapes (V)", "Quanteuse processing (V)", "BOOBAWAMBA", "Every End (1)", "Penumbral", "Ashley Wave Trials (V)", "Subsuming Vortex (1)", "Silent clubstep (1)", "andromeda (1)", "Avernus (V)", "Anathema (1)", "Acheron (V)", "Spectre", "Menace", "Abyss of Darkness", "The Bloop (V)", "Defeated Circles (V)", "Tunnel of Despair (V)", "Kyouki (1)", "Subterminal Point (1)", "Slaughterhouse (1)", "KOCMOC (1)", "The Lightning Rod (1)", "Deimos (1)"],
+  "Zoink": ["Amethyst (1)", "Thinking Space II (V)", "Flamewall (1)", "Tidal Wave (V)", "ORBIT (V)", "Nullscapes (V)", "Quanteuse processing (V)", "BOOBAWAMBA", "Every End (1)", "Penumbral", "Ashley Wave Trials (V)", "Subsuming Vortex (1)", "Silent clubstep (1)", "andromeda (1)", "Avernus (V)", "Anathema", "Acheron (V)", "Spectre", "Menace", "Abyss of Darkness", "The Bloop (V)", "Defeated Circles (V)", "Tunnel of Despair (V)", "Kyouki (1)", "Subterminal Point (1)", "Slaughterhouse (1)", "KOCMOC (1)", "The Lightning Rod (1)", "Deimos (1)"],
   "Cuatrocientos": ["Flamewall (V)"],
   "zLevii": ["Flamewall", "Anathema", "Acheron", "Spectre", "Kyouki", "Slaughterhouse", "KOCMOC", "CHIL", "Deimos"],
   "Trick": ["Tidal Wave (1)", "Silent clubstep", "Avernus", "Anathema", "Acheron", "Spectre", "Abyss of Darkness (1)", "Tunnel of Despair", "Kyouki", "Subterminal Point", "Slaughterhouse", "KOCMOC (V)", "The Lightning Rod", "Deimos"],
   "Taiago": ["Tidal Wave", "andromeda (V)", "Avernus", "Acheron", "Tunnel of Despair", "Kyouki", "Slaughterhouse"],
-  "A6": ["Tidal Wave", "Subsuming Vortex", "andromeda", "Avernus", "Anathema", "Acheron", "Defeated Circles", "Tunnel of Despair", "Slaughterhouse"],
+  "A6": ["Tidal Wave", "Subsuming Vortex", "andromeda", "Avernus", "Anathema (1)", "Acheron", "Defeated Circles", "Tunnel of Despair", "Slaughterhouse"],
   //BUOC
   "Netermind": ["Tidal Wave", "Silent clubstep", "andromeda", "Avernus", "Anathema", "Acheron", "Menace", "Abyss of Darkness", "Defeated Circles (1)", "Tunnel of Despair", "Subterminal Point", "Slaughterhouse", "KOCMOC", "The Lightning Rod", "Deimos"],
   //BUOC
