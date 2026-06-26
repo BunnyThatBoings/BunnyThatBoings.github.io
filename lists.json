@@ -62,11 +62,6 @@
       "tags": ["wave", "high CPS", "chokepoints"]
     },
     {
-      "name": "Herr Machine",
-      "url": "https://www.youtube.com/watch?v=CBcQqmqWFo4",
-      "tags": ["memory", "timings", "chokepoints", "long"]
-    },
-    {
       "name": "Lesopowal",
       "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g",
       "tags": ["chokepoints", "long"]
@@ -126,6 +121,11 @@
       "name": "Aquamarine",
       "url": "https://www.youtube.com/watch?v=Q__EnRojGt4",
       "tags": ["wave", "high CPS", "chokepoints"]
+    },
+    {
+      "name": "Herr Machine",
+      "url": "https://www.youtube.com/watch?v=CBcQqmqWFo4",
+      "tags": ["memory", "timings", "chokepoints", "long"]
     },
     {
       "name": "Avernus",
@@ -442,10 +442,6 @@
       "url": "https://www.youtube.com/watch?v=AdrmZsy52EY"
     },
     {
-      "name": "Herr Machine",
-      "url": "https://www.youtube.com/watch?v=CBcQqmqWFo4"
-    },
-    {
       "name": "Silent Clubstep II",
       "url": "https://www.youtube.com/watch?v=QxQmap48MDA",
       "progress": 31,
@@ -519,6 +515,10 @@
     {
       "name": "Aquamarine",
       "url": "https://www.youtube.com/watch?v=Q__EnRojGt4"
+    },
+    {
+      "name": "Herr Machine",
+      "url": "https://www.youtube.com/watch?v=CBcQqmqWFo4"
     },
     {
       "name": "Avernus",
