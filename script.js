@@ -157,6 +157,7 @@ const playerCompletions = {
   "出見塩": ["Kyouki (V)"],
   "DiamondSplash": ["Based After Based (V)", "Kyouki"],
   "Lino": ["Subterminal Point"],
+  "Yanlici": ["Slaughterhouse"],
   "McCoco": ["CHIL (V)"],
   "Lavatrex": ["The Lightning Rod (V)"]
 };
