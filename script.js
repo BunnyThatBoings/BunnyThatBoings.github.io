@@ -136,11 +136,15 @@ const playerCompletions = {
   "apuu": ["Subconscious (V)"],
   "Cursed": ["Subsuming Vortex (V)", "Acheron", "Abyss of Darkness (V)", "Tunnel of Despair", "Slaughterhouse", "KOCMOC", "Map Of Problematique (1)"],
   "zoe": ["Silent clubstep (V)", "Acheron", "Slaughterhouse", "KOCMOC"],
+  "구아이": ["Silent clubstep", "KOCMOC", "zorin"],
   "Sharkified": ["andromeda", "Acheron", "Defeated Circles", "Tunnel of Despair", "Kyouki", "Slaughterhouse", "KOCMOC", "CHIL"],
   //BUOC
   "kloone": ["KILLSTEALER (V)", "Anathema", "Acheron", "Kyouki", "Subterminal Point", "Slaughterhouse", "KOCMOC", "The Lightning Rod"],
   "seels": ["Aquamarine (V)", "Map Of Problematique (V)"],
   "Diamond": ["Silent clubstep", "Avernus (1)", "Slaughterhouse"],
+  "Mizukii": ["Avernus", "Anathema", "Acheron", "Abyss of Darkness", "Kyouki", "Thinking Space II Legacy (1)", "Slaughterhouse"],
+  //BUOC
+  "Abdieldevil": ["Avernus", "Acheron", "Slaughterhouse", "KOCMOC", "CHIL (1)"],
   "Whizkid05": ["Anathema (V)", "Menace (V)", "The Lightning Rod"],
   "PoCle": ["Anathema", "Abyss of Darkness", "Subterminal Point (V)", "Slaughterhouse", "Deimos"],
   "Sevant": ["Diabolic ClubStep (V)"],
@@ -152,13 +156,9 @@ const playerCompletions = {
   "Hipo": ["SWI Slithium (V)", "Slaughterhouse"],
   "出見塩": ["Kyouki (V)"],
   "DiamondSplash": ["Based After Based (V)", "Kyouki"],
-  "Mizukii": ["Avernus", "Anathema", "Acheron", "Abyss of Darkness", "Kyouki", "Thinking Space II Legacy (1)", "Slaughterhouse"],
-  //BUOC
+  "Lino": ["Subterminal Point"],
   "McCoco": ["CHIL (V)"],
-  "Abdieldevil": ["Avernus", "Acheron", "Slaughterhouse", "KOCMOC", "CHIL (1)"],
-  "구아이": ["Silent clubstep", "KOCMOC", "zorin"],
   "Lavatrex": ["The Lightning Rod (V)"]
-
 };
 
 /* -------------------------------------------------------
