@@ -139,12 +139,6 @@
       "tags": ["swing copter", "nerve control", "XXL+"]
     },
     {
-      "name": "Diabolic ClubStep",
-      "url": "https://www.youtube.com/watch?v=WHOfO0OxbvM",
-      "thumb": "https://i.ytimg.com/vi/ihNvOzgE8Sk/maxresdefault.jpg",
-      "tags": ["ship", "wave", "timings", "chokepoints", "long"]
-    },
-    {
       "name": "Acheron",
       "url": "https://www.youtube.com/watch?v=sBKR6aUorzA",
       "thumb": "https://i.ytimg.com/vi/RMRBhZJrgkw/mqdefault.jpg",
@@ -200,6 +194,12 @@
       "name": "Kyouki",
       "url": "https://www.youtube.com/watch?v=KDa5c0CJTHs",
       "tags": ["timings", "long"]
+    },
+    {
+      "name": "Diabolic ClubStep",
+      "url": "https://www.youtube.com/watch?v=WHOfO0OxbvM",
+      "thumb": "https://i.ytimg.com/vi/ihNvOzgE8Sk/maxresdefault.jpg",
+      "tags": ["ship", "wave", "timings", "chokepoints", "long"]
     },
     {
       "name": "Based After Based",
