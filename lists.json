@@ -89,6 +89,11 @@
       "tags": ["wave", "long"]
     },
     {
+      "name": "The Bloop",
+      "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA",
+      "tags": ["wave", "chokepoints", "long"]
+    },
+    {
       "name": "Subconscious",
       "url": "https://www.youtube.com/watch?v=lBXO2CTEMfs",
       "tags": ["ship", "long"]
@@ -169,11 +174,6 @@
       "name": "Abyss of Darkness",
       "url": "https://www.youtube.com/watch?v=RWBEfS4mLbw",
       "tags": ["spider", "nerve control", "timings", "chokepoints", "XL"]
-    },
-    {
-      "name": "The Bloop",
-      "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA",
-      "tags": ["wave", "chokepoints", "long"]
     },
     {
       "name": "Defeated Circles",
@@ -482,6 +482,10 @@
     {
       "name": "Ultra Paracosm",
       "url": "https://www.youtube.com/watch?v=4V24spYQWuE"
+    },
+    {
+      "name": "The Bloop",
+      "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA",
     },
     {
       "name": "Subconscious",
