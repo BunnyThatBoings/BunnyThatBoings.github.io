@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Efficient Demon List (v2.1)</title>
+  <title>Efficient Demon List (v2.2)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
@@ -22,6 +22,7 @@
     <button class="tab-btn active" data-tab="main">Main List</button>
     <button class="tab-btn future-tab" data-tab="future">Future List</button>
     <button class="tab-btn" data-tab="stats">Stats</button>
+    <button class="tab-btn" data-tab="roullete">Roullete</button>
   </div>
 
   <hr />
@@ -38,7 +39,25 @@
     <div id="stats-list"></div>
   </div>
 
-  <!-- PROFILE OVERLAY -->
+  <div class="tab-panel" id="panel-roullete">
+    <p>Starting at 1%, for every percentage you get on a randomly chosen level, you must get increasingly higher percentages on more random levels until you either give up or get 100%.</p>
+    <br>
+    <p>Coded by urcool626</p>
+    <hr />
+    <div id="roullete-settings">
+      <label>
+        <input type="checkbox" id="roullete-include-future">
+        Include Future List
+      </label>
+      <label style="margin-left: 10px;">
+        Skips:
+        <input type="number" id="roullete-skip-count" value="0" min="0" style="width: 50px;">
+      </label>
+      <button id="roullete-start-btn">Start</button>
+    </div>
+    <div id="roullete-list"></div>
+  </div>
+
   <div class="profile-overlay" id="profile-overlay">
     <div class="profile-modal">
       <div class="profile-modal-header">
