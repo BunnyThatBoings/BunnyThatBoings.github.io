@@ -1,4 +1,4 @@
-<h1>Efficient Demon List (v2.1)</h1>
+<h1>Efficient Demon List (v2.2)</h1>
   
 <p>Made by CircularCyclone, ThePastaNebula, & urcool626</p>
 <p>List mods: CircularCyclone & oish</p>
