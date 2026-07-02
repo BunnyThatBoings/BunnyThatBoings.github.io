@@ -3,7 +3,7 @@
     {
       "name": "Society",
       "url": "https://www.youtube.com/watch?v=3CoEaH1CM7o",
-      "tags": ["ship", "UFO", "wave", "nerve control", "timings", "chokepoints"]
+      "tags": ["ship", "ufo", "wave", "nerve control", "timings", "chokepoints"]
     },
     {
       "name": "Amethyst",
@@ -81,17 +81,12 @@
     {
       "name": "Penumbral",
       "url": "https://www.youtube.com/watch?v=nVHPFf13M-I",
-      "tags": ["ball", "UFO", "timings", "chokepoints", "long"]
+      "tags": ["ball", "ufo", "timings", "chokepoints", "long"]
     },
     {
       "name": "Ultra Paracosm",
       "url": "https://www.youtube.com/watch?v=4V24spYQWuE",
       "tags": ["wave", "long"]
-    },
-    {
-      "name": "The Bloop",
-      "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA",
-      "tags": ["wave", "chokepoints", "long"]
     },
     {
       "name": "Subconscious",
@@ -144,6 +139,12 @@
       "tags": ["swing copter", "nerve control", "XXL+"]
     },
     {
+      "name": "Diabolic ClubStep",
+      "url": "https://www.youtube.com/watch?v=WHOfO0OxbvM",
+      "thumb": "https://i.ytimg.com/vi/ihNvOzgE8Sk/maxresdefault.jpg",
+      "tags": ["ship", "wave", "timings", "chokepoints", "long"]
+    },
+    {
       "name": "Acheron",
       "url": "https://www.youtube.com/watch?v=sBKR6aUorzA",
       "thumb": "https://i.ytimg.com/vi/RMRBhZJrgkw/mqdefault.jpg",
@@ -176,6 +177,11 @@
       "tags": ["spider", "nerve control", "timings", "chokepoints", "XL"]
     },
     {
+      "name": "The Bloop",
+      "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA",
+      "tags": ["wave", "chokepoints", "long"]
+    },
+    {
       "name": "Defeated Circles",
       "url": "https://www.youtube.com/watch?v=nU5AQPzd2YA",
       "tags": ["wave", "chokepoints", "long"]
@@ -196,12 +202,6 @@
       "tags": ["timings", "long"]
     },
     {
-      "name": "Diabolic ClubStep",
-      "url": "https://www.youtube.com/watch?v=WHOfO0OxbvM",
-      "thumb": "https://i.ytimg.com/vi/ihNvOzgE8Sk/maxresdefault.jpg",
-      "tags": ["ship", "wave", "timings", "chokepoints", "long"]
-    },
-    {
       "name": "Based After Based",
       "url": "https://www.youtube.com/watch?v=yQBFyUvB3lY",
       "tags": ["ship", "memory", "long"]
@@ -215,6 +215,11 @@
       "name": "Slaughterhouse",
       "url": "https://www.youtube.com/watch?v=kpcF1-QAHQc",
       "tags": ["wave", "high CPS", "chokepoints", "long"]
+    },
+    {
+      "name": "Unnerfed Zodiac",
+      "url": "https://www.youtube.com/watch?v=3mvddPaNklg",
+      "tags": ["nerve control", "chokepoints", "XXL+"]
     },
     {
       "name": "Thinking Space II",
@@ -257,7 +262,254 @@
       "name": "Deimos",
       "url": "https://www.youtube.com/watch?v=b2yHaIk5zio",
       "tags": ["XL"]
+    },
+    {
+      "name": "Maniacal Chains",
+      "url": "https://www.youtube.com/watch?v=TzeMJeIu6bY",
+      "tags": ["chokepoints", "long"]
+    },
+    {
+      "name": "Element 111 Rg",
+      "url": "https://www.youtube.com/watch?v=ZcdiTGuIJ1k",
+      "tags": ["cube", "ship", "ball", "timings", "chokepoints", "long"]
+    },
+    {
+      "name": "Sakupen Circles",
+      "url": "https://www.youtube.com/watch?v=ofG2mJi9kEA",
+      "tags": ["wave", "nerve control", "chokepoints"]
+    },
+    {
+      "name": "Exens Limit",
+      "url": "https://www.youtube.com/watch?v=KZksoQVGmKw",
+      "tags": ["wave", "high CPS", "nerve control", "chokepoints"]
+    },
+    {
+      "name": "Master of Puppets",
+      "url": "https://www.youtube.com/watch?v=JBZ-lrBgkl0",
+      "tags": ["XXL+"]
+    },
+    {
+      "name": "Battle of the Shades",
+      "url": "https://www.youtube.com/watch?v=jsrqMqs1-Ao",
+      "tags": ["wave", "chokepoints", "XL"]
+    },
+    {
+      "name": "Centipede",
+      "url": "https://www.youtube.com/watch?v=UFpfgXBQzhY",
+      "tags": ["wave", "long"]
+    },
+    {
+      "name": "Eyes in the Water",
+      "url": "https://www.youtube.com/watch?v=yvLwiOy3KEA",
+      "tags": ["memory", "long"]
+    },
+    {
+      "name": "Voltage",
+      "url": "https://www.youtube.com/watch?v=wBRvBN9tmlc",
+      "tags": ["ufo", "timings", "long"]
+    },
+    {
+      "name": "KOSETSU",
+      "url": "https://www.youtube.com/watch?v=hZ8vFX8z_BU",
+      "tags": ["timings", "long"]
+    },
+    {
+      "name": "Ace",
+      "url": "https://www.youtube.com/watch?v=7uYghOdos8I",
+      "tags": ["long"]
+    },
+    {
+      "name": "Through The Gates",
+      "url": "https://www.youtube.com/watch?v=4yHA6jux5UI",
+      "tags": ["wave", "spider", "chokepoints", "long"]
+    },
+    {
+      "name": "Unnerfed Innards",
+      "url": "https://www.youtube.com/watch?v=K77leSnLP0Y",
+      "tags": ["wave", "spider", "chokepoints", "long"]
+    },
+    {
+      "name": "Firework",
+      "url": "https://www.youtube.com/watch?v=QBe5x2o9v2w",
+      "tags": ["nerve control", "timings", "XL"]
+    },
+    {
+      "name": "Temporal Origin",
+      "url": "https://www.youtube.com/watch?v=8oLCpwYNWXI",
+      "tags": ["ship", "timings", "chokepoints", "medium"]
+    },
+    {
+      "name": "NOMAD",
+      "url": "https://www.youtube.com/watch?v=H2TkHbEX__A",
+      "tags": ["ship", "ufo", "timings", "medium"]
+    },
+    {
+      "name": "Silentlocked",
+      "url": "https://www.youtube.com/watch?v=O-IQeUdEGvI",
+      "tags": ["high CPS", "timings", "chokepoints", "long"]
+    },
+    {
+      "name": "BASSLINE JUNKIE",
+      "url": "https://www.youtube.com/watch?v=db_V19gW0rI",
+      "tags": ["wave", "timings", "long"]
+    },
+    {
+      "name": "Snowbound",
+      "url": "https://www.youtube.com/watch?v=cjHwgbtAkXU",
+      "tags": ["timings", "XXL+"]
+    },
+    {
+      "name": "Acropolis Circles",
+      "url": "https://www.youtube.com/watch?v=Zwkn0YQ-sYs",
+      "tags": ["wave", "high CPS", "timings", "chokepoints"]
+    },
+    {
+      "name": "VOID",
+      "url": "https://www.youtube.com/watch?v=uMv8iGVpeCc",
+      "tags": ["wave", "timings", "long"]
+    },
+    {
+      "name": "The Salt Factory",
+      "url": "https://www.youtube.com/watch?v=lQ7M-Sgov24",
+      "tags": ["cube", "robot", "timings", "long"]
+    },
+    {
+      "name": "CONVULSION",
+      "url": "https://www.youtube.com/watch?v=qeRKuyU3eGI",
+      "tags": ["wave", "high CPS", "memory"]
+    },
+    {
+      "name": "Eclipse",
+      "url": "https://www.youtube.com/watch?v=xLm0ClnvCNE",
+      "tags": ["timings", "long"]
+    },
+    {
+      "name": "poocubed",
+      "url": "https://www.youtube.com/watch?v=fzL31vai1ms",
+      "tags": ["timings", "long"]
+    },
+    {
+      "name": "far apart",
+      "url": "https://www.youtube.com/watch?v=yO6CkrSxZI4",
+      "tags": ["cube", "ship", "ball", "long"]
+    },
+    {
+      "name": "BEING HOME",
+      "url": "https://www.youtube.com/watch?v=kt7FnUzK8CY",
+      "tags": ["cube", "ship", "robot", "timings", "long"]
+    },
+    {
+      "name": "Calibrate",
+      "url": "https://www.youtube.com/watch?v=6WYnZryX_mg",
+      "tags": ["cube", "ship", "wave", "long"]
+    },
+    {
+      "name": "BANG BANG BANG",
+      "url": "https://www.youtube.com/watch?v=3LqQhOPaOBA",
+      "tags": ["wave", "medium"]
+    },
+    {
+      "name": "MINUSdry",
+      "url": "https://www.youtube.com/watch?v=YvA8ehhzz0Q",
+      "tags": ["cube", "ship", "ball", "timings", "long"]
+    },
+    {
+      "name": "Kintetsu",
+      "url": "https://www.youtube.com/watch?v=JQDw15tJR58",
+      "tags": ["timings", "long"]
+    },
+    {
+      "name": "HAZARD DUTY PAY",
+      "url": "https://www.youtube.com/watch?v=kpbE1vJXUos",
+      "tags": ["timings", "long"]
+    },
+    {
+      "name": "Silent Poltergeist",
+      "url": "https://www.youtube.com/watch?v=XQ_TZc7cnPs",
+      "tags": ["wave", "high CPS", "chokepoints", "long"]
+    },
+    {
+      "name": "Bonus Level",
+      "url": "https://www.youtube.com/watch?v=Nerr-E1HoYY",
+      "tags": ["wave", "high CPS", "chokepoints", "medium"]
+    },
+    {
+      "name": "Saul Goodman",
+      "url": "https://www.youtube.com/watch?v=hjs5PjUaw9k",
+      "tags": ["timings", "long"]
+    },
+    {
+      "name": "Haunted Ship",
+      "url": "https://www.youtube.com/watch?v=22l59QGmL48",
+      "tags": ["long"]
+    },
+    {
+      "name": "Apocalyptic Trilogy",
+      "url": "https://www.youtube.com/watch?v=RUBbpsTR5eU",
+      "tags": ["ship", "wave", "XXL+"]
+    },
+    {
+      "name": "Sevvend Clubstep",
+      "url": "https://www.youtube.com/watch?v=TvA8EJTJFCc",
+      "tags": ["timings", "long"]
+    },
+    {
+      "name": "Always Miss You",
+      "url": "https://www.youtube.com/watch?v=r5TE8YczBgQ",
+      "tags": ["wave", "long"]
+    },
+    {
+      "name": "Ronaldo Circles",
+      "url": "https://www.youtube.com/watch?v=jgxbGKENau8",
+      "tags": ["wave", "high CPS", "chokepoints", "medium"]
+    },
+    {
+      "name": "ETERNALtheory",
+      "url": "https://www.youtube.com/watch?v=3LfjQWk9Hyg",
+      "tags": ["memory", "timings", "long"]
+    },
+    {
+      "name": "The Hallucination",
+      "url": "https://www.youtube.com/watch?v=tYbXsNkO9HE",
+      "tags": ["wave", "long"]
+    },
+    {
+      "name": "COMBUSTION",
+      "url": "https://www.youtube.com/watch?v=3cTR4XUcA28",
+      "tags": ["ship", "wave", "timings", "medium"]
+    },
+    {
+      "name": "Loops of Fury",
+      "url": "https://www.youtube.com/watch?v=9HBG3i5zbw8",
+      "tags": ["XL"]
+    },
+    {
+      "name": "Deadlier Clubstep",
+      "url": "https://www.youtube.com/watch?v=eRhgaF0r5Q0",
+      "tags": ["cube", "ship", "wave", "long"]
+    },
+    {
+      "name": "diviners sage",
+      "url": "https://www.youtube.com/watch?v=0_VSfH6Bedg",
+      "thumb": "https://i.ytimg.com/vi/8G0F3GDkaKc/maxresdefault.jpg",
+      "tags": ["cube", "timings", "XL"]
+    },
+    {
+      "name": "Stellar Night",
+      "url": "https://www.youtube.com/watch?v=XpBY-eMYZTE",
+      "tags": ["timings", "long"]
+    },
+    {
+      "name": "Netherix",
+      "url": "https://www.youtube.com/watch?v=mNiyj653aSo",
+      "tags": ["timings", "long"]
+    },
+    {
+      "name": "Edge of Destiny",
+      "url": "https://www.youtube.com/watch?v=rUphe3H59yU",
+      "tags": ["timings", "XL"]
     }
+    
   ],
 
   "futureVideos": [
@@ -276,17 +528,6 @@
       "unverified": true
     },
     {
-      "name": "Heliopolis",
-      "url": "https://www.youtube.com/watch?v=Hld_6Bmzu8M",
-      "thumb": "https://i.ytimg.com/vi/7yaKGl_2Dsw/maxresdefault.jpg",
-      "progress": 51,
-      "unverified": true
-    },
-    {
-      "name": "Society",
-      "url": "https://www.youtube.com/watch?v=3CoEaH1CM7o"
-    },
-    {
       "name": "Sweeping Demon II",
       "url": "https://www.youtube.com/watch?v=L8DeyBdD9oc",
       "thumb": "https://bing.com/th/id/OVP.KNxpSrSqZ79j53wRc41QcQHgFo?w=424&h=238&c=7&rs=1&qlt=90&o=6&pid=1.7&adlt=strict",
@@ -294,10 +535,21 @@
       "unverified": true
     },
     {
+      "name": "Society",
+      "url": "https://www.youtube.com/watch?v=3CoEaH1CM7o"
+    },
+    {
       "name": "GRIEF",
       "url": "https://www.youtube.com/watch?v=Emd2tWP2FkI",
       "thumb": "https://i.ytimg.com/vi/yoLtaqEMZgA/maxresdefault.jpg",
       "progress": 97,
+      "unverified": true
+    },
+    {
+      "name": "Heliopolis",
+      "url": "https://www.youtube.com/watch?v=Hld_6Bmzu8M",
+      "thumb": "https://i.ytimg.com/vi/7yaKGl_2Dsw/maxresdefault.jpg",
+      "progress": 51,
       "unverified": true
     },
     {
@@ -482,10 +734,6 @@
     {
       "name": "Ultra Paracosm",
       "url": "https://www.youtube.com/watch?v=4V24spYQWuE"
-    },
-    {
-      "name": "The Bloop",
-      "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA"
     },
     {
       "name": "Subconscious",
