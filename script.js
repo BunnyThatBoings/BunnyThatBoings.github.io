@@ -293,8 +293,9 @@ function addRoullete(best, contains_future) {
     info.append(name_div, input);
 
     const rank = document.createElement("div");
+    const realRank = videos.findIndex(x => x.name === v.name) + 1;
     rank.className = "rank";
-    rank.textContent = currentLevel;
+    rank.textContent = realRank ? `#${realRank}` : "-";
 
     container.append(thumb, info, rank);
     list.appendChild(container);
