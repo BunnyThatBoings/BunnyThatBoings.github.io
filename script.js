@@ -213,21 +213,21 @@ let gameActive = false;
 let currentLevel = 1;
 const lockedLevels = new Set();
 
-document.getElementById("roullete-start-btn").addEventListener("click", () => {
+document.getElementById("roulette-start-btn").addEventListener("click", () => {
   if (gameActive) return alert("Already started. Refresh to restart.");
 
   gameActive = true;
   lastPercentage = 0;
   currentLevel = 1;
   lockedLevels.clear();
-  skipsRemaining = parseInt(document.getElementById("roullete-skip-count").value) || 0;
+  skipsRemaining = parseInt(document.getElementById("roulette-skip-count").value) || 0;
 
-  document.getElementById("roullete-list").innerHTML = "";
-  addRoullete(1, false);
+  document.getElementById("roulette-list").innerHTML = "";
+  addroulette(1, false);
 });
 
 function disableOldButtons() {
-  const containers = document.querySelectorAll("#roullete-list .roullete-container");
+  const containers = document.querySelectorAll("#roulette-list .roulette-container");
   containers.forEach((c, i) => {
     if (i === containers.length - 1) return;
     c.querySelectorAll("button, input").forEach(btn => {
@@ -238,10 +238,10 @@ function disableOldButtons() {
   });
 }
 
-function addRoullete(best, contains_future) {
+function addroulette(best, contains_future) {
   if (!gameActive) return;
 
-  const includeFuture = document.getElementById("roullete-include-future").checked;
+  const includeFuture = document.getElementById("roulette-include-future").checked;
 
   loadData().then(data => {
     const { videos, futureVideos } = data;
@@ -250,10 +250,10 @@ function addRoullete(best, contains_future) {
       : videos;
 
     const v = sourceList[Math.floor(Math.random() * sourceList.length)];
-    const list = document.getElementById("roullete-list");
+    const list = document.getElementById("roulette-list");
 
     const container = document.createElement("a");
-    container.className = "roullete-container";
+    container.className = "roulette-container";
     container.target = "_blank";
     container.rel = "noopener noreferrer";
 
@@ -317,9 +317,9 @@ function addRoullete(best, contains_future) {
         gameActive = false;
 
         // Display YOU WIN!!! message
-        const list = document.getElementById("roullete-list");
+        const list = document.getElementById("roulette-list");
         const winMsg = document.createElement("div");
-        winMsg.className = "roullete-win";
+        winMsg.className = "roulette-win";
         winMsg.textContent = "YOU WIN!!!";
         winMsg.style.fontSize = "32px";
         winMsg.style.fontWeight = "bold";
@@ -358,7 +358,7 @@ function addRoullete(best, contains_future) {
       lockedLevels.add(currentLevel);
       lastPercentage = value;
       currentLevel++;
-      addRoullete(1, false);
+      addroulette(1, false);
     });
 
     skip_button.addEventListener("click", () => {
@@ -368,7 +368,7 @@ function addRoullete(best, contains_future) {
       skipsRemaining--;
       lockedLevels.add(currentLevel);
       currentLevel++;
-      addRoullete(1, false);
+      addroulette(1, false);
     });
 
     giveup_button.addEventListener("click", () => {
