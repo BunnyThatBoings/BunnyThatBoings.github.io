@@ -181,7 +181,7 @@ const playerCompletions = {
   "spcreat": ["Maniacal Chains (V)"],
   "Tuggy": ["Sakupen Circles", "Stellar Night (V)"],
   "Skylar": ["Sakupen Circles", "Exens Limit (1)"],
-  "ellie": ["Sakupen Circles],
+  "ellie": ["Sakupen Circles"],
   "LordVadercraft": ["Centipede (V)", "Eyes in the Water (V)", "Firework"],
   "maybee": ["Voltage (V)"],
   "Aidaen": ["Ace (V)", "Firework"],
