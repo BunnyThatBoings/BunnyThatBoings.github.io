@@ -114,7 +114,7 @@ function buildStats(container, videos, players) {
     });
 
     const matchedCount = breakdown.filter(b => b.rank).length;
-    const penaltyFactor = 1 - Math.exp(-matchedCount / 2);
+    const penaltyFactor = 1 - Math.exp(-matchedCount / 4);
     const total = rawTotal * penaltyFactor;
 
     return { player, total, rawTotal, penaltyFactor, breakdown };
