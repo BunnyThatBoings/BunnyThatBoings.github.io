@@ -293,7 +293,7 @@ function addRoullete(best, contains_future) {
     info.append(name_div, input);
 
     const rank = document.createElement("div");
-    const realRank = videos.findIndex(x => x.name === v.name) + 1;
+    const realRank = videos.findIndex(x => x.url === v.url) + 1;
     rank.className = "rank";
     rank.textContent = realRank ? `#${realRank}` : "-";
 
@@ -310,6 +310,51 @@ function addRoullete(best, contains_future) {
       if (isNaN(value)) return alert("Enter a valid number.");
       if (value < lastPercentage + 1) return alert(`You must enter at least ${lastPercentage + 1}%`);
 
+      // Prevent going past 100%
+      if (value >= 100) {
+        lastPercentage = 100;
+        lockedLevels.add(currentLevel);
+        gameActive = false;
+
+        // Display YOU WIN!!! message
+        const list = document.getElementById("roullete-list");
+        const winMsg = document.createElement("div");
+        winMsg.className = "roullete-win";
+        winMsg.textContent = "YOU WIN!!!";
+        winMsg.style.fontSize = "32px";
+        winMsg.style.fontWeight = "bold";
+        winMsg.style.textAlign = "center";
+        winMsg.style.marginTop = "20px";
+        list.appendChild(winMsg);
+
+        // Add reset button
+        const resetBtn = document.createElement("button");
+        resetBtn.textContent = "Reset";
+        resetBtn.style.display = "block";
+        resetBtn.style.margin = "10px auto";
+        resetBtn.style.padding = "10px 20px";
+        resetBtn.style.fontSize = "18px";
+
+        resetBtn.addEventListener("click", () => {
+          // Full reset
+          lastPercentage = 0;
+          skipsRemaining = 0;
+          currentLevel = 0;
+          lockedLevels.clear();
+          gameActive = false;
+
+          // Clear list
+          list.innerHTML = "";
+
+          // User must click Start again
+          alert("Roulette reset. Click Start to begin again.");
+        });
+
+        list.appendChild(resetBtn);
+        return;
+      }
+
+      // Normal progression
       lockedLevels.add(currentLevel);
       lastPercentage = value;
       currentLevel++;
