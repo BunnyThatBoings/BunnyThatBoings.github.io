@@ -91,11 +91,14 @@ hr {
 
 /* ---- MAIN / FUTURE LIST ---- */
 
-#list > *, #future-list > * {
-  margin-top: var(--spacing);
+#list > *,
+#future-list > *,
+#roullete-list > * {
+    margin-top: var(--spacing);
 }
 
-#list a, #future-list a {
+
+#list a, #future-list a, #roullete-list .roullete-container {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -114,30 +117,37 @@ hr {
   }
 }
 
-#list a .thumb, #future-list a .thumb {
+#list a .thumb,
+#future-list a .thumb,
+#roullete-list .roullete-container .thumb {
   flex-shrink: 0;
   width: min(12rem, 40%);
   border-radius: var(--border-radius);
   overflow: hidden;
 }
 
-#list a .thumb img, #future-list a .thumb img {
+
+#list a .thumb img, #future-list a .thumb img, #roullete-list .roullete-container .thumb img {
   width: 100%;
   height: auto;
   display: block;
   border: none;
 }
 
-#list a .info, #future-list a .info {
+#list a .info, #future-list a .info, #roullete-list .roullete-container .info {
   flex: 1;
   min-width: 0;
 }
 
-#list a .info .name, #future-list a .info .name {
+#list a .info .name,
+#future-list a .info .name,
+#roullete-list .roullete-container .info .name {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: calc(var(--spacing) * 0.5);
+  color: #ffffff; /* ← THIS is the important part */
 }
+
 
 #list a .info .url, #future-list a .info .url {
   font-style: italic;
@@ -148,11 +158,14 @@ hr {
   text-overflow: ellipsis;
 }
 
-#list a .rank, #future-list a .rank {
+#list a .rank,
+#future-list a .rank,
+#roullete-list .roullete-container .rank {
   flex-shrink: 0;
   color: #888888;
   font-size: 0.95rem;
 }
+
 
 .unverified-item {
   border: 1px solid rgba(91, 156, 246, 0.3) !important;
