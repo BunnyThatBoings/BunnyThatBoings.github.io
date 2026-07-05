@@ -76,6 +76,7 @@
     {
       "name": "Old Orochi",
       "url": "https://www.youtube.com/watch?v=YxtFAQtLYQY",
+      "thumb": "https://i.ytimg.com/vi/0kZ56QriC1k/maxresdefault.jpg",
       "tags": ["ship", "nerve control", "long"]
     },
     {
@@ -189,6 +190,7 @@
     {
       "name": "SWI Slithium",
       "url": "https://www.youtube.com/watch?v=av5D0_M6hso",
+      "thumb": "https://i.ytimg.com/vi/gmCSvGtGWg0/maxresdefault.jpg",
       "tags": ["wave", "nerve control", "chokepoints", "XL"]
     },
     {
@@ -336,6 +338,7 @@
     {
       "name": "Temporal Origin",
       "url": "https://www.youtube.com/watch?v=8oLCpwYNWXI",
+      "thumb": "https://i.ytimg.com/vi/UQazt1Jz09g/maxresdefault.jpg",
       "tags": ["ship", "timings", "chokepoints", "medium"]
     },
     {
@@ -431,7 +434,7 @@
     {
       "name": "Bonus Level",
       "url": "https://www.youtube.com/watch?v=Nerr-E1HoYY",
-      "thumb": "https://cdn.discordapp.com/attachments/1509040515109359638/1522126444765904987/bonus_level.png?ex=6a475638&is=6a4604b8&hm=ccbf3c14c237d2c1ae910a900aef65518a755966698addf50d5da8a4d8151f80&",
+      "thumb": "https://i.ytimg.com/vi/DBGJkp52Dng/maxresdefault.jpg",
       "tags": ["wave", "high CPS", "chokepoints", "medium"]
     },
     {
@@ -492,7 +495,6 @@
     {
       "name": "diviners sage",
       "url": "https://www.youtube.com/watch?v=0_VSfH6Bedg",
-      "thumb": "https://i.ytimg.com/vi/8G0F3GDkaKc/maxresdefault.jpg",
       "tags": ["cube", "timings", "XL"]
     },
     {
