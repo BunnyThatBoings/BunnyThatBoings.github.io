@@ -517,13 +517,6 @@
 
   "futureVideos": [
     {
-      "name": "KOCMOC UNLEASHED",
-      "url": "https://www.youtube.com/watch?v=cnEQHGQ4gbI",
-      "thumb": "https://i.ytimg.com/vi/A8xtT5qYAfc/maxresdefault.jpg",
-      "progress": 68,
-      "unverified": true
-    },
-    {
       "name": "Vehemence",
       "url": "https://www.youtube.com/watch?v=E6Q80ud1EaY",
       "thumb": "https://i.ytimg.com/vi/eMDGeJthWsc/maxresdefault.jpg",
@@ -535,6 +528,13 @@
       "url": "https://www.youtube.com/watch?v=L8DeyBdD9oc",
       "thumb": "https://bing.com/th/id/OVP.KNxpSrSqZ79j53wRc41QcQHgFo?w=424&h=238&c=7&rs=1&qlt=90&o=6&pid=1.7&adlt=strict",
       "progress": 86,
+      "unverified": true
+    },
+    {
+      "name": "KOCMOC UNLEASHED",
+      "url": "https://www.youtube.com/watch?v=cnEQHGQ4gbI",
+      "thumb": "https://i.ytimg.com/vi/A8xtT5qYAfc/maxresdefault.jpg",
+      "progress": 68,
       "unverified": true
     },
     {
