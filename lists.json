@@ -68,6 +68,11 @@
       "tags": ["memory", "XL"]
     },
     {
+      "name": "Ultra Paracosm",
+      "url": "https://www.youtube.com/watch?v=4V24spYQWuE",
+      "tags": ["wave", "long"]
+    },
+    {
       "name": "Every End",
       "url": "https://www.youtube.com/watch?v=AO--mVVFtKI",
       "thumb": "https://i.ytimg.com/vi/DRBuZH1virM/maxresdefault.jpg",
@@ -83,11 +88,6 @@
       "name": "Penumbral",
       "url": "https://www.youtube.com/watch?v=nVHPFf13M-I",
       "tags": ["ball", "ufo", "timings", "chokepoints", "long"]
-    },
-    {
-      "name": "Ultra Paracosm",
-      "url": "https://www.youtube.com/watch?v=4V24spYQWuE",
-      "tags": ["wave", "long"]
     },
     {
       "name": "The Bloop",
@@ -722,6 +722,10 @@
       "url": "https://www.youtube.com/watch?v=20fYiqLAo_E"
     },
     {
+      "name": "Ultra Paracosm",
+      "url": "https://www.youtube.com/watch?v=4V24spYQWuE"
+    },
+    {
       "name": "Every End",
       "url": "https://www.youtube.com/watch?v=AO--mVVFtKI",
       "thumb": "https://i.ytimg.com/vi/DRBuZH1virM/maxresdefault.jpg"
@@ -739,10 +743,6 @@
     {
       "name": "Penumbral",
       "url": "https://www.youtube.com/watch?v=nVHPFf13M-I"
-    },
-    {
-      "name": "Ultra Paracosm",
-      "url": "https://www.youtube.com/watch?v=4V24spYQWuE"
     },
     {
       "name": "The Bloop",
