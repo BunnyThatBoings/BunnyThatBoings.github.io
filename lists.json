@@ -626,6 +626,12 @@
       "url": "https://www.youtube.com/watch?v=9fsZ014qB3s"
     },
     {
+      "name": "Eviscerate",
+      "url": "https://www.youtube.com/watch?v=m3pF70nTW6o",
+      "progress": 55,
+      "unverified": true
+    },
+    {
       "name": "Silent Acropolis",
       "url": "https://www.youtube.com/watch?v=0M-cjzSJY7s",
       "progress": 69,
@@ -778,10 +784,6 @@
     {
       "name": "KILLSTEALER",
       "url": "https://www.youtube.com/watch?v=uhH4oqWrsfo"
-    },
-    {
-      "name": "Aquamarine",
-      "url": "https://www.youtube.com/watch?v=Q__EnRojGt4"
     }
   ]
 }
