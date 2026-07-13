@@ -37,7 +37,7 @@
   ],
   "Zoink": [
     "Amethyst (1)",
-    "Thinking Space II (V)",
+    "Thinking Sp II (V)",
     "Flamewall (1)",
     "Tidal Wave (V)",
     "ORBIT (V)",
@@ -54,7 +54,7 @@
     "Anathema",
     "Acheron (V)",
     "Spectre",
-    "Menace",
+    "Men",
     "Abyss of Darkness",
     "The Bloop (V)",
     "Defeated Circles (V)",
@@ -165,7 +165,7 @@
     "Avernus",
     "Anathema",
     "Acheron",
-    "Menace",
+    "Men",
     "Abyss of Darkness",
     "Defeated Circles (1)",
     "Tunnel of Despair",
@@ -786,6 +786,9 @@
   "Aidaen": [
     "Ace (V)",
     "Firework"
+  ],
+  "Electrx": [
+    "Ace (1)"
   ],
   "Crisis": [
     "Firework (1)"
