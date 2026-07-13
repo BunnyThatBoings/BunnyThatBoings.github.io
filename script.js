@@ -216,6 +216,21 @@ const lockedLevels = new Set();
 document.getElementById("roulette-start-btn").addEventListener("click", () => {
   if (gameActive) return alert("Already started. Refresh to restart.");
 
+const includeFutureBox = document.getElementById("roulette-include-future");
+const onlyFutureBox = document.getElementById("roulette-only-include-future");
+
+includeFutureBox.addEventListener("change", () => {
+  if (includeFutureBox.checked) {
+    onlyFutureBox.checked = false;
+  }
+});
+
+onlyFutureBox.addEventListener("change", () => {
+  if (onlyFutureBox.checked) {
+    includeFutureBox.checked = false;
+  }
+});
+
   gameActive = true;
   lastPercentage = 0;
   currentLevel = 1;
@@ -242,12 +257,22 @@ function addroulette(best, contains_future) {
   if (!gameActive) return;
 
   const includeFuture = document.getElementById("roulette-include-future").checked;
+  const onlyFuture = document.getElementById("roulette-only-include-future").checked;
 
   loadData().then(data => {
     const { videos, futureVideos } = data;
-    const sourceList = includeFuture
-      ? (Math.random() < 0.5 ? videos : futureVideos)
-      : videos;
+
+    let sourceList;
+
+    if (onlyFuture) {
+      sourceList = futureVideos.filter(f =>
+        !videos.some(v => v.url === f.url)
+      );
+    } else if (includeFuture) {
+      sourceList = Math.random() < 0.5 ? videos : futureVideos;
+    } else {
+      sourceList = videos;
+    }
 
     const v = sourceList[Math.floor(Math.random() * sourceList.length)];
     const list = document.getElementById("roulette-list");
@@ -293,9 +318,19 @@ function addroulette(best, contains_future) {
     info.append(name_div, input);
 
     const rank = document.createElement("div");
-    const realRank = videos.findIndex(x => x.url === v.url) + 1;
+
+    const mainRank = videos.findIndex(x => x.url === v.url);
+    const futureRank = futureVideos.findIndex(x => x.url === v.url);
+
     rank.className = "rank";
-    rank.textContent = realRank ? `#${realRank}` : "-";
+
+    if (mainRank !== -1) {
+      rank.textContent = `#${mainRank + 1}`;
+    } else if (futureRank !== -1) {
+      rank.textContent = `F#${futureRank + 1}`;
+    } else {
+      rank.textContent = "-";
+    }
 
     container.append(thumb, info, rank);
     list.appendChild(container);
@@ -310,14 +345,13 @@ function addroulette(best, contains_future) {
       if (isNaN(value)) return alert("Enter a valid number.");
       if (value < lastPercentage + 1) return alert(`You must enter at least ${lastPercentage + 1}%`);
 
-      // Prevent going past 100%
       if (value >= 100) {
         lastPercentage = 100;
         lockedLevels.add(currentLevel);
         gameActive = false;
 
-        // Display YOU WIN!!! message
         const list = document.getElementById("roulette-list");
+
         const winMsg = document.createElement("div");
         winMsg.className = "roulette-win";
         winMsg.textContent = "YOU WIN!!!";
@@ -327,7 +361,6 @@ function addroulette(best, contains_future) {
         winMsg.style.marginTop = "20px";
         list.appendChild(winMsg);
 
-        // Add reset button
         const resetBtn = document.createElement("button");
         resetBtn.textContent = "Reset";
         resetBtn.style.display = "block";
@@ -336,17 +369,14 @@ function addroulette(best, contains_future) {
         resetBtn.style.fontSize = "18px";
 
         resetBtn.addEventListener("click", () => {
-          // Full reset
           lastPercentage = 0;
           skipsRemaining = 0;
           currentLevel = 0;
           lockedLevels.clear();
           gameActive = false;
 
-          // Clear list
           list.innerHTML = "";
 
-          // User must click Start again
           alert("Roulette reset. Click Start to begin again.");
         });
 
@@ -354,7 +384,6 @@ function addroulette(best, contains_future) {
         return;
       }
 
-      // Normal progression
       lockedLevels.add(currentLevel);
       lastPercentage = value;
       currentLevel++;
