@@ -598,9 +598,7 @@
     {
       "name": "Antarctic Lights",
       "url": "https://www.youtube.com/watch?v=D5HC5DUj0d8",
-      "thumb": "https://bing.com/th/id/OVP.RLC5feYhIeUdM3bK9eAxmwHgFo?w=424&h=238&c=7&rs=1&qlt=90&o=6&pid=1.7&adlt=strict",
-      "progress": 90,
-      "unverified": true
+      "thumb": "https://bing.com/th/id/OVP.RLC5feYhIeUdM3bK9eAxmwHgFo?w=424&h=238&c=7&rs=1&qlt=90&o=6&pid=1.7&adlt=strict"
     },
     {
       "name": "Silent Circles",
@@ -701,7 +699,9 @@
     {
       "name": "LimeWire",
       "url": "https://x.com/iamfinleyy/status/2065256473664307365",
-      "thumb": "https://i.ytimg.com/vi/e7Z_-Y07pwo/maxresdefault.jpg"
+      "thumb": "https://i.ytimg.com/vi/e7Z_-Y07pwo/maxresdefault.jpg",
+      "progress": 41,
+      "unverified": true
     },
     {
       "name": "Quanteuse processing",
