@@ -596,11 +596,6 @@
       "unverified": true
     },
     {
-      "name": "Antarctic Lights",
-      "url": "https://www.youtube.com/watch?v=D5HC5DUj0d8",
-      "thumb": "https://bing.com/th/id/OVP.RLC5feYhIeUdM3bK9eAxmwHgFo?w=424&h=238&c=7&rs=1&qlt=90&o=6&pid=1.7&adlt=strict"
-    },
-    {
       "name": "Silent Circles",
       "url": "https://www.youtube.com/watch?v=3ANI557EzW8",
       "progress": 58,
@@ -613,15 +608,15 @@
       "unverified": true
     },
     {
+      "name": "Tidal Wave",
+      "url": "https://www.youtube.com/watch?v=9fsZ014qB3s"
+    },
+    {
       "name": "Angelicide",
       "url": "https://www.youtube.com/watch?v=dqkMUi7J7TY",
       "thumb": "https://i.ytimg.com/vi/aZpeMB3rtJI/maxresdefault.jpg",
       "progress": 33,
       "unverified": true
-    },
-    {
-      "name": "Tidal Wave",
-      "url": "https://www.youtube.com/watch?v=9fsZ014qB3s"
     },
     {
       "name": "Eviscerate",
@@ -735,6 +730,11 @@
     {
       "name": "Ultra Paracosm",
       "url": "https://www.youtube.com/watch?v=4V24spYQWuE"
+    },
+    {
+      "name": "Antarctic Lights",
+      "url": "https://www.youtube.com/watch?v=D5HC5DUj0d8",
+      "thumb": "https://bing.com/th/id/OVP.RLC5feYhIeUdM3bK9eAxmwHgFo?w=424&h=238&c=7&rs=1&qlt=90&o=6&pid=1.7&adlt=strict"
     },
     {
       "name": "Every End",
