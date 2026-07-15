@@ -53,11 +53,6 @@
       "tags": ["memory", "high CPS", "chokepoints", "long"]
     },
     {
-      "name": "The Bloop",
-      "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA",
-      "tags": ["wave", "chokepoints", "long"]
-    },
-    {
       "name": "Sakupen circles",
       "url": "https://www.youtube.com/watch?v=AdrmZsy52EY",
       "tags": ["wave", "high CPS", "chokepoints"]
@@ -71,6 +66,11 @@
       "name": "BOOBAWAMBA",
       "url": "https://www.youtube.com/watch?v=20fYiqLAo_E",
       "tags": ["memory", "XL"]
+    },
+    {
+      "name": "The Bloop",
+      "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA",
+      "tags": ["wave", "chokepoints", "long"]
     },
     {
       "name": "Ultra Paracosm",
@@ -710,10 +710,6 @@
       "url": "https://www.youtube.com/watch?v=j5NC0u1Q91Q"
     },
     {
-      "name": "The Bloop",
-      "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA"
-    },
-    {
       "name": "Sakupen circles",
       "url": "https://www.youtube.com/watch?v=AdrmZsy52EY"
     },
@@ -737,6 +733,10 @@
     {
       "name": "BOOBAWAMBA",
       "url": "https://www.youtube.com/watch?v=20fYiqLAo_E"
+    },
+    {
+      "name": "The Bloop",
+      "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA"
     },
     {
       "name": "Ultra Paracosm",
