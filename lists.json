@@ -53,6 +53,11 @@
       "tags": ["memory", "high CPS", "chokepoints", "long"]
     },
     {
+      "name": "The Bloop",
+      "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA",
+      "tags": ["wave", "chokepoints", "long"]
+    },
+    {
       "name": "Sakupen circles",
       "url": "https://www.youtube.com/watch?v=AdrmZsy52EY",
       "tags": ["wave", "high CPS", "chokepoints"]
@@ -73,26 +78,21 @@
       "tags": ["wave", "long"]
     },
     {
-      "name": "Every End",
-      "url": "https://www.youtube.com/watch?v=AO--mVVFtKI",
-      "thumb": "https://i.ytimg.com/vi/DRBuZH1virM/maxresdefault.jpg",
-      "tags": ["cube", "nerve control", "timings", "XXL+"]
-    },
-    {
       "name": "Old Orochi",
       "url": "https://www.youtube.com/watch?v=YxtFAQtLYQY",
       "thumb": "https://i.ytimg.com/vi/0kZ56QriC1k/maxresdefault.jpg",
       "tags": ["ship", "nerve control", "long"]
     },
     {
+      "name": "Every End",
+      "url": "https://www.youtube.com/watch?v=AO--mVVFtKI",
+      "thumb": "https://i.ytimg.com/vi/DRBuZH1virM/maxresdefault.jpg",
+      "tags": ["cube", "nerve control", "timings", "XXL+"]
+    },
+    {
       "name": "Penumbral",
       "url": "https://www.youtube.com/watch?v=nVHPFf13M-I",
       "tags": ["ball", "ufo", "timings", "chokepoints", "long"]
-    },
-    {
-      "name": "The Bloop",
-      "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA",
-      "tags": ["wave", "chokepoints", "long"]
     },
     {
       "name": "Subconscious",
