@@ -214,6 +214,12 @@
       "tags": ["timings", "long"]
     },
     {
+      "name": "Thinking Space II",
+      "url": "https://www.youtube.com/watch?v=RJedeB2wHCA",
+      "thumb": "https://i.ytimg.com/vi/aBhjftGEao0/maxresdefault.jpg",
+      "tags": ["ship", "wave", "high CPS", "nerve control", "chokepoints", "long"]
+    },
+    {
       "name": "Slaughterhouse",
       "url": "https://www.youtube.com/watch?v=kpcF1-QAHQc",
       "tags": ["wave", "high CPS", "chokepoints", "long"]
@@ -253,12 +259,6 @@
       "name": "The Lightning Rod",
       "url": "https://www.youtube.com/watch?v=nQDTi077O6M",
       "tags": ["memory", "timings", "long"]
-    },
-    {
-      "name": "Thinking Space II",
-      "url": "https://www.youtube.com/watch?v=RJedeB2wHCA",
-      "thumb": "https://i.ytimg.com/vi/aBhjftGEao0/maxresdefault.jpg",
-      "tags": ["ship", "wave", "high CPS", "nerve control", "chokepoints", "long"]
     },
     {
       "name": "Deimos",
