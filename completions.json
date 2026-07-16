@@ -38,7 +38,7 @@
   "Zoink": [
     "Society (1)",
     "Amethyst (1)",
-    "Thinking Sp II (V)",
+    "Thinking Space II (V)",
     "Flamewall (1)",
     "Tidal Wave (V)",
     "ORBIT (V)",
@@ -81,6 +81,33 @@
     "COMBUSTION (1)",
     "Deadlier Clubstep"
   ],
+  "Trick": [
+    "Thinking Space 2",
+    "Tidal Wave (1)",
+    "Silent clubstep",
+    "Avernus",
+    "Anathema",
+    "Acheron",
+    "Spectre",
+    "Abyss of Darkness (1)",
+    "Tunnel of Despair",
+    "Kyouki",
+    "Subterminal Point",
+    "Slaughterhouse",
+    "KOCMOC (V)",
+    "The Lightning Rod",
+    "Deimos",
+    "Sakupen Circles",
+    "Eyes in the Water",
+    "KOSETSU",
+    "Firework (V)",
+    "MINUSdry",
+    "Saul Goodman",
+    "Apocalyptic Trilogy",
+    "The Hallucination",
+    "COMBUSTION",
+    "Deadlier Clubstep"
+  ],
   "Cuatrocientos": [
     "Flamewall (V)",
     "Voltage (1)",
@@ -104,32 +131,6 @@
     "CONVULSION",
     "MINUSdry",
     "Saul Goodman",
-    "The Hallucination",
-    "COMBUSTION",
-    "Deadlier Clubstep"
-  ],
-  "Trick": [
-    "Tidal Wave (1)",
-    "Silent clubstep",
-    "Avernus",
-    "Anathema",
-    "Acheron",
-    "Spectre",
-    "Abyss of Darkness (1)",
-    "Tunnel of Despair",
-    "Kyouki",
-    "Subterminal Point",
-    "Slaughterhouse",
-    "KOCMOC (V)",
-    "The Lightning Rod",
-    "Deimos",
-    "Sakupen Circles",
-    "Eyes in the Water",
-    "KOSETSU",
-    "Firework (V)",
-    "MINUSdry",
-    "Saul Goodman",
-    "Apocalyptic Trilogy",
     "The Hallucination",
     "COMBUSTION",
     "Deadlier Clubstep"
@@ -442,6 +443,11 @@
     "Sakupen Circles",
     "The Hallucination"
   ],
+  "Axinity": [
+    "Antarctic Lights (V)",
+    "Acheron",
+    "Firework"
+  ],
   "apuu": [
     "Subconscious (V)"
   ],
@@ -496,8 +502,7 @@
     "Slaughterhouse",
     "Deimos",
     "Firework",
-    "Apocalyptic Trilogy",
-    "Netherix"
+    "Apocalyptic Trilogy"
   ],
   "Laniakea": [
     "andromeda",
