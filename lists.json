@@ -281,6 +281,11 @@
       "tags": ["cube", "ship", "ball", "timings", "chokepoints", "long"]
     },
     {
+      "name": "BASSLINE JUNKIE",
+      "url": "https://www.youtube.com/watch?v=db_V19gW0rI",
+      "tags": ["wave", "timings", "long"]
+    },
+    {
       "name": "Silent Dicctras",
       "url": "https://www.youtube.com/watch?v=dwDJT0M3UBc",
       "tags": ["timings", "chokepoints", "XL"]
@@ -360,11 +365,6 @@
       "name": "Silentlocked",
       "url": "https://www.youtube.com/watch?v=O-IQeUdEGvI",
       "tags": ["high CPS", "timings", "chokepoints", "long"]
-    },
-    {
-      "name": "BASSLINE JUNKIE",
-      "url": "https://www.youtube.com/watch?v=db_V19gW0rI",
-      "tags": ["wave", "timings", "long"]
     },
     {
       "name": "Snowbound",
