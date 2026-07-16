@@ -78,6 +78,11 @@
       "tags": ["wave", "long"]
     },
     {
+      "name": "Antarctic Lights",
+      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
+      "tags": ["wave", "long"]
+    },
+    {
       "name": "Old Orochi",
       "url": "https://www.youtube.com/watch?v=YxtFAQtLYQY",
       "thumb": "https://i.ytimg.com/vi/0kZ56QriC1k/maxresdefault.jpg",
@@ -506,11 +511,6 @@
       "name": "Stellar Night",
       "url": "https://www.youtube.com/watch?v=XpBY-eMYZTE",
       "tags": ["timings", "long"]
-    },
-    {
-      "name": "Netherix",
-      "url": "https://www.youtube.com/watch?v=mNiyj653aSo",
-      "tags": ["timings", "long"]
     }
     
   ],
@@ -744,8 +744,7 @@
     },
     {
       "name": "Antarctic Lights",
-      "url": "https://www.youtube.com/watch?v=D5HC5DUj0d8",
-      "thumb": "https://bing.com/th/id/OVP.RLC5feYhIeUdM3bK9eAxmwHgFo?w=424&h=238&c=7&rs=1&qlt=90&o=6&pid=1.7&adlt=strict"
+      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I"
     },
     {
       "name": "Old Orochi",
