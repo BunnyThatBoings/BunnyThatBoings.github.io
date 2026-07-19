@@ -43,6 +43,11 @@
       "tags": ["cube", "timings", "chokepoints", "long"]
     },
     {
+      "name": "Antarctic Lights",
+      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
+      "tags": ["wave", "long"]
+    },
+    {
       "name": "Nullscapes",
       "url": "https://www.youtube.com/watch?v=EztneTPp5CU",
       "tags": ["robot", "timings", "long"]
@@ -75,11 +80,6 @@
     {
       "name": "Ultra Paracosm",
       "url": "https://www.youtube.com/watch?v=4V24spYQWuE",
-      "tags": ["wave", "long"]
-    },
-    {
-      "name": "Antarctic Lights",
-      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
       "tags": ["wave", "long"]
     },
     {
@@ -695,6 +695,10 @@
       "unverified": true
     },
     {
+      "name": "Antarctic Lights",
+      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I"
+    },
+    {
       "name": "Nullscapes",
       "url": "https://www.youtube.com/watch?v=EztneTPp5CU"
     },
@@ -741,10 +745,6 @@
     {
       "name": "Ultra Paracosm",
       "url": "https://www.youtube.com/watch?v=4V24spYQWuE"
-    },
-    {
-      "name": "Antarctic Lights",
-      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I"
     },
     {
       "name": "Old Orochi",
