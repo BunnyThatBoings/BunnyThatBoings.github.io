@@ -225,6 +225,12 @@
       "tags": ["timings", "long"]
     },
     {
+      "name": "CHIL",
+      "url": "https://www.youtube.com/watch?v=DROMiCc2ZRM",
+      "thumb": "https://i.ytimg.com/vi/QFCQSYjrbXw/maxresdefault.jpg",
+      "tags": ["memory", "high CPS", "long"]
+    },
+    {
       "name": "Slaughterhouse",
       "url": "https://www.youtube.com/watch?v=kpcF1-QAHQc",
       "tags": ["wave", "high CPS", "chokepoints", "long"]
@@ -243,12 +249,6 @@
       "name": "Map Of Problematique",
       "url": "https://www.youtube.com/watch?v=Sm0UvvwOE08",
       "tags": ["nerve control", "XL"]
-    },
-    {
-      "name": "CHIL",
-      "url": "https://www.youtube.com/watch?v=DROMiCc2ZRM",
-      "thumb": "https://i.ytimg.com/vi/QFCQSYjrbXw/maxresdefault.jpg",
-      "tags": ["memory", "high CPS", "long"]
     },
     {
       "name": "zorin",
