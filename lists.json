@@ -306,11 +306,6 @@
       "tags": ["XXL+"]
     },
     {
-      "name": "Battle of the Shades",
-      "url": "https://www.youtube.com/watch?v=jsrqMqs1-Ao",
-      "tags": ["wave", "chokepoints", "XL"]
-    },
-    {
       "name": "Centipede",
       "url": "https://www.youtube.com/watch?v=UFpfgXBQzhY",
       "tags": ["wave", "long"]
@@ -380,6 +375,11 @@
       "name": "VOID",
       "url": "https://www.youtube.com/watch?v=uMv8iGVpeCc",
       "tags": ["wave", "timings", "long"]
+    },
+    {
+      "name": "Battle of the Shades",
+      "url": "https://www.youtube.com/watch?v=jsrqMqs1-Ao",
+      "tags": ["wave", "chokepoints", "XL"]
     },
     {
       "name": "The Salt Factory",
