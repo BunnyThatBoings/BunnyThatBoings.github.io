@@ -204,6 +204,11 @@
       "tags": ["cube", "ship", "wave", "chokepoints", "long"]
     },
     {
+      "name": "Metropolis",
+      "url": "https://www.youtube.com/watch?v=JtWMtMFdK24",
+      "tags": ["cube", "medium"]
+    },
+    {
       "name": "Kyouki",
       "url": "https://www.youtube.com/watch?v=KDa5c0CJTHs",
       "tags": ["timings", "long"]
@@ -506,11 +511,6 @@
       "name": "diviners sage",
       "url": "https://www.youtube.com/watch?v=0_VSfH6Bedg",
       "tags": ["cube", "timings", "XL"]
-    },
-    {
-      "name": "Stellar Night",
-      "url": "https://www.youtube.com/watch?v=XpBY-eMYZTE",
-      "tags": ["timings", "long"]
     }
     
   ],
