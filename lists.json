@@ -37,12 +37,6 @@
       "tags": ["cube", "ball", "memory", "nerve control", "timings"]
     },
     {
-      "name": "SARY NEVER CLEAR",
-      "url": "https://www.youtube.com/watch?v=Hpo77uVq75M",
-      "thumb": "https://i.ytimg.com/vi/iij_DGexKvg/maxresdefault.jpg",
-      "tags": ["cube", "timings", "chokepoints", "long"]
-    },
-    {
       "name": "Antarctic Lights",
       "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
       "tags": ["wave", "long"]
@@ -259,6 +253,11 @@
       "name": "zorin",
       "url": "https://www.youtube.com/watch?v=U19vmpenb9g",
       "tags": ["cube", "ship", "ball", "wave", "swing", "XL"]
+    },
+    {
+      "name": "Firework Ice Nation",
+      "url": "https://www.youtube.com/watch?v=He3iRW6Usv4",
+      "tags": ["nerve control", "timings", "XL"]
     },
     {
       "name": "wocky circles",
