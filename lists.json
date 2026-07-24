@@ -78,11 +78,6 @@
       "tags": ["wave", "chokepoints", "long"]
     },
     {
-      "name": "Ultra Paracosm",
-      "url": "https://www.youtube.com/watch?v=4V24spYQWuE",
-      "tags": ["wave", "long"]
-    },
-    {
       "name": "Old Orochi",
       "url": "https://www.youtube.com/watch?v=YxtFAQtLYQY",
       "thumb": "https://i.ytimg.com/vi/0kZ56QriC1k/maxresdefault.jpg",
@@ -108,6 +103,11 @@
       "name": "Ashley Wave Trials",
       "url": "https://www.youtube.com/watch?v=aTxt76U3e2Q",
       "tags": ["wave", "nerve control", "XL"]
+    },
+    {
+      "name": "Ultra Paracosm",
+      "url": "https://www.youtube.com/watch?v=4V24spYQWuE",
+      "tags": ["wave", "long"]
     },
     {
       "name": "Subsuming Vortex",
@@ -743,10 +743,6 @@
       "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA"
     },
     {
-      "name": "Ultra Paracosm",
-      "url": "https://www.youtube.com/watch?v=4V24spYQWuE"
-    },
-    {
       "name": "Old Orochi",
       "url": "https://www.youtube.com/watch?v=YxtFAQtLYQY"
     },
@@ -772,6 +768,10 @@
     {
       "name": "Ashley Wave Trials",
       "url": "https://www.youtube.com/watch?v=aTxt76U3e2Q"
+    },
+    {
+      "name": "Ultra Paracosm",
+      "url": "https://www.youtube.com/watch?v=4V24spYQWuE"
     },
     {
       "name": "Subsuming Vortex",
