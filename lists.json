@@ -37,11 +37,6 @@
       "tags": ["cube", "ball", "memory", "nerve control", "timings"]
     },
     {
-      "name": "Antarctic Lights",
-      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
-      "tags": ["wave", "long"]
-    },
-    {
       "name": "Nullscapes",
       "url": "https://www.youtube.com/watch?v=EztneTPp5CU",
       "tags": ["robot", "timings", "long"]
@@ -76,6 +71,11 @@
       "url": "https://www.youtube.com/watch?v=YxtFAQtLYQY",
       "thumb": "https://i.ytimg.com/vi/0kZ56QriC1k/maxresdefault.jpg",
       "tags": ["ship", "nerve control", "long"]
+    },
+    {
+      "name": "Antarctic Lights",
+      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
+      "tags": ["wave", "long"]
     },
     {
       "name": "Every End",
@@ -689,10 +689,6 @@
       "unverified": true
     },
     {
-      "name": "Antarctic Lights",
-      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I"
-    },
-    {
       "name": "Nullscapes",
       "url": "https://www.youtube.com/watch?v=EztneTPp5CU"
     },
@@ -741,5 +737,9 @@
       "url": "https://www.youtube.com/watch?v=YxtFAQtLYQY",
       "thumb": "https://i.ytimg.com/vi/0kZ56QriC1k/maxresdefault.jpg"
     }
+    {
+      "name": "Antarctic Lights",
+      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I"
+    },
   ]
 }
