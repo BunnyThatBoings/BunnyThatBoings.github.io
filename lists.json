@@ -230,6 +230,11 @@
       "tags": ["memory", "high CPS", "long"]
     },
     {
+      "name": "Wild Roses",
+      "url": "https://www.youtube.com/watch?v=IJ0cLC98NOY",
+      "tags": ["cube", "ship", "wave", "timings"]
+    }, 
+    {
       "name": "Slaughterhouse",
       "url": "https://www.youtube.com/watch?v=kpcF1-QAHQc",
       "tags": ["wave", "high CPS", "chokepoints", "long"]
@@ -505,11 +510,6 @@
       "name": "Deadlier Clubstep",
       "url": "https://www.youtube.com/watch?v=eRhgaF0r5Q0",
       "tags": ["cube", "ship", "wave", "long"]
-    },
-    {
-      "name": "diviners sage",
-      "url": "https://www.youtube.com/watch?v=0_VSfH6Bedg",
-      "tags": ["cube", "timings", "XL"]
     }
     
   ],
