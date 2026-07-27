@@ -230,11 +230,6 @@
       "tags": ["memory", "high CPS", "long"]
     },
     {
-      "name": "Wild Roses",
-      "url": "https://www.youtube.com/watch?v=IJ0cLC98NOY",
-      "tags": ["cube", "ship", "wave", "timings"]
-    }, 
-    {
       "name": "Slaughterhouse",
       "url": "https://www.youtube.com/watch?v=kpcF1-QAHQc",
       "tags": ["wave", "high CPS", "chokepoints", "long"]
@@ -353,6 +348,11 @@
       "name": "Firework",
       "url": "https://www.youtube.com/watch?v=QBe5x2o9v2w",
       "tags": ["nerve control", "timings", "XL"]
+    },
+    {
+      "name": "Wild Roses",
+      "url": "https://www.youtube.com/watch?v=IJ0cLC98NOY",
+      "tags": ["cube", "ship", "wave", "timings"]
     },
     {
       "name": "Temporal Origin",
