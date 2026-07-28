@@ -182,6 +182,11 @@
       "tags": ["wave", "chokepoints", "long"]
     },
     {
+      "name": "FOREST OF SPIKES",
+      "url": "https://www.youtube.com/watch?v=WJYh3dW8Bfo",
+      "tags": ["ship", "wave", "timings", "long"]
+    },
+    {
       "name": "SWI Slithium",
       "url": "https://www.youtube.com/watch?v=av5D0_M6hso",
       "thumb": "https://i.ytimg.com/vi/gmCSvGtGWg0/maxresdefault.jpg",
@@ -505,11 +510,6 @@
       "name": "Loops of Fury",
       "url": "https://www.youtube.com/watch?v=9HBG3i5zbw8",
       "tags": ["XL"]
-    },
-    {
-      "name": "Deadlier Clubstep",
-      "url": "https://www.youtube.com/watch?v=eRhgaF0r5Q0",
-      "tags": ["cube", "ship", "wave", "long"]
     }
     
   ],
