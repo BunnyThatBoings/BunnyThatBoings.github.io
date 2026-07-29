@@ -265,11 +265,6 @@
       "tags": ["nerve control", "timings", "XL"]
     },
     {
-      "name": "wocky circles",
-      "url": "https://www.youtube.com/watch?v=yOx5Q3BkWIg",
-      "tags": ["wave"]
-    },
-    {
       "name": "The Lightning Rod",
       "url": "https://www.youtube.com/watch?v=nQDTi077O6M",
       "tags": ["memory", "timings", "long"]
@@ -384,6 +379,11 @@
       "name": "Acropolis Circles",
       "url": "https://www.youtube.com/watch?v=Zwkn0YQ-sYs",
       "tags": ["wave", "high CPS", "timings", "chokepoints"]
+    },
+    {
+      "name": "wocky circles",
+      "url": "https://www.youtube.com/watch?v=yOx5Q3BkWIg",
+      "tags": ["wave"]
     },
     {
       "name": "VOID",
