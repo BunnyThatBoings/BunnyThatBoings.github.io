@@ -114,11 +114,13 @@
   ],
   "zLevii": [
     "Flamewall",
+    "KILLSTEALER",
     "Anathema",
     "Acheron",
     "Spectre",
     "Tunnel of Despair",
     "Kyouki",
+    "Subterminal Point",
     "Slaughterhouse",
     "KOCMOC",
     "zorin",
@@ -130,6 +132,7 @@
     "Firework",
     "CONVULSION",
     "poocubed",
+    "BEING HOME",
     "MINUSdry",
     "Saul Goodman",
     "Sevvend Clubstep",
@@ -634,6 +637,17 @@
     "Saul Goodman",
     "The Hallucination",
     "COMBUSTION"
+  ],
+  "Tunax": [
+    "Acheron",
+    "Kyouki",
+    "CHIL",
+    "Slaughterhouse",
+    "KOCMOC",
+    "Deimos",
+    "Sakupen Circles",
+    "Firework",
+    "BEING HOME (1)"
   ],
   "Joker": [
     "Acheron",
