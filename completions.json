@@ -285,6 +285,15 @@
     "Quanteuse processing",
     "Silent Dicctras (V)"
   ],
+  "lanx": [
+    "Lesopowal (1),"
+    "Every End",
+    "Tunnel of Despair",
+    "Eyes in the Water",
+    "The Salt Factory",
+    "MINUSdry",
+    "COMBUSTION"
+  ],
   "eastshark": [
     "BOOBAWAMBA (V)",
     "Avernus",
@@ -354,9 +363,6 @@
     "Avernus",
     "Slaughterhouse"
   ],
-  "BONN GD": [
-    "Herr Machine (V)"
-  ],
   "Hqmy": [
     "Every End (V)",
     "andromeda",
@@ -392,14 +398,6 @@
     "Silentlocked (V)",
     "MINUSdry",
     "The Hallucination"
-  ],
-  "lanx": [
-    "Every End",
-    "Tunnel of Despair",
-    "Eyes in the Water",
-    "The Salt Factory",
-    "MINUSdry",
-    "COMBUSTION"
   ],
   "Samot": [
     "Every End",
@@ -538,6 +536,9 @@
     "Aquamarine (V)",
     "Map Of Problematique (V)",
     "Sakupen Circles"
+  ],
+  "BONN GD": [
+    "Herr Machine (V)"
   ],
   "Diamond": [
     "Silent clubstep",
