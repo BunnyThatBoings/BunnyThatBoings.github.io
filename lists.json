@@ -275,6 +275,11 @@
       "tags": ["XL"]
     },
     {
+      "name": "BEING HOME",
+      "url": "https://www.youtube.com/watch?v=kt7FnUzK8CY",
+      "tags": ["cube", "ship", "robot", "timings", "long"]
+    },
+    {
       "name": "Maniacal Chains",
       "url": "https://www.youtube.com/watch?v=TzeMJeIu6bY",
       "tags": ["chokepoints", "long"]
@@ -419,11 +424,6 @@
       "name": "far apart",
       "url": "https://www.youtube.com/watch?v=yO6CkrSxZI4",
       "tags": ["cube", "ship", "ball", "long"]
-    },
-    {
-      "name": "BEING HOME",
-      "url": "https://www.youtube.com/watch?v=kt7FnUzK8CY",
-      "tags": ["cube", "ship", "robot", "timings", "long"]
     },
     {
       "name": "Calibrate",
