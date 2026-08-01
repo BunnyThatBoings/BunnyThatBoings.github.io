@@ -250,6 +250,11 @@
       "tags": ["wave", "high CPS", "long"]
     },
     {
+      "name": "Shadow Of The Past",
+      "url": "https://www.youtube.com/watch?v=LEyo0LJV8os",
+      "tags": ["cube", "ship", "wave", "timings"]
+    },
+    {
       "name": "Map Of Problematique",
       "url": "https://www.youtube.com/watch?v=Sm0UvvwOE08",
       "tags": ["nerve control", "XL"]
@@ -505,11 +510,6 @@
       "name": "COMBUSTION",
       "url": "https://www.youtube.com/watch?v=3cTR4XUcA28",
       "tags": ["ship", "wave", "timings", "medium"]
-    },
-    {
-      "name": "Loops of Fury",
-      "url": "https://www.youtube.com/watch?v=9HBG3i5zbw8",
-      "tags": ["XL"]
     }
     
   ],
