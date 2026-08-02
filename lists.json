@@ -391,14 +391,14 @@
       "tags": ["wave", "high CPS", "timings", "chokepoints"]
     },
     {
-      "name": "wocky circles",
-      "url": "https://www.youtube.com/watch?v=yOx5Q3BkWIg",
-      "tags": ["wave"]
-    },
-    {
       "name": "BLAZEIT",
       "url": "https://www.youtube.com/watch?v=WFUJ7Tc3FPM",
       "tags": ["cube", "ship", "wave", "long"]
+    },
+    {
+      "name": "wocky circles",
+      "url": "https://www.youtube.com/watch?v=yOx5Q3BkWIg",
+      "tags": ["wave"]
     },
     {
       "name": "VOID",
