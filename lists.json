@@ -129,6 +129,11 @@
       "tags": ["memory", "timings", "chokepoints", "long"]
     },
     {
+      "name": "Bonfire",
+      "url": "https://www.youtube.com/watch?v=7ZFoCGqCq3Y",
+      "tags": ["wave", "timings"]
+    },
+    {
       "name": "Avernus",
       "url": "https://www.youtube.com/watch?v=16Zh8jssanc",
       "tags": ["ship", "ufo", "wave", "chokepoints", "long"]
@@ -505,11 +510,6 @@
       "name": "ETERNALtheory",
       "url": "https://www.youtube.com/watch?v=3LfjQWk9Hyg",
       "tags": ["memory", "timings", "long"]
-    },
-    {
-      "name": "The Hallucination",
-      "url": "https://www.youtube.com/watch?v=tYbXsNkO9HE",
-      "tags": ["wave", "long"]
     }
     
   ],
