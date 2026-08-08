@@ -47,14 +47,14 @@
       "tags": ["memory", "high CPS", "chokepoints", "long"]
     },
     {
-      "name": "Sakupen circles",
-      "url": "https://www.youtube.com/watch?v=AdrmZsy52EY",
-      "tags": ["wave", "high CPS", "chokepoints"]
-    },
-    {
       "name": "Lesopowal",
       "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g",
       "tags": ["chokepoints", "long"]
+    },
+    {
+      "name": "Sakupen circles",
+      "url": "https://www.youtube.com/watch?v=AdrmZsy52EY",
+      "tags": ["wave", "high CPS", "chokepoints"]
     },
     {
       "name": "BOOBAWAMBA",
