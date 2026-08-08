@@ -134,6 +134,11 @@
       "tags": ["wave", "timings"]
     },
     {
+      "name": "SANGUINE",
+      "url": "https://www.youtube.com/watch?v=cBVlGzobmsA",
+      "tags": ["cube", "wave", "nerve control", "timings", "long"]
+    },
+    {
       "name": "Avernus",
       "url": "https://www.youtube.com/watch?v=16Zh8jssanc",
       "tags": ["ship", "ufo", "wave", "chokepoints", "long"]
@@ -505,11 +510,6 @@
       "name": "Always Miss You",
       "url": "https://www.youtube.com/watch?v=r5TE8YczBgQ",
       "tags": ["wave", "long"]
-    },
-    {
-      "name": "Ronaldo Circles",
-      "url": "https://www.youtube.com/watch?v=jgxbGKENau8",
-      "tags": ["wave", "high CPS", "chokepoints", "medium"]
     }
     
   ],
