@@ -290,11 +290,6 @@
       "tags": ["nerve control", "timings", "XL"]
     },
     {
-      "name": "The Lightning Rod",
-      "url": "https://www.youtube.com/watch?v=nQDTi077O6M",
-      "tags": ["memory", "timings", "long"]
-    },
-    {
       "name": "Deimos",
       "url": "https://www.youtube.com/watch?v=b2yHaIk5zio",
       "tags": ["XL"]
@@ -373,6 +368,11 @@
       "name": "Firework",
       "url": "https://www.youtube.com/watch?v=QBe5x2o9v2w",
       "tags": ["nerve control", "timings", "XL"]
+    },
+    {
+      "name": "The Lightning Rod",
+      "url": "https://www.youtube.com/watch?v=nQDTi077O6M",
+      "tags": ["memory", "timings", "long"]
     },
     {
       "name": "Wild Roses",
