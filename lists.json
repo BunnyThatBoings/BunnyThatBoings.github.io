@@ -223,6 +223,11 @@
       "tags": ["ship", "memory", "long"]
     },
     {
+      "name": "Evolution",
+      "url": "https://www.youtube.com/watch?v=qZaNZygvOxc",
+      "tags": ["cube", "wave", "timings", "long"]
+    },
+    {
       "name": "Thinking Space II",
       "url": "https://www.youtube.com/watch?v=RJedeB2wHCA",
       "thumb": "https://i.ytimg.com/vi/aBhjftGEao0/maxresdefault.jpg",
@@ -505,11 +510,6 @@
       "name": "Ronaldo Circles",
       "url": "https://www.youtube.com/watch?v=jgxbGKENau8",
       "tags": ["wave", "high CPS", "chokepoints", "medium"]
-    },
-    {
-      "name": "ETERNALtheory",
-      "url": "https://www.youtube.com/watch?v=3LfjQWk9Hyg",
-      "tags": ["memory", "timings", "long"]
     }
     
   ],
