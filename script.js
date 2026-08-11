@@ -1,3 +1,34 @@
+//Themes
+const savedTheme = localStorage.getItem("theme");
+
+if (savedTheme && savedTheme !== "default")
+{
+
+  document.documentElement.setAttribute("data-theme", savedTheme);
+
+}
+
+document.querySelectorAll("#theme-buttons button").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const theme = btn.dataset.theme;
+
+    if (theme === "default")
+    {
+
+      document.documentElement.removeAttribute("data-theme");
+
+    }
+    else
+    {
+
+      document.documentElement.setAttribute("data-theme", theme);
+
+    }
+
+    localStorage.setItem("theme", theme);
+  });
+});
+
 //Load data
 async function loadData() {
   try {
@@ -33,12 +64,73 @@ function getVideoId(url) {
   return match ? match[1] : null;
 }
 
+// pulls the video id back out of an i.ytimg.com thumbnail url, e.g.
+// "https://i.ytimg.com/vi/XXXXXXX/maxresdefault.jpg" -> "XXXXXXX"
+function extractYtThumbId(thumbUrl) {
+  const match = thumbUrl?.match(/\/vi\/([^/]+)\//);
+  return match ? match[1] : null;
+}
+
+// steps a broken thumbnail down through lower-res youtube fallbacks if it's a
+// youtube-hosted thumb. local jpg/png replacements just fall straight to fallback.png,
+// since a local file either exists or it doesn't (no res tiers to step through).
+function handleThumbError(img)
+{
+
+  const ytFallbacks = [ "hqdefault.jpg", "mqdefault.jpg", "default.jpg" ];
+  const step = parseInt(img.dataset.fallbackStep || "0");
+  const ytId = img.dataset.ytThumbId;
+
+  if (!ytId || step >= ytFallbacks.length)
+  {
+
+    img.onerror = null;
+    img.onload = null;
+    img.src = "fallback.png";
+    return;
+
+  }
+
+  img.dataset.fallbackStep = step + 1;
+  img.src = `https://i.ytimg.com/vi/${ytId}/${ytFallbacks[step]}`;
+
+}
+
+// youtube doesn't 404 on a missing maxres/hq thumb, it silently serves a
+// generic 120x90 placeholder instead, so a normal onerror check won't catch it.
+// this only applies to youtube-hosted thumbs, local files don't do this.
+function checkThumbLoaded(img)
+{
+
+  if (img.dataset.ytThumbId && img.naturalWidth === 120 && img.naturalHeight === 90)
+  {
+
+    handleThumbError(img);
+
+  }
+
+}
+
+// figures out the thumbnail src plus which youtube id (if any) to use for fallback steps.
+// custom "thumb" entries can either be a local jpg/png replacement (e.g. "thumbs/society.jpg")
+// or a youtube-hosted url; auto-generated thumbs always come from the level's own video id.
+function resolveThumb(v, mainId) {
+  if (v.thumb) {
+
+    const ytId = extractYtThumbId(v.thumb);
+    return { src: v.thumb, ytId };
+
+  }
+
+  return { src: mainId ? `https://img.youtube.com/vi/${mainId}/mqdefault.jpg` : null, ytId: mainId };
+}
+
 function buildList(container, items, startRank) {
   items.forEach((v, i) => {
     const rank = startRank + i;
     const id = getVideoId(v.url);
-    const thumbSrc = v.thumb || (id ? `https://img.youtube.com/vi/${id}/mqdefault.jpg` : null);
-    const thumbHTML = thumbSrc ? `<img src="${thumbSrc}" alt="thumbnail" />` : `<span class="play-tri"></span>`;
+    const { src: thumbSrc, ytId } = resolveThumb(v, id);
+    const thumbHTML = thumbSrc ? `<img src="${thumbSrc}" alt="thumbnail" data-yt-thumb-id="${ytId || ""}" onerror="handleThumbError(this)" onload="checkThumbLoaded(this)" />` : `<span class="play-tri"></span>`;
 
     const a = document.createElement("a");
     a.href = v.url;
@@ -290,6 +382,9 @@ function addroulette(best, contains_future) {
     const thumbnail = document.createElement("img");
     thumbnail.src = thumbSrc || "fallback.png";
     thumbnail.alt = v.name || "thumbnail";
+    thumbnail.dataset.videoId = id || "";
+    thumbnail.onerror = () => handleThumbError(thumbnail);
+    thumbnail.onload = () => checkThumbLoaded(thumbnail);
     thumb.appendChild(thumbnail);
 
     const info = document.createElement("div");
