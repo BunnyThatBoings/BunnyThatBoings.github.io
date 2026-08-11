@@ -294,24 +294,24 @@ hr {
   color: #ffffff;
 }
 
-.tag-cube        { background: #00ff00; }
+.tag-cube        { background: #00ff00; color: #111; }
 .tag-ship        { background: #ff00ff; }
 .tag-ball        { background: #ff0000; }
 .tag-ufo         { background: #ff8800; color: #111; }
 .tag-swingcopter { background: #ff4400; }
-.tag-wave        { background: #0000ff; color: #111; }
+.tag-wave        { background: #0000ff; }
 .tag-robot       { background: #c8c8c8; color: #111; }
 .tag-spider      { background: #8000ff; }
 .tag-swing       { background: #ffff00; color: #111; }
 
-.tag-memory      { background: #ffddff; }
-.tag-highcps     { background: #ffcc00; }
+.tag-memory      { background: #ffddff; color: #111; }
+.tag-highcps     { background: #ffcc00; color: #111;}
 .tag-nervecontrol { background: #ff0080; }
 .tag-timings     { background: #000000; }
 .tag-chokepoints { background: #727272; }
 
-.tag-medium      { background: #c8ffc8; }
-.tag-long        { background: #96ff96; }
+.tag-medium      { background: #c8ffc8; color: #111; }
+.tag-long        { background: #96ff96; color: #111; }
 .tag-xl          { background: #64ff64; }
 .tag-xxlplus     { background: #32ff32; }
 
