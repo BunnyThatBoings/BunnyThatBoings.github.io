@@ -127,12 +127,6 @@ hr {
 }
 
 .tab-btn.active {
-  color: #ffffff;
-  border-bottom: 2px solid #ffffff;
-  background: rgba(255,255,255,0.06);
-}
-
-.tab-btn.active.future-tab {
   color: var(--future-blue);
   border-bottom: 2px solid var(--future-blue);
   background: var(--future-glow);
