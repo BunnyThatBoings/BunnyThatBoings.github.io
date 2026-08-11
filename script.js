@@ -53,10 +53,14 @@ async function loadCompletions() {
   }
 }
 
+function tagSlug(tag) {
+  return "tag-" + tag.toLowerCase().replace(/\s+/g, "").replace(/\+/g, "plus");
+}
+
 function buildTagsHTML(tags) {
   return !tags?.length
     ? ""
-    : `<div class="tags">${tags.map(t => `<span class="tag">${t}</span>`).join("")}</div>`;
+    : `<div class="tags">${tags.map(t => `<span class="tag ${tagSlug(t)}">${t}</span>`).join("")}</div>`;
 }
 
 function getVideoId(url) {
