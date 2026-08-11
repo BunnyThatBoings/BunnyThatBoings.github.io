@@ -54,9 +54,9 @@ body {
 }
 
 [data-theme="dark"] {
-  --bg: #0a0a0d;
-  --color-bg: #17161c;
-  --color-border: #262530;
+  --bg: #050506;
+  --color-bg: #0b0a0e;
+  --color-border: #1a1920;
 }
 
 #theme-buttons {
@@ -220,7 +220,7 @@ hr {
 
 .unverified-item {
   border: 1px solid rgba(91, 156, 246, 0.3) !important;
-  background: linear-gradient(135deg, #2b2a33 0%, rgba(91,156,246,0.07) 100%) !important;
+  background: linear-gradient(135deg, var(--color-bg) 0%, var(--future-glow) 100%) !important;
 }
 
 .unverified-item .info .name {
@@ -294,26 +294,26 @@ hr {
   color: #ffffff;
 }
 
-.tag-cube        { background: #00ff00; color: #111; }
-.tag-ship        { background: #ff00ff; }
-.tag-ball        { background: #ff0000; }
-.tag-ufo         { background: #ff8800; color: #111; }
-.tag-swingcopter { background: #ff4400; }
-.tag-wave        { background: #0000ff; }
-.tag-robot       { background: #c8c8c8; color: #111; }
-.tag-spider      { background: #8000ff; }
-.tag-swing       { background: #ffff00; color: #111; }
+.tag-cube        { background: rgba(0, 255, 0, 0.25); color: #111; }
+.tag-ship        { background: rgba(255, 0, 255, 0.25); }
+.tag-ball        { background: rgba(255, 0, 0, 0.25); }
+.tag-ufo         { background: rgba(255, 136, 0, 0.25); color: #111; }
+.tag-swingcopter { background: rgba(255, 68, 0, 0.25); }
+.tag-wave        { background: rgba(0, 0, 255, 0.25); }
+.tag-robot       { background: rgba(200, 200, 200, 0.25); color: #111; }
+.tag-spider      { background: rgba(128, 0, 255, 0.25); }
+.tag-swing       { background: rgba(255, 255, 0, 0.25); color: #111; }
 
-.tag-memory      { background: #ffddff; color: #111; }
-.tag-highcps     { background: #ffcc00; color: #111;}
-.tag-nervecontrol { background: #ff0080; }
-.tag-timings     { background: #000000; }
-.tag-chokepoints { background: #727272; }
+.tag-memory      { background: rgba(255, 221, 255, 0.25); color: #111; }
+.tag-highcps     { background: rgba(255, 204, 0, 0.25); color: #111;}
+.tag-nervecontrol { background: rgba(255, 0, 128, 0.25); }
+.tag-timings     { background: rgba(0, 0, 0, 0.25); }
+.tag-chokepoints { background: rgba(114, 114, 114, 0.25); }
 
-.tag-medium      { background: #c8ffc8; color: #111; }
-.tag-long        { background: #96ff96; color: #111; }
-.tag-xl          { background: #64ff64; color: #111; }
-.tag-xxlplus     { background: #32ff32; color: #111; }
+.tag-medium      { background: rgba(200, 255, 200, 0.25); color: #111; }
+.tag-long        { background: rgba(150, 255, 150, 0.25); color: #111; }
+.tag-xl          { background: rgba(100, 255, 100, 0.25); color: #111; }
+.tag-xxlplus     { background: rgba(50, 255, 50, 0.25); color: #111; }
 
 .thumb-overlay-wrap {
   position: relative;
