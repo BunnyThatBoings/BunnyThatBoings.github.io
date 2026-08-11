@@ -537,8 +537,11 @@
       "unverified": true
     },
     {
-      "name": "Society",
-      "url": "https://www.youtube.com/watch?v=3CoEaH1CM7o"
+      "name": "Angelicide",
+      "url": "https://www.youtube.com/watch?v=dqkMUi7J7TY",
+      "thumb": "https://i.ytimg.com/vi/aZpeMB3rtJI/maxresdefault.jpg",
+      "progress": 37,
+      "unverified": true
     },
     {
       "name": "GRIEF",
@@ -548,10 +551,27 @@
       "unverified": true
     },
     {
+      "name": "Society",
+      "url": "https://www.youtube.com/watch?v=3CoEaH1CM7o"
+    },
+    {
       "name": "Heliopolis",
       "url": "https://www.youtube.com/watch?v=Hld_6Bmzu8M",
       "thumb": "https://i.ytimg.com/vi/7yaKGl_2Dsw/maxresdefault.jpg",
       "progress": 51,
+      "unverified": true
+    },
+    {
+      "name": "Eternal Silence",
+      "url": "https://www.youtube.com/watch?v=by88qCcfKkM",
+      "thumb": "https://i.ytimg.com/vi/nAf6iD9al9w/maxresdefault.jpg",
+      "progress": 74,
+      "unverified": true
+    },
+    {
+      "name": "Tunnel of Serpent",
+      "url": "https://www.youtube.com/watch?v=M0ZY-laukRg",
+      "progress": 58,
       "unverified": true
     },
     {
@@ -592,8 +612,8 @@
     },
     {
       "name": "Artemis 13",
-      "url": "https://www.youtube.com/watch?v=oPqO8WbKAJo",
-      "progress": 61,
+      "url": "https://youtube.com/watch?v=xZZv4yEU4gA",
+      "progress": 66,
       "unverified": true
     },
     {
@@ -636,13 +656,6 @@
       "url": "https://www.youtube.com/watch?v=9fsZ014qB3s"
     },
     {
-      "name": "Angelicide",
-      "url": "https://www.youtube.com/watch?v=dqkMUi7J7TY",
-      "thumb": "https://i.ytimg.com/vi/aZpeMB3rtJI/maxresdefault.jpg",
-      "progress": 37,
-      "unverified": true
-    },
-    {
       "name": "Eviscerate",
       "url": "https://www.youtube.com/watch?v=m3pF70nTW6o",
       "progress": 55,
@@ -680,19 +693,6 @@
     {
       "name": "ORBIT",
       "url": "https://www.youtube.com/watch?v=QKcv8DkNPd0"
-    },
-    {
-      "name": "Eternal Silence",
-      "url": "https://www.youtube.com/watch?v=by88qCcfKkM",
-      "thumb": "https://i.ytimg.com/vi/nAf6iD9al9w/maxresdefault.jpg",
-      "progress": 74,
-      "unverified": true
-    },
-    {
-      "name": "Tunnel of Serpent",
-      "url": "https://www.youtube.com/watch?v=M0ZY-laukRg",
-      "progress": 58,
-      "unverified": true
     },
     {
       "name": "Nullscapes",
