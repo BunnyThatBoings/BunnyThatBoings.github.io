@@ -294,26 +294,26 @@ hr {
   color: #ffffff;
 }
 
-.tag-cube        { background: #5b8ef6; }
-.tag-ship        { background: #e05cf6; }
-.tag-ball        { background: #f6a03a; }
-.tag-ufo         { background: #3af6c8; color: #111; }
-.tag-swingcopter { background: #f65b5b; }
-.tag-wave        { background: #a0f65b; color: #111; }
-.tag-robot       { background: #f6d45b; color: #111; }
-.tag-spider      { background: #b05bf6; }
-.tag-swing       { background: #5bf6e8; color: #111; }
+.tag-cube        { background: #00ff00; }
+.tag-ship        { background: #ff00ff; }
+.tag-ball        { background: #ff0000; }
+.tag-ufo         { background: #ff8800; color: #111; }
+.tag-swingcopter { background: #ff4400; }
+.tag-wave        { background: #0000ff; color: #111; }
+.tag-robot       { background: #c8c8c8; color: #111; }
+.tag-spider      { background: #8000ff; }
+.tag-swing       { background: #ffff00; color: #111; }
 
-.tag-memory      { background: #6e6e6e; }
-.tag-highcps     { background: #f6755b; }
-.tag-nervecontrol { background: #d45bf6; }
-.tag-timings     { background: #5b9cf6; }
-.tag-chokepoints { background: #f65b8e; }
+.tag-memory      { background: #ffddff; }
+.tag-highcps     { background: #ffcc00; }
+.tag-nervecontrol { background: #ff0080; }
+.tag-timings     { background: #000000; }
+.tag-chokepoints { background: #727272; }
 
-.tag-medium      { background: #4a7a4a; }
-.tag-long        { background: #3a5f8a; }
-.tag-xl          { background: #7a3a7a; }
-.tag-xxlplus     { background: #8a1a1a; }
+.tag-medium      { background: #c8ffc8; }
+.tag-long        { background: #96ff96; }
+.tag-xl          { background: #64ff64; }
+.tag-xxlplus     { background: #32ff32; }
 
 .thumb-overlay-wrap {
   position: relative;
