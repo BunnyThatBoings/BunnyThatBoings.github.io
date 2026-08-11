@@ -312,8 +312,8 @@ hr {
 
 .tag-medium      { background: #c8ffc8; color: #111; }
 .tag-long        { background: #96ff96; color: #111; }
-.tag-xl          { background: #64ff64; }
-.tag-xxlplus     { background: #32ff32; }
+.tag-xl          { background: #64ff64; color: #111; }
+.tag-xxlplus     { background: #32ff32; color: #111; }
 
 .thumb-overlay-wrap {
   position: relative;
