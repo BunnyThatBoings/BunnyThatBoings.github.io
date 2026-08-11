@@ -39,6 +39,20 @@ body {
   color: #555555;
 }
 
+[data-theme="light"] #list a,
+[data-theme="light"] #future-list a,
+[data-theme="light"] #roulette-list .roulette-container {
+  color: #1c1b22;
+}
+
+[data-theme="light"] #list a .info .name,
+[data-theme="light"] #future-list a .info .name,
+[data-theme="light"] #roulette-list .roulette-container .info .name,
+[data-theme="light"] .stats-points-value,
+[data-theme="light"] .profile-completion-name {
+  color: #1c1b22;
+}
+
 [data-theme="dark"] {
   --bg: #0a0a0d;
   --color-bg: #17161c;
