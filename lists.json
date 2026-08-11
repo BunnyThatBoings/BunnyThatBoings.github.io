@@ -29,6 +29,7 @@
     {
       "name": "Green Bullet",
       "url": "https://www.youtube.com/watch?v=JG-qcvVkZFw",
+      "thumb": "thumbs/Green_Bullet.jpg",
       "tags": ["cube", "wave", "robot"]
     },
     {
@@ -199,7 +200,7 @@
     {
       "name": "SWI Slithium",
       "url": "https://www.youtube.com/watch?v=av5D0_M6hso",
-      "thumb": "https://i.ytimg.com/vi/gmCSvGtGWg0/maxresdefault.jpg",
+      "thumb": "thumbs/SWI_Slithium.jpg",
       "tags": ["wave", "nerve control", "chokepoints", "XL"]
     },
     {
