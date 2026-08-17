@@ -362,6 +362,11 @@
       "tags": ["wave", "spider", "chokepoints", "long"]
     },
     {
+      "name": "Silentlocked",
+      "url": "https://www.youtube.com/watch?v=O-IQeUdEGvI",
+      "tags": ["high CPS", "timings", "chokepoints", "long"]
+    },
+    {
       "name": "Unnerfed Innards",
       "url": "https://www.youtube.com/watch?v=K77leSnLP0Y",
       "tags": ["wave", "spider", "chokepoints", "long"]
@@ -391,11 +396,6 @@
       "name": "NOMAD",
       "url": "https://www.youtube.com/watch?v=H2TkHbEX__A",
       "tags": ["ship", "ufo", "timings", "medium"]
-    },
-    {
-      "name": "Silentlocked",
-      "url": "https://www.youtube.com/watch?v=O-IQeUdEGvI",
-      "tags": ["high CPS", "timings", "chokepoints", "long"]
     },
     {
       "name": "Snowbound",
