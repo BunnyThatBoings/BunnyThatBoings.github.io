@@ -310,6 +310,8 @@ hr {
 .tag-timings     { background: rgba(0, 0, 0, 0.25); }
 .tag-chokepoints { background: rgba(114, 114, 114, 0.25); }
 
+.tag-tiny        { background: rgba(255, 255, 255, 0.25); color: #111; }
+.tag-short       { background: rgba(225, 255, 255, 0.25); color: #111; }
 .tag-medium      { background: rgba(200, 255, 200, 0.25); color: #111; }
 .tag-long        { background: rgba(150, 255, 150, 0.25); color: #111; }
 .tag-xl          { background: rgba(100, 255, 100, 0.25); color: #111; }
