@@ -68,16 +68,31 @@
       "tags": ["wave", "chokepoints", "long"]
     },
     {
+      "name": "Antarctic Lights",
+      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
+      "thumb": "thumbs/Antarctic_Lights.jpg",
+      "tags": ["wave", "long"]
+    },
+    {
       "name": "Old Orochi",
       "url": "https://www.youtube.com/watch?v=YxtFAQtLYQY",
       "thumb": "https://i.ytimg.com/vi/0kZ56QriC1k/maxresdefault.jpg",
       "tags": ["ship", "nerve control", "long"]
     },
     {
-      "name": "Antarctic Lights",
-      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
-      "thumb": "thumbs/Antarctic_Lights.jpg",
-      "tags": ["wave", "long"]
+      "name": "Tremor",
+      "url": "https://www.youtube.com/watch?v=S4NSMeHe16s",
+      "tags": ["wave", "timings", "short"]
+    },
+    {
+      "name": "Re",
+      "url": "https://www.youtube.com/watch?v=LA2WzMXSPOc",
+      "tags": ["wave", "timings", "short"]
+    },
+    {
+      "name": "Illusion Of Hell",
+      "url": "https://www.youtube.com/watch?v=nBmjrlmzUxE",
+      "tags": ["cube", "ship", "UFO", "wave", "timings", "short"]
     },
     {
       "name": "Ashley Wave Trials",
@@ -230,6 +245,11 @@
       "tags": ["ship", "long"]
     },
     {
+      "name": "VSC",
+      "url": "https://www.youtube.com/watch?v=ewlMbTR-c_w",
+      "tags": ["wave", "high CPS", "short"]
+    },
+    {
       "name": "Based After Based",
       "url": "https://www.youtube.com/watch?v=yQBFyUvB3lY",
       "tags": ["ship", "memory", "long"]
@@ -277,6 +297,11 @@
       "tags": ["wave", "high CPS", "long"]
     },
     {
+      "name": "chloride hexahydrate",
+      "url": "https://www.youtube.com/watch?v=rCwzBWuAqS4",
+      "tags": ["wave", "high CPS", "timings", "tiny"]
+    },
+    {
       "name": "Shadow Of The Past",
       "url": "https://www.youtube.com/watch?v=LEyo0LJV8os",
       "tags": ["cube", "ship", "wave", "timings"]
@@ -320,6 +345,11 @@
       "name": "Silent Dicctras",
       "url": "https://www.youtube.com/watch?v=dwDJT0M3UBc",
       "tags": ["timings", "chokepoints", "XL"]
+    },
+    {
+      "name": "Forgotten Maiden",
+      "url": "https://www.youtube.com/watch?v=iulSolHQcw0",
+      "tags": ["wave", "spider", "timings", "nerve control", "short"]
     },
     {
       "name": "Sakupen Circles",
@@ -481,37 +511,6 @@
       "name": "Kintetsu",
       "url": "https://www.youtube.com/watch?v=JQDw15tJR58",
       "tags": ["timings", "long"]
-    },
-    {
-      "name": "HAZARD DUTY PAY",
-      "url": "https://www.youtube.com/watch?v=kpbE1vJXUos",
-      "tags": ["timings", "long"]
-    },
-    {
-      "name": "Silent Poltergeist",
-      "url": "https://www.youtube.com/watch?v=XQ_TZc7cnPs",
-      "tags": ["wave", "high CPS", "chokepoints", "long"]
-    },
-    {
-      "name": "Bonus Level",
-      "url": "https://www.youtube.com/watch?v=Nerr-E1HoYY",
-      "thumb": "https://i.ytimg.com/vi/DBGJkp52Dng/maxresdefault.jpg",
-      "tags": ["wave", "high CPS", "chokepoints", "medium"]
-    },
-    {
-      "name": "Saul Goodman",
-      "url": "https://www.youtube.com/watch?v=hjs5PjUaw9k",
-      "tags": ["timings", "long"]
-    },
-    {
-      "name": "Haunted Ship",
-      "url": "https://www.youtube.com/watch?v=22l59QGmL48",
-      "tags": ["long"]
-    },
-    {
-      "name": "Apocalyptic Trilogy",
-      "url": "https://www.youtube.com/watch?v=RUBbpsTR5eU",
-      "tags": ["ship", "wave", "XXL+"]
     }
     
   ],
@@ -740,9 +739,9 @@
       "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA"
     },
     {
-      "name": "Old Orochi",
-      "url": "https://www.youtube.com/watch?v=YxtFAQtLYQY",
-      "thumb": "https://i.ytimg.com/vi/0kZ56QriC1k/maxresdefault.jpg"
+      "name": "Antarctic Lights",
+      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
+      "thumb": "thumbs/Antarctic_Lights.jpg"
     }
   ]
 }
