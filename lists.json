@@ -33,6 +33,11 @@
       "tags": ["cube", "wave", "robot"]
     },
     {
+      "name": "Lesopowal",
+      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g",
+      "tags": ["ship", "ball", "chokepoints", "long"]
+    },
+    {
       "name": "ORBIT",
       "url": "https://www.youtube.com/watch?v=QKcv8DkNPd0",
       "tags": ["cube", "ball", "memory", "nerve control", "timings"]
@@ -41,11 +46,6 @@
       "name": "Nullscapes",
       "url": "https://www.youtube.com/watch?v=EztneTPp5CU",
       "tags": ["robot", "timings", "long"]
-    },
-    {
-      "name": "Lesopowal",
-      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g",
-      "tags": ["ship", "ball", "chokepoints", "long"]
     },
     {
       "name": "Sakupen circles",
@@ -678,6 +678,10 @@
       "unverified": true
     },
     {
+      "name": "Lesopowal",
+      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g"
+    },
+    {
       "name": "Labryinth",
       "url": "https://www.youtube.com/watch?v=bvU88Sm5Naw",
       "progress": 68,
@@ -697,10 +701,6 @@
     {
       "name": "Nullscapes",
       "url": "https://www.youtube.com/watch?v=EztneTPp5CU"
-    },
-    {
-      "name": "Lesopowal",
-      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g"
     },
     {
       "name": "Sakupen circles",
