@@ -58,14 +58,14 @@
       "tags": ["memory", "XL"]
     },
     {
-      "name": "Quanteuse processing",
-      "url": "https://www.youtube.com/watch?v=j5NC0u1Q91Q",
-      "tags": ["memory", "high CPS", "chokepoints", "long"]
-    },
-    {
       "name": "The Bloop",
       "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA",
       "tags": ["wave", "chokepoints", "long"]
+    },
+    {
+      "name": "Quanteuse processing",
+      "url": "https://www.youtube.com/watch?v=j5NC0u1Q91Q",
+      "tags": ["memory", "high CPS", "chokepoints", "long"]
     },
     {
       "name": "Antarctic Lights",
@@ -730,12 +730,12 @@
       "unverified": true
     },
     {
-      "name": "Quanteuse processing",
-      "url": "https://www.youtube.com/watch?v=j5NC0u1Q91Q"
-    },
-    {
       "name": "The Bloop",
       "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA"
+    },
+    {
+      "name": "Quanteuse processing",
+      "url": "https://www.youtube.com/watch?v=j5NC0u1Q91Q"
     },
     {
       "name": "Antarctic Lights",
