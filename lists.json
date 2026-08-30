@@ -575,12 +575,6 @@
       "unverified": true
     },
     {
-      "name": "Artemis 13",
-      "url": "https://www.youtube.com/live/VvPE-7Mk3O8",
-      "progress": 76,
-      "unverified": true
-    },
-    {
       "name": "Tunnel of Serpent",
       "url": "https://www.youtube.com/watch?v=M0ZY-laukRg",
       "progress": 58,
@@ -704,6 +698,12 @@
     {
       "name": "Sakupen circles",
       "url": "https://www.youtube.com/watch?v=AdrmZsy52EY"
+    },
+    {
+      "name": "Artemis 13",
+      "url": "https://www.youtube.com/watch?v=dIqcUnvKVZE",
+      "progress": 82,
+      "unverified": true
     },
     {
       "name": "Silent Clubstep II",
