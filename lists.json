@@ -48,14 +48,14 @@
       "tags": ["robot", "timings", "long"]
     },
     {
-      "name": "Sakupen circles",
-      "url": "https://www.youtube.com/watch?v=AdrmZsy52EY",
-      "tags": ["wave", "high CPS", "chokepoints"]
-    },
-    {
       "name": "BOOBAWAMBA",
       "url": "https://www.youtube.com/watch?v=20fYiqLAo_E",
       "tags": ["memory", "XL"]
+    },
+    {
+      "name": "Sakupen circles",
+      "url": "https://www.youtube.com/watch?v=AdrmZsy52EY",
+      "tags": ["wave", "high CPS", "chokepoints"]
     },
     {
       "name": "The Bloop",
@@ -72,6 +72,11 @@
       "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
       "thumb": "thumbs/Antarctic_Lights.jpg",
       "tags": ["wave", "long"]
+    },
+    {
+      "name": "Herr Machine",
+      "url": "https://www.youtube.com/watch?v=CBcQqmqWFo4",
+      "tags": ["memory", "timings", "chokepoints", "high CPS", "long"]
     },
     {
       "name": "Old Orochi",
@@ -136,19 +141,14 @@
       "tags": ["XXL+"]
     },
     {
-      "name": "Aquamarine",
-      "url": "https://www.youtube.com/watch?v=Q__EnRojGt4",
-      "tags": ["wave", "high CPS", "chokepoints"]
-    },
-    {
-      "name": "Herr Machine",
-      "url": "https://www.youtube.com/watch?v=CBcQqmqWFo4",
-      "tags": ["memory", "timings", "chokepoints", "high CPS", "long"]
-    },
-    {
       "name": "SANGUINE",
       "url": "https://www.youtube.com/watch?v=cBVlGzobmsA",
       "tags": ["cube", "wave", "nerve control", "timings", "long"]
+    },
+    {
+      "name": "Aquamarine",
+      "url": "https://www.youtube.com/watch?v=Q__EnRojGt4",
+      "tags": ["wave", "high CPS", "chokepoints"]
     },
     {
       "name": "Bonfire",
@@ -159,6 +159,11 @@
       "name": "Silentman adventures",
       "url": "https://www.youtube.com/watch?v=NE89R0tA8fU",
       "tags": ["cube", "ship", "ball", "UFO", "timings", "long"]
+    },
+    {
+      "name": "FOREST OF SPIKES",
+      "url": "https://www.youtube.com/watch?v=WJYh3dW8Bfo",
+      "tags": ["ship", "wave", "timings", "long"]
     },
     {
       "name": "Defeated Circles",
@@ -212,11 +217,6 @@
       "name": "Abyss of Darkness",
       "url": "https://www.youtube.com/watch?v=RWBEfS4mLbw",
       "tags": ["spider", "nerve control", "timings", "chokepoints", "XL"]
-    },
-    {
-      "name": "FOREST OF SPIKES",
-      "url": "https://www.youtube.com/watch?v=WJYh3dW8Bfo",
-      "tags": ["ship", "wave", "timings", "long"]
     },
     {
       "name": "SWI Slithium",
