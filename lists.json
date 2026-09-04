@@ -33,11 +33,6 @@
       "tags": ["cube", "wave", "robot"]
     },
     {
-      "name": "Lesopowal",
-      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g",
-      "tags": ["ship", "ball", "chokepoints", "long"]
-    },
-    {
       "name": "ORBIT",
       "url": "https://www.youtube.com/watch?v=QKcv8DkNPd0",
       "tags": ["cube", "ball", "memory", "nerve control", "timings"]
@@ -48,14 +43,19 @@
       "tags": ["robot", "timings", "long"]
     },
     {
-      "name": "BOOBAWAMBA",
-      "url": "https://www.youtube.com/watch?v=20fYiqLAo_E",
-      "tags": ["memory", "XL"]
-    },
-    {
       "name": "Sakupen circles",
       "url": "https://www.youtube.com/watch?v=AdrmZsy52EY",
       "tags": ["wave", "high CPS", "chokepoints"]
+    },
+    {
+      "name": "Lesopowal",
+      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g",
+      "tags": ["ship", "ball", "chokepoints", "long"]
+    },
+    {
+      "name": "BOOBAWAMBA",
+      "url": "https://www.youtube.com/watch?v=20fYiqLAo_E",
+      "tags": ["memory", "XL"]
     },
     {
       "name": "The Bloop",
@@ -72,11 +72,6 @@
       "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
       "thumb": "thumbs/Antarctic_Lights.jpg",
       "tags": ["wave", "long"]
-    },
-    {
-      "name": "Herr Machine",
-      "url": "https://www.youtube.com/watch?v=CBcQqmqWFo4",
-      "tags": ["memory", "timings", "chokepoints", "high CPS", "long"]
     },
     {
       "name": "Old Orochi",
@@ -174,6 +169,11 @@
       "name": "Avernus",
       "url": "https://www.youtube.com/watch?v=16Zh8jssanc",
       "tags": ["ship", "ufo", "wave", "chokepoints", "long"]
+    },
+    {
+      "name": "Herr Machine",
+      "url": "https://www.youtube.com/watch?v=CBcQqmqWFo4",
+      "tags": ["memory", "timings", "chokepoints", "high CPS", "long"]
     },
     {
       "name": "Anathema",
