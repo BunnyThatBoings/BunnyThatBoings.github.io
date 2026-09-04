@@ -80,6 +80,11 @@
       "tags": ["ship", "nerve control", "long"]
     },
     {
+      "name": "Herr Machine",
+      "url": "https://www.youtube.com/watch?v=CBcQqmqWFo4",
+      "tags": ["memory", "timings", "chokepoints", "high CPS", "long"]
+    },
+    {
       "name": "Tremor",
       "url": "https://www.youtube.com/watch?v=S4NSMeHe16s",
       "tags": ["wave", "timings", "short"]
@@ -169,11 +174,6 @@
       "name": "Avernus",
       "url": "https://www.youtube.com/watch?v=16Zh8jssanc",
       "tags": ["ship", "ufo", "wave", "chokepoints", "long"]
-    },
-    {
-      "name": "Herr Machine",
-      "url": "https://www.youtube.com/watch?v=CBcQqmqWFo4",
-      "tags": ["memory", "timings", "chokepoints", "high CPS", "long"]
     },
     {
       "name": "Anathema",
