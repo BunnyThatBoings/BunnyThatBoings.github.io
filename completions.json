@@ -463,6 +463,12 @@
     "Calibrate (1)",
     "MINUSdry"
   ],
+  "hstorm": [
+    "Silent clubstep",
+    "Every End",
+    "Acheron",
+    "MINUSdry"
+  ],
   "UNCLEBOGD4N": [
     "Silent clubstep",
     "Avernus",
@@ -963,6 +969,7 @@
     "Exens Limit (1)"
   ],
   "ellie": [
+    "VSC",
     "Slaughterhouse",
     "Sakupen Circles"
   ],
