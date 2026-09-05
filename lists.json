@@ -255,11 +255,6 @@
       "tags": ["ship", "memory", "long"]
     },
     {
-      "name": "Evolution",
-      "url": "https://www.youtube.com/watch?v=qZaNZygvOxc",
-      "tags": ["cube", "wave", "timings", "long"]
-    },
-    {
       "name": "Thinking Space II",
       "url": "https://www.youtube.com/watch?v=RJedeB2wHCA",
       "thumb": "https://i.ytimg.com/vi/aBhjftGEao0/maxresdefault.jpg",
@@ -269,6 +264,11 @@
       "name": "Subterminal Point",
       "url": "https://www.youtube.com/watch?v=h2wmRMgACH4",
       "tags": ["timings", "long"]
+    },
+    {
+      "name": "Evolution",
+      "url": "https://www.youtube.com/watch?v=qZaNZygvOxc",
+      "tags": ["cube", "wave", "timings", "long"]
     },
     {
       "name": "CHIL",
