@@ -22,6 +22,11 @@
       "tags": ["nerve control", "XXL+"]
     },
     {
+      "name": "Artemis 13",
+      "url": "https://www.youtube.com/watch?v=9YoER_0vYrE",
+      "tags": ["cube", "ship", "timings", "long"]
+    },
+    {
       "name": "Tidal Wave",
       "url": "https://www.youtube.com/watch?v=9fsZ014qB3s",
       "tags": ["wave", "XXL+"]
@@ -46,11 +51,6 @@
       "name": "Nullscapes",
       "url": "https://www.youtube.com/watch?v=EztneTPp5CU",
       "tags": ["robot", "timings", "long"]
-    },
-    {
-      "name": "Artemis 13",
-      "url": "https://www.youtube.com/watch?v=9YoER_0vYrE",
-      "tags": ["cube", "ship", "timings", "long"]
     },
     {
       "name": "BOOBAWAMBA",
@@ -627,12 +627,6 @@
       "unverified": true
     },
     {
-      "name": "Old Blade of Justice",
-      "url": "https://www.youtube.com/watch?v=LnSlXVOnG2Y",
-      "progress": 29,
-      "unverified": true
-    },
-    {
       "name": "Silent Acropolis",
       "url": "https://www.youtube.com/watch?v=KBJYaQrVx3Q",
       "progress": 99,
@@ -642,6 +636,17 @@
       "name": "silent Acropolis",
       "url": "https://www.youtube.com/watch?v=4oV6fgdo4Eo",
       "progress": 66,
+      "unverified": true
+    },
+    {
+      "name": "Artemis 13",
+      "url": "https://www.youtube.com/watch?v=9YoER_0vYrE",
+      "tags": ["cube", "ship", "timings", "long"]
+    },
+    {
+      "name": "Old Blade of Justice",
+      "url": "https://www.youtube.com/watch?v=LnSlXVOnG2Y",
+      "progress": 29,
       "unverified": true
     },
     {
