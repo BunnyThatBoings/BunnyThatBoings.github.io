@@ -48,6 +48,11 @@
       "tags": ["robot", "timings", "long"]
     },
     {
+      "name": "Artemis 13",
+      "url": "https://www.youtube.com/watch?v=9YoER_0vYrE",
+      "tags": ["cube", "ship", "timings", "long"]
+    },
+    {
       "name": "BOOBAWAMBA",
       "url": "https://www.youtube.com/watch?v=20fYiqLAo_E",
       "tags": ["memory", "XL"]
@@ -87,11 +92,6 @@
     {
       "name": "Tremor",
       "url": "https://www.youtube.com/watch?v=S4NSMeHe16s",
-      "tags": ["wave", "timings", "short"]
-    },
-    {
-      "name": "Re",
-      "url": "https://www.youtube.com/watch?v=LA2WzMXSPOc",
       "tags": ["wave", "timings", "short"]
     },
     {
