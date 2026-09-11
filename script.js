@@ -53,6 +53,19 @@ async function loadCompletions() {
   }
 }
 
+let playerCountries = {};
+
+async function loadCountries() {
+  try {
+    const response = await fetch("countries.json");
+    playerCountries = await response.json();
+    return playerCountries;
+  } catch (err) {
+    console.error("Failed to load countries.json:", err);
+    return {};
+  }
+}
+
 function tagSlug(tag) {
   return "tag-" + tag.toLowerCase().replace(/\s+/g, "").replace(/\+/g, "plus");
 }
@@ -61,6 +74,87 @@ function buildTagsHTML(tags) {
   return !tags?.length
     ? ""
     : `<div class="tags">${tags.map(t => `<span class="tag ${tagSlug(t)}">${t}</span>`).join("")}</div>`;
+}
+
+//Tag filtering
+let tagFilters = {}; // slug -> "include" | "exclude"
+
+// canonical display order, matches the order tags appear on level entries
+const TAG_ORDER = [
+  "tag-cube", "tag-ship", "tag-ball", "tag-ufo", "tag-swingcopter", "tag-wave",
+  "tag-robot", "tag-spider", "tag-swing", "tag-memory", "tag-highcps",
+  "tag-nervecontrol", "tag-timings", "tag-chokepoints",
+  "tag-tiny", "tag-short", "tag-medium", "tag-long", "tag-xl", "tag-xxlplus"
+];
+
+document.getElementById("tag-filter-toggle")?.addEventListener("click", () => {
+  document.getElementById("tag-filter-panel").classList.toggle("open");
+});
+
+document.getElementById("tag-filter-monochrome")?.addEventListener("change", (e) => {
+  document.body.classList.toggle("monochrome-tags", e.target.checked);
+});
+
+function buildFilterBar(videos, futureVideos) {
+  const chipsContainer = document.getElementById("tag-filter-chips");
+  if (!chipsContainer) return;
+
+  const allTags = new Map(); // slug -> display label
+  [...videos, ...futureVideos].forEach(v => {
+    (v.tags || []).forEach(t => allTags.set(tagSlug(t), t));
+  });
+
+  const sortedSlugs = [...allTags.keys()].sort((a, b) => {
+    const ai = TAG_ORDER.indexOf(a);
+    const bi = TAG_ORDER.indexOf(b);
+    if (ai === -1 && bi === -1) return 0;
+    if (ai === -1) return 1;
+    if (bi === -1) return -1;
+    return ai - bi;
+  });
+
+  chipsContainer.innerHTML = "";
+  sortedSlugs.forEach(slug => {
+    const label = allTags.get(slug);
+    const chip = document.createElement("span");
+    chip.className = `tag tag-filter ${slug}`;
+    chip.textContent = label;
+
+    chip.addEventListener("click", () => {
+      const current = tagFilters[slug];
+      const next = current === undefined ? "include"
+                  : current === "include" ? "exclude"
+                  : undefined;
+
+      chip.classList.remove("filter-include", "filter-exclude");
+
+      if (next === undefined) {
+        delete tagFilters[slug];
+      } else {
+        tagFilters[slug] = next;
+        chip.classList.add(next === "include" ? "filter-include" : "filter-exclude");
+      }
+
+      applyTagFilters();
+    });
+
+    chipsContainer.appendChild(chip);
+  });
+}
+
+function applyTagFilters() {
+  document.querySelectorAll("#list a, #future-list a").forEach(a => {
+    const tags = (a.dataset.tags || "").split(",").filter(Boolean);
+    let visible = true;
+
+    for (const [slug, mode] of Object.entries(tagFilters)) {
+      const has = tags.includes(slug);
+      if (mode === "include" && !has) visible = false;
+      if (mode === "exclude" && has) visible = false;
+    }
+
+    a.classList.toggle("filtered-hidden", !visible);
+  });
 }
 
 function getVideoId(url) {
@@ -75,9 +169,7 @@ function extractYtThumbId(thumbUrl) {
   return match ? match[1] : null;
 }
 
-// steps a broken thumbnail down through lower-res youtube fallbacks if it's a
-// youtube-hosted thumb. local jpg/png replacements just fall straight to fallback.png,
-// since a local file either exists or it doesn't (no res tiers to step through).
+//all of this is fallback shit that AI made dont get rid of it even tho most of the time it does nothing
 function handleThumbError(img)
 {
 
@@ -100,9 +192,6 @@ function handleThumbError(img)
 
 }
 
-// youtube doesn't 404 on a missing maxres/hq thumb, it silently serves a
-// generic 120x90 placeholder instead, so a normal onerror check won't catch it.
-// this only applies to youtube-hosted thumbs, local files don't do this.
 function checkThumbLoaded(img)
 {
 
@@ -115,9 +204,6 @@ function checkThumbLoaded(img)
 
 }
 
-// figures out the thumbnail src plus which youtube id (if any) to use for fallback steps.
-// custom "thumb" entries can either be a local jpg/png replacement (e.g. "thumbs/society.jpg")
-// or a youtube-hosted url; auto-generated thumbs always come from the level's own video id.
 function resolveThumb(v, mainId) {
   if (v.thumb) {
 
@@ -129,17 +215,30 @@ function resolveThumb(v, mainId) {
   return { src: mainId ? `https://img.youtube.com/vi/${mainId}/mqdefault.jpg` : null, ytId: mainId };
 }
 
-function buildList(container, items, startRank) {
+// used as the localStorage key for a level's opinions, url is unique per entry so it works even for duplicate names
+function opinionsKeyFor(v) {
+  return v.url;
+}
+
+// url -> { overrated, fairlyPlaced, underrated }, populated from lists.json's per-level "opinions" field
+const levelopinionsMap = {};
+
+function buildList(container, items, startRank, showopinions = false) {
   items.forEach((v, i) => {
     const rank = startRank + i;
     const id = getVideoId(v.url);
     const { src: thumbSrc, ytId } = resolveThumb(v, id);
     const thumbHTML = thumbSrc ? `<img src="${thumbSrc}" alt="thumbnail" data-yt-thumb-id="${ytId || ""}" onerror="handleThumbError(this)" onload="checkThumbLoaded(this)" />` : `<span class="play-tri"></span>`;
 
+    const opinionsKey = opinionsKeyFor(v);
+    if (showopinions) levelopinionsMap[opinionsKey] = v.opinions || { overrated: "", fairlyPlaced: "", underrated: "" };
+    const opinionsBtnHTML = showopinions ? `<button class="opinions-btn" data-opinions-key="${opinionsKey}" data-opinions-name="${v.name}">opinions</button>` : "";
+
     const a = document.createElement("a");
     a.href = v.url;
     a.target = "_blank";
     a.rel = "noopener noreferrer";
+    a.dataset.tags = (v.tags || []).map(tagSlug).join(",");
 
     if (v.unverified) {
       const pct = Math.min(100, Math.max(0, v.progress ?? 0));
@@ -157,6 +256,7 @@ function buildList(container, items, startRank) {
         <div class="rank">
           <div>${String(rank).padStart(2, "0")}</div>
           <div class="unverified-badge">Unverified</div>
+          ${opinionsBtnHTML}
         </div>`;
     } else {
       a.innerHTML = `
@@ -166,7 +266,10 @@ function buildList(container, items, startRank) {
           <div class="url">${v.url}</div>
           ${buildTagsHTML(v.tags)}
         </div>
-        <div class="rank">${String(rank).padStart(2, "0")}</div>`;
+        <div class="rank">
+          <div>${String(rank).padStart(2, "0")}</div>
+          ${opinionsBtnHTML}
+        </div>`;
     }
 
     container.appendChild(a);
@@ -180,6 +283,11 @@ const DECAY = 1.125;
 
 function pointsForRank(r) {
   return TOP_POINTS / Math.pow(DECAY, r - 1);
+}
+
+function flagHTML(player) {
+  const code = playerCountries[player];
+  return code ? `<span class="fi fi-${code}" style="margin-right:6px;"></span>` : "";
 }
 
 function buildStats(container, videos, players) {
@@ -230,7 +338,7 @@ function buildStats(container, videos, players) {
     card.innerHTML = `
       <div class="stats-rank ${rankLabels[i] ?? ""}">${String(i + 1).padStart(2, "0")}</div>
       <div class="stats-info">
-        <div class="stats-name">${player}</div>
+        <div class="stats-name">${flagHTML(player)}${player}</div>
         <div class="stats-count">${matchedCount} completion${matchedCount !== 1 ? "s" : ""}</div>
       </div>
       <div class="stats-points">
@@ -252,7 +360,7 @@ const modalPts = document.getElementById("profile-modal-pts");
 const completionList = document.getElementById("profile-completion-list");
 
 function openProfile(player, total, rawTotal, penaltyFactor, breakdown) {
-  modalName.textContent = player;
+  modalName.innerHTML = `${flagHTML(player)}${player}`;
   modalPts.textContent = `${total.toFixed(1)} points`;
 
   let penaltyEl = document.getElementById("profile-modal-penalty");
@@ -300,6 +408,48 @@ document.getElementById("profile-close").addEventListener("click", () => {
 
 overlay.addEventListener("click", e => {
   if (e.target === overlay) overlay.classList.remove("open");
+});
+
+//opinions modal, 3 freeform windows per level, saved to localStorage keyed by the level's url
+const opinionsOverlay = document.getElementById("opinions-overlay");
+const opinionsModalName = document.getElementById("opinions-modal-name");
+
+// fixed placement categories, keys here must match both the ids in index.html and the "opinions" keys in lists.json
+const opinions_CATEGORIES = [ "overrated", "fairlyPlaced", "underrated" ];
+
+const opinionsWindows = {
+  overrated: document.getElementById("opinions-window-overrated"),
+  fairlyPlaced: document.getElementById("opinions-window-fairlyplaced"),
+  underrated: document.getElementById("opinions-window-underrated")
+};
+
+function openopinions(key, name) {
+  const opinions = levelopinionsMap[key] || {};
+  opinionsModalName.textContent = name;
+
+  opinions_CATEGORIES.forEach(cat => {
+    opinionsWindows[cat].textContent = opinions[cat] || "N/A";
+  });
+
+  opinionsOverlay.classList.add("open");
+}
+
+document.getElementById("opinions-close").addEventListener("click", () => {
+  opinionsOverlay.classList.remove("open");
+});
+
+opinionsOverlay.addEventListener("click", e => {
+  if (e.target === opinionsOverlay) opinionsOverlay.classList.remove("open");
+});
+
+// event delegation so this works for list items built after this script runs
+document.addEventListener("click", e => {
+  const btn = e.target.closest(".opinions-btn");
+  if (!btn) return;
+
+  e.preventDefault();
+  e.stopPropagation();
+  openopinions(btn.dataset.opinionsKey, btn.dataset.opinionsName);
 });
 
 //Roulette
@@ -507,7 +657,7 @@ function addroulette(best, contains_future) {
 }
 
 //Build all lists
-document.querySelectorAll(".tab-btn").forEach(btn => {
+document.querySelectorAll(".tab-btn[data-tab]").forEach(btn => {
   btn.addEventListener("click", () => {
     const target = btn.dataset.tab;
     document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -517,9 +667,11 @@ document.querySelectorAll(".tab-btn").forEach(btn => {
   });
 });
 
-Promise.all([loadData(), loadCompletions()]).then(([data]) => {
+Promise.all([loadData(), loadCompletions(), loadCountries()]).then(([data]) => {
   const { videos, futureVideos } = data;
-  buildList(document.getElementById("list"), videos, 1);
+  buildList(document.getElementById("list"), videos, 1, true);
   buildList(document.getElementById("future-list"), futureVideos, 1);
   buildStats(document.getElementById("stats-list"), videos, playerCompletions);
+  buildFilterBar(videos, futureVideos);
 });
+
