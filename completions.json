@@ -37,6 +37,7 @@
     "Amethyst (1)",
     "Thinking Space II (V)",
     "Flamewall (1)",
+    "Artemis 13 (V)",
     "Tidal Wave (V)",
     "ORBIT (V)",
     "Nullscapes (V)",
@@ -293,6 +294,7 @@
     "The Salt Factory"
   ],
   "Vorten": [
+    "Nullscapes",
     "BOOBAWAMBA",
     "Avernus",
     "Acheron",
@@ -342,8 +344,12 @@
   "VoltrixAce": [
     "Tremor (V)"
   ],
-  "torn49": [
-    "Re (V)"
+  "Tazik": [
+    "Re (V)",
+    "Defeated Circles",
+    "Kyouki",
+    "Sakupen Circles",
+    "poocubed"
   ],
   "OverGD": [
     "Illusion of Hell (V)",
@@ -1030,8 +1036,5 @@
   ],
   "Varium": [
     "MINUSdry (V)"
-  ],
-  "jupi": [
-    "Kintetsu (V)"
   ]
 }
