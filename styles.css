@@ -215,6 +215,10 @@ hr {
   flex-shrink: 0;
   color: #888888;
   font-size: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3rem;
 }
 
 
@@ -317,6 +321,77 @@ hr {
 .tag-xl          { background: rgba(100, 255, 100, 0.25); color: #111; }
 .tag-xxlplus     { background: rgba(50, 255, 50, 0.25); color: #111; }
 
+#tag-filter-toggle {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: filter 0.15s ease;
+  margin-bottom: var(--spacing);
+}
+
+#tag-filter-toggle:hover {
+  filter: brightness(1.2);
+}
+
+#tag-filter-panel {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--border-radius);
+}
+
+#tag-filter-panel.open {
+  display: flex;
+}
+
+#tag-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag-filter {
+  cursor: pointer;
+  opacity: 0.5;
+  border: 2px solid transparent;
+  transition: opacity 0.15s, border-color 0.15s;
+}
+
+.tag-filter.filter-include {
+  opacity: 1;
+  border-color: #2ecc71;
+}
+
+.tag-filter.filter-exclude {
+  opacity: 1;
+  border-color: #e74c3c;
+}
+
+#list a.filtered-hidden,
+#future-list a.filtered-hidden {
+  display: none !important;
+}
+
+#tag-filter-monochrome-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  color: #888888;
+}
+
+body.monochrome-tags .tags .tag {
+  filter: grayscale(1);
+}
+
 .thumb-overlay-wrap {
   position: relative;
 }
@@ -334,6 +409,105 @@ hr {
   letter-spacing: 0.07em;
   text-align: center;
   padding: 0.2rem 0;
+}
+
+.opinions-btn {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  color: #888888;
+  font-size: 0.7rem;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--border-radius);
+  transition: color 0.15s ease, filter 0.15s ease;
+}
+
+.opinions-btn:hover {
+  color: var(--future-blue);
+  filter: brightness(1.2);
+}
+
+.opinions-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+}
+
+.opinions-overlay.open {
+  display: flex;
+}
+
+.opinions-modal {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  padding: calc(var(--spacing) * 1.5);
+  width: min(40rem, 90vw);
+  max-height: 85vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.opinions-modal-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: var(--spacing);
+}
+
+.opinions-modal-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.opinions-close {
+  background: none;
+  border: none;
+  color: #888888;
+  font-size: 1.4rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 0.2rem;
+  transition: color 0.15s ease;
+}
+
+.opinions-close:hover { color: #ffffff; }
+
+.opinions-windows {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing);
+}
+
+.opinions-window-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #666666;
+  margin-bottom: 0.35rem;
+}
+
+.opinions-window {
+  width: 100%;
+  min-height: 4rem;
+  background: var(--bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  padding: 0.6rem;
+  white-space: pre-wrap;
+}
+
+[data-theme="light"] .opinions-window {
+  color: #1c1b22;
 }
 
 /* ---- STATS ---- */
@@ -379,6 +553,8 @@ hr {
 .stats-name {
   font-size: 1.2rem;
   font-weight: 700;
+  display: flex;
+  align-items: center;
 }
 
 .stats-count {
@@ -442,6 +618,8 @@ hr {
 .profile-modal-name {
   font-size: 1.4rem;
   font-weight: 700;
+  display: flex;
+  align-items: center;
 }
 
 .profile-modal-pts {
@@ -482,7 +660,11 @@ hr {
 
 .profile-completion-row:last-child { border-bottom: none; }
 
-.profile-completion-name { color: #ffffff; }
+.profile-completion-name {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
 
 .profile-completion-rank { color: #888888; font-size: 0.8rem; text-align: right; }
 
@@ -498,4 +680,11 @@ hr {
   color: #666666;
   font-style: italic;
   padding: 0.35rem 0;
+}
+
+/* flag-icons renders as an inline-block span, this keeps it lined up next to player names */
+
+.fi {
+  margin-right: 6px;
+  border-radius: 2px;
 }
