@@ -3,518 +3,1462 @@
     {
       "name": "Society",
       "url": "https://www.youtube.com/watch?v=3CoEaH1CM7o",
-      "tags": ["ship", "ufo", "wave", "nerve control", "timings", "chokepoints"]
+      "tags": [
+        "ship",
+        "ufo",
+        "wave",
+        "nerve control",
+        "timings",
+        "chokepoints"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "wPopoff",
+        "underrated": ""
+      }
     },
     {
       "name": "Amethyst",
       "url": "https://www.youtube.com/watch?v=4lfkzz1VCbA",
-      "tags": ["wave", "chokepoints", "long"]
+      "tags": [
+        "wave",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "Zoink",
+        "fairlyPlaced": "wPopoff",
+        "underrated": ""
+      }
     },
     {
       "name": "Thinking Space II",
       "url": "https://www.youtube.com/watch?v=CELNmHwln_c",
-      "tags": ["ship", "wave", "high CPS", "nerve control", "chokepoints", "long"]
+      "tags": [
+        "ship",
+        "wave",
+        "high CPS",
+        "nerve control",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "wPopoff",
+        "underrated": "Zoink"
+      }
     },
     {
       "name": "Flamewall",
       "url": "https://www.youtube.com/watch?v=x4Io4zkWVRw",
       "thumb": "https://i.ytimg.com/vi/LCd1aljMPWs/maxresdefault.jpg",
-      "tags": ["nerve control", "XXL+"]
+      "tags": [
+        "nerve control",
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "zLevii, w3rty",
+        "underrated": "Zoink"
+      }
     },
     {
       "name": "Artemis 13",
       "url": "https://www.youtube.com/watch?v=FgjOM0ef1N8",
-      "tags": ["cube", "ship", "timings", "long"]
+      "tags": [
+        "cube",
+        "ship",
+        "timings",
+        "long"
+        ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Zoink",
+        "underrated": "Kaza"
+      }
     },
     {
       "name": "Tidal Wave",
       "url": "https://www.youtube.com/watch?v=9fsZ014qB3s",
-      "tags": ["wave", "XXL+"]
+      "tags": [
+        "wave",
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Trick, A6, Netermind, wPopoff, Zoink",
+        "underrated": ""
+      }
     },
     {
       "name": "Green Bullet",
       "url": "https://www.youtube.com/watch?v=JG-qcvVkZFw",
       "thumb": "thumbs/Green_Bullet.jpg",
-      "tags": ["cube", "wave", "robot"]
+      "tags": [
+        "cube",
+        "wave",
+        "robot"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Nickname09",
+        "underrated": ""
+      }
     },
     {
       "name": "ORBIT",
       "url": "https://www.youtube.com/watch?v=QKcv8DkNPd0",
-      "tags": ["cube", "ball", "memory", "nerve control", "timings"]
+      "tags": [
+        "cube",
+        "ball",
+        "memory",
+        "nerve control",
+        "timings"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "dovv1n",
+        "underrated": ""
+      }
     },
     {
       "name": "Lesopowal",
       "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g",
-      "tags": ["ship", "ball", "chokepoints", "long"]
+      "tags": [
+        "ship",
+        "ball",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Bacon, lanx",
+        "underrated": ""
+      }
     },
     {
       "name": "Nullscapes",
       "url": "https://www.youtube.com/watch?v=EztneTPp5CU",
-      "tags": ["robot", "timings", "long"]
+      "tags": [
+        "robot",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "w3rty, Vorten",
+        "underrated": ""
+      }
     },
     {
       "name": "BOOBAWAMBA",
       "url": "https://www.youtube.com/watch?v=20fYiqLAo_E",
-      "tags": ["memory", "XL"]
+      "tags": [
+        "memory",
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Vorten, wPopoff, Bacon",
+        "underrated": ""
+      }
     },
     {
       "name": "Sakupen circles",
       "url": "https://www.youtube.com/watch?v=AdrmZsy52EY",
-      "tags": ["wave", "high CPS", "chokepoints"]
+      "tags": [
+        "wave",
+        "high CPS",
+        "chokepoints"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Bacon",
+        "underrated": ""
+      }
     },
     {
       "name": "The Bloop",
       "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA",
-      "tags": ["wave", "chokepoints", "long"]
+      "tags": [
+        "wave",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Nickname09, zFexty",
+        "underrated": ""
+      }
     },
     {
       "name": "Quanteuse processing",
       "url": "https://www.youtube.com/watch?v=j5NC0u1Q91Q",
-      "tags": ["memory", "high CPS", "chokepoints", "long"]
+      "tags": [
+        "memory",
+        "high CPS",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "dovvin, wPopoff",
+        "underrated": ""
+      }
     },
     {
       "name": "Antarctic Lights",
       "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
       "thumb": "thumbs/Antarctic_Lights.jpg",
-      "tags": ["wave", "long"]
+      "tags": [
+        "wave",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "Axinity",
+        "fairlyPlaced": "weyolll3, Kaza",
+        "underrated": ""
+      }
     },
     {
       "name": "Old Orochi",
       "url": "https://www.youtube.com/watch?v=YxtFAQtLYQY",
       "thumb": "https://i.ytimg.com/vi/0kZ56QriC1k/maxresdefault.jpg",
-      "tags": ["ship", "nerve control", "long"]
+      "tags": [
+        "ship",
+        "nerve control",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "SeptaGon7",
+        "underrated": ""
+      }
     },
     {
       "name": "Herr Machine",
       "url": "https://www.youtube.com/watch?v=CBcQqmqWFo4",
-      "tags": ["memory", "timings", "chokepoints", "high CPS", "long"]
+      "tags": [
+        "memory",
+        "timings",
+        "chokepoints",
+        "high CPS",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "lanx, BONN GD",
+        "underrated": ""
+      }
     },
     {
       "name": "Tremor",
       "url": "https://www.youtube.com/watch?v=S4NSMeHe16s",
-      "tags": ["wave", "timings", "short"]
+      "tags": [
+        "wave",
+        "timings",
+        "short"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "VoltrixAce",
+        "underrated": ""
+      }
+    },
+    {
+      "name": "Re",
+      "url": "https://www.youtube.com/watch?v=3GYocB1IdZk",
+      "tags": [
+        "wave",
+        "timings",
+        "short"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Tazik",
+        "underrated": "torn49"
+      }
     },
     {
       "name": "Illusion Of Hell",
       "url": "https://www.youtube.com/watch?v=nBmjrlmzUxE",
-      "tags": ["cube", "ship", "UFO", "wave", "timings", "short"]
+      "tags": [
+        "cube",
+        "ship",
+        "UFO",
+        "wave",
+        "timings",
+        "short"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "seels",
+        "underrated": ""
+      }
     },
     {
       "name": "Ashley Wave Trials",
       "url": "https://www.youtube.com/watch?v=aTxt76U3e2Q",
-      "tags": ["wave", "nerve control", "XL"]
+      "tags": [
+        "wave",
+        "nerve control",
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "TheGoldenBo, Nickname09",
+        "underrated": ""
+      }
     },
     {
       "name": "Silent clubstep",
       "url": "https://www.youtube.com/watch?v=GR4OMkS3SN8",
-      "tags": ["cube", "ship", "memory", "nerve control", "timings", "chokepoints", "long"]
+      "tags": [
+        "cube",
+        "ship",
+        "memory",
+        "nerve control",
+        "timings",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "A6, Vorten, rediio, hstorm, beto",
+        "fairlyPlaced": "TheGoldenBo, Nickname09, 9i, wPopoff, Zoink",
+        "underrated": ""
+      }
     },
     {
       "name": "Every End",
       "url": "https://www.youtube.com/watch?v=AO--mVVFtKI",
       "thumb": "https://i.ytimg.com/vi/DRBuZH1virM/maxresdefault.jpg",
-      "tags": ["cube", "nerve control", "timings", "XXL+"]
+      "tags": [
+        "cube",
+        "nerve control",
+        "timings",
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "dovv1n, Hqmy",
+        "fairlyPlaced": "w3rty, lanx",
+        "underrated": ""
+      }
     },
     {
       "name": "Penumbral",
       "url": "https://www.youtube.com/watch?v=nVHPFf13M-I",
-      "tags": ["ball", "ufo", "timings", "chokepoints", "long"]
+      "tags": [
+        "ball",
+        "ufo",
+        "timings",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "Hqmy",
+        "fairlyPlaced": "w3rty, Bacon",
+        "underrated": "dovv1n"
+      }
     },
     {
       "name": "Ultra Paracosm",
       "url": "https://www.youtube.com/watch?v=4V24spYQWuE",
-      "tags": ["wave", "long"]
+      "tags": [
+        "wave",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "LAMINGTON",
+        "fairlyPlaced": "Wity, youngs6",
+        "underrated": ""
+      }
     },
     {
       "name": "Subsuming Vortex",
       "url": "https://www.youtube.com/watch?v=0eYG1ogJpIQ",
-      "tags": ["wave", "chokepoints", "long"]
+      "tags": [
+        "wave",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "9i, wPopoff, Zoink",
+        "underrated": "A6, Vorten"
+      }
     },
     {
       "name": "andromeda",
       "url": "https://www.youtube.com/watch?v=3PuK6AFY3BI",
-      "tags": ["timings", "long"]
+      "tags": [
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Netermind, VERTOP, Axinity, wPopoff",
+        "underrated": "rediio, dovv1n"
+      }
     },
     {
       "name": "KILLSTEALER",
       "url": "https://www.youtube.com/watch?v=uhH4oqWrsfo",
-      "tags": ["XXL+"]
+      "tags": [
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "zLevii",
+        "underrated": ""
+      }
     },
     {
       "name": "SANGUINE",
       "url": "https://www.youtube.com/watch?v=cBVlGzobmsA",
-      "tags": ["cube", "wave", "nerve control", "timings", "long"]
+      "tags": [
+        "cube",
+        "wave",
+        "nerve control",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "spookkd",
+        "underrated": ""
+      }
     },
     {
       "name": "Aquamarine",
       "url": "https://www.youtube.com/watch?v=Q__EnRojGt4",
-      "tags": ["wave", "high CPS", "chokepoints"]
-    },
-    {
-      "name": "Silentman adventures",
-      "url": "https://www.youtube.com/watch?v=NE89R0tA8fU",
-      "tags": ["cube", "ship", "ball", "UFO", "timings", "long"]
-    },
-    {
-      "name": "FOREST OF SPIKES",
-      "url": "https://www.youtube.com/watch?v=WJYh3dW8Bfo",
-      "tags": ["ship", "wave", "timings", "long"]
-    },
-    {
-      "name": "Defeated Circles",
-      "url": "https://www.youtube.com/watch?v=nU5AQPzd2YA",
-      "tags": ["wave", "chokepoints", "long"]
-    },
-    {
-      "name": "Bonfire",
-      "url": "https://www.youtube.com/watch?v=7ZFoCGqCq3Y",
-      "tags": ["wave", "timings"]
-    },
-    {
-      "name": "Avernus",
-      "url": "https://www.youtube.com/watch?v=16Zh8jssanc",
-      "tags": ["ship", "ufo", "wave", "chokepoints", "long"]
+      "tags": [
+        "wave",
+        "high CPS",
+        "chokepoints"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "seels, Bacon",
+        "underrated": ""
+      }
     },
     {
       "name": "Anathema",
       "url": "https://www.youtube.com/watch?v=_uKwmjHmySI",
-      "tags": ["swing copter", "nerve control", "XXL+"]
+      "tags": [
+        "swing copter",
+        "nerve control",
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "serpentical, Zoink",
+        "fairlyPlaced": "Netermind, Trick, kloone, tera, Mizukii, wPopoff",
+        "underrated": ""
+      }
+    },
+    {
+      "name": "FOREST OF SPIKES",
+      "url": "https://www.youtube.com/watch?v=WJYh3dW8Bfo",
+      "tags": [
+        "ship",
+        "wave",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Brian Cheese",
+        "underrated": ""
+      }
+    },
+    {
+      "name": "Defeated Circles",
+      "url": "https://www.youtube.com/watch?v=nU5AQPzd2YA",
+      "tags": [
+        "wave",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Cannot disclose due to secrecy",
+        "underrated": ""
+      }
+    },
+    {
+      "name": "Bonfire",
+      "url": "https://www.youtube.com/watch?v=7ZFoCGqCq3Y",
+      "tags": [
+        "wave",
+        "timings"
+      ],
+      "opinions": {
+        "overrated": "Wity",
+        "fairlyPlaced": "vvay",
+        "underrated": ""
+      }
+    },
+    {
+      "name": "Silentman adventures",
+      "url": "https://www.youtube.com/watch?v=NE89R0tA8fU",
+      "tags": [
+        "cube",
+        "ship",
+        "ball",
+        "UFO",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Nickname09",
+        "underrated": ""
+      }
+    },
+    {
+      "name": "Avernus",
+      "url": "https://www.youtube.com/watch?v=16Zh8jssanc",
+      "tags": [
+        "ship",
+        "ufo",
+        "wave",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Netermind, Trick, kloone, tera, Mizukii, wPopoff",
+        "underrated": "serpentical, Zoink"
+      }
     },
     {
       "name": "Diabolic ClubStep",
       "url": "https://www.youtube.com/watch?v=WHOfO0OxbvM",
       "thumb": "https://i.ytimg.com/vi/ihNvOzgE8Sk/maxresdefault.jpg",
-      "tags": ["ship", "wave", "timings", "chokepoints", "long"]
+      "tags": [
+        "ship",
+        "wave",
+        "timings",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Sevant",
+        "underrated": ""
+      }
     },
     {
       "name": "Acheron",
       "url": "https://www.youtube.com/watch?v=sBKR6aUorzA",
       "thumb": "https://i.ytimg.com/vi/RMRBhZJrgkw/mqdefault.jpg",
-      "tags": ["cube", "ship", "ball", "ufo", "timings", "long"]
+      "tags": [
+        "cube",
+        "ship",
+        "ball",
+        "ufo",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Netermind, zLevii, eastshark, weyolll3, Thnnder, MostDefinitelyAlbert, NLShorty",
+        "underrated": ""
+      }
     },
     {
       "name": "Spectre",
       "url": "https://www.youtube.com/watch?v=MzsSLKJrLSI",
-      "tags": ["nerve control", "XXL+"]
+      "tags": [
+        "nerve control",
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Netermind, zLevii, eastshark, weyolll3, Thnnder, MostDefinitelyAlbert, NLShorty, wPopoff, Zoink",
+        "underrated": ""
+      }
     },
     {
       "name": "roses and flowers",
       "url": "https://www.youtube.com/watch?v=5QeIp5fC1hE",
       "thumb": "https://i.ytimg.com/vi/T4j0gw-FaJw/maxresdefault.jpg",
-      "tags": ["wave", "high CPS", "chokepoints", "long"]
+      "tags": [
+        "wave",
+        "high CPS",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "wPopoff, ROZE",
+        "underrated": ""
+      }
     },
     {
       "name": "Menace",
       "url": "https://www.youtube.com/watch?v=nnkgghxxsEE",
-      "tags": ["swing", "memory", "nerve control", "timings", "XXL+"]
+      "tags": [
+        "swing",
+        "memory",
+        "nerve control",
+        "timings",
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Netermind, Thnnder, wPopoff, Zoink",
+        "underrated": ""
+      }
     },
     {
       "name": "Abyss of Darkness",
       "url": "https://www.youtube.com/watch?v=ejJkpqcMMCY",
-      "tags": ["spider", "nerve control", "timings", "chokepoints", "XL"]
+      "tags": [
+        "spider",
+        "nerve control",
+        "timings",
+        "chokepoints",
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Netermind, Thnnder, wPopoff, Zoink",
+        "underrated": ""
+      }
     },
     {
       "name": "Abyss of Darkness",
       "url": "https://www.youtube.com/watch?v=RWBEfS4mLbw",
-      "tags": ["spider", "nerve control", "timings", "chokepoints", "XL"]
+      "tags": [
+        "spider",
+        "nerve control",
+        "timings",
+        "chokepoints",
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "dils thik",
+        "underrated": ""
+      }
     },
     {
       "name": "SWI Slithium",
       "url": "https://www.youtube.com/watch?v=av5D0_M6hso",
       "thumb": "thumbs/SWI_Slithium.jpg",
-      "tags": ["wave", "nerve control", "chokepoints", "XL"]
+      "tags": [
+        "wave",
+        "nerve control",
+        "chokepoints",
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Hipo",
+        "underrated": ""
+      }
     },
     {
       "name": "Tunnel of Despair",
       "url": "https://www.youtube.com/watch?v=LpS4JREhW98",
-      "tags": ["cube", "ship", "wave", "chokepoints", "long"]
+      "tags": [
+        "cube",
+        "ship",
+        "wave",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Trick, Netermind, Taiago",
+        "underrated": ""
+      }
     },
     {
       "name": "METROPOLIS",
       "url": "https://www.youtube.com/watch?v=JtWMtMFdK24",
-      "tags": ["cube", "medium"]
+      "tags": [
+        "cube",
+        "medium"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Ascended",
+        "underrated": ""
+      }
     },
     {
       "name": "Subconscious",
       "url": "https://www.youtube.com/watch?v=lBXO2CTEMfs",
-      "tags": ["ship", "long"]
+      "tags": [
+        "ship",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "apuu, playlino",
+        "underrated": ""
+      }
     },
     {
       "name": "Kyouki",
       "url": "https://www.youtube.com/watch?v=KDa5c0CJTHs",
-      "tags": ["timings", "long"]
+      "tags": [
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "",
+        "underrated": ""
+      }
     },
     {
       "name": "VSC",
       "url": "https://www.youtube.com/watch?v=ewlMbTR-c_w",
-      "tags": ["wave", "high CPS", "short"]
+      "tags": [
+        "wave",
+        "high CPS",
+        "short"
+      ],
+      "opinions": {
+        "overrated": "tera, ellie",
+        "fairlyPlaced": "seels, wPopoff",
+        "underrated": ""
+      }
     },
     {
       "name": "Based After Based",
       "url": "https://www.youtube.com/watch?v=yQBFyUvB3lY",
-      "tags": ["ship", "memory", "long"]
+      "tags": [
+        "ship",
+        "memory",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "DiamondSplash, Samot",
+        "underrated": ""
+      }
     },
     {
       "name": "Thinking Space II",
       "url": "https://www.youtube.com/watch?v=RJedeB2wHCA",
       "thumb": "https://i.ytimg.com/vi/aBhjftGEao0/maxresdefault.jpg",
-      "tags": ["ship", "wave", "high CPS", "nerve control", "chokepoints", "long"]
+      "tags": [
+        "ship",
+        "wave",
+        "high CPS",
+        "nerve control",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Zeronium",
+        "underrated": ""
+      }
     },
     {
       "name": "Subterminal Point",
       "url": "https://www.youtube.com/watch?v=h2wmRMgACH4",
-      "tags": ["timings", "long"]
+      "tags": [
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Netermind, kloone, rediio",
+        "underrated": "Trick, zLevii"
+      }
     },
     {
       "name": "Evolution",
       "url": "https://www.youtube.com/watch?v=qZaNZygvOxc",
-      "tags": ["cube", "wave", "timings", "long"]
+      "tags": [
+        "cube",
+        "wave",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "playlino, Striker",
+        "underrated": ""
+      }
     },
     {
       "name": "CHIL",
       "url": "https://www.youtube.com/watch?v=DROMiCc2ZRM",
       "thumb": "https://i.ytimg.com/vi/QFCQSYjrbXw/maxresdefault.jpg",
-      "tags": ["memory", "high CPS", "long"]
+      "tags": [
+        "memory",
+        "high CPS",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "tiredgd",
+        "fairlyPlaced": "Vicente, Johnlikediamond",
+        "underrated": "zLevii, TheGoldenBo, rediio"
+      }
     },
     {
       "name": "Element 111 Rg",
       "url": "https://www.youtube.com/watch?v=ZcdiTGuIJ1k",
-      "tags": ["cube", "ship", "ball", "timings", "chokepoints", "long"]
+      "tags": [
+        "cube",
+        "ship",
+        "ball",
+        "timings",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "TheRealMike, paqoe",
+        "underrated": ""
+      }
     },
     {
       "name": "Slaughterhouse",
       "url": "https://www.youtube.com/watch?v=kpcF1-QAHQc",
-      "tags": ["wave", "high CPS", "chokepoints", "long"]
+      "tags": [
+        "wave",
+        "high CPS",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "",
+        "underrated": ""
+      }
     },
     {
       "name": "Unnerfed Zodiac",
       "url": "https://www.youtube.com/watch?v=3mvddPaNklg",
-      "tags": ["nerve control", "chokepoints", "XXL+"]
+      "tags": [
+        "nerve control",
+        "chokepoints",
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "nebnoob",
+        "underrated": ""
+      }
     },
     {
       "name": "KOCMOC",
       "url": "https://www.youtube.com/watch?v=RsOVrVlcE2g",
-      "tags": ["wave", "high CPS", "long"]
+      "tags": [
+        "wave",
+        "high CPS",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "",
+        "underrated": ""
+      }
     },
     {
       "name": "chloride hexahydrate",
       "url": "https://www.youtube.com/watch?v=rCwzBWuAqS4",
-      "tags": ["wave", "high CPS", "timings", "tiny"]
+      "tags": [
+        "wave",
+        "high CPS",
+        "timings",
+        "tiny"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "",
+        "underrated": ""
+      }
     },
     {
       "name": "Shadow Of The Past",
       "url": "https://www.youtube.com/watch?v=LEyo0LJV8os",
-      "tags": ["cube", "ship", "wave", "timings"]
+      "tags": [
+        "cube",
+        "ship",
+        "wave",
+        "timings"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "LennyFeus",
+        "underrated": ""
+      }
     },
     {
       "name": "Map Of Problematique",
       "url": "https://www.youtube.com/watch?v=Sm0UvvwOE08",
-      "tags": ["nerve control", "XL"]
+      "tags": [
+        "nerve control",
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Cursed",
+        "underrated": ""
+      }
     },
     {
       "name": "zorin",
       "url": "https://www.youtube.com/watch?v=U19vmpenb9g",
-      "tags": ["cube", "ship", "ball", "wave", "swing", "XL"]
+      "tags": [
+        "cube",
+        "ship",
+        "ball",
+        "wave",
+        "swing",
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "zLevii",
+        "underrated": ""
+      }
     },
     {
       "name": "Firework Ice Nation",
       "url": "https://www.youtube.com/watch?v=He3iRW6Usv4",
-      "tags": ["nerve control", "timings", "XL"]
+      "tags": [
+        "nerve control",
+        "timings",
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Openix, Midgatal",
+        "underrated": ""
+      }
     },
     {
       "name": "Deimos",
       "url": "https://www.youtube.com/watch?v=b2yHaIk5zio",
-      "tags": ["XL"]
+      "tags": [
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Doggie, Vorten, kloone, VXmaster",
+        "underrated": ""
+      }
     },
     {
       "name": "BEING HOME",
       "url": "https://www.youtube.com/watch?v=kt7FnUzK8CY",
-      "tags": ["cube", "ship", "robot", "timings", "long"]
+      "tags": [
+        "cube",
+        "ship",
+        "robot",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "zLevii, ChopBlox, Samot",
+        "underrated": ""
+      }
     },
     {
       "name": "Maniacal Chains",
       "url": "https://www.youtube.com/watch?v=TzeMJeIu6bY",
-      "tags": ["chokepoints", "long"]
+      "tags": [
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "agonom",
+        "underrated": ""
+      }
     },
     {
       "name": "BASSLINE JUNKIE",
       "url": "https://www.youtube.com/watch?v=db_V19gW0rI",
-      "tags": ["wave", "timings", "long"]
+      "tags": [
+        "wave",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Karma",
+        "underrated": ""
+      }
     },
     {
       "name": "Silent Dicctras",
       "url": "https://www.youtube.com/watch?v=dwDJT0M3UBc",
-      "tags": ["timings", "chokepoints", "XL"]
+      "tags": [
+        "timings",
+        "chokepoints",
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Unknown playtesters",
+        "underrated": ""
+      }
     },
     {
       "name": "Forgotten Maiden",
       "url": "https://www.youtube.com/watch?v=iulSolHQcw0",
-      "tags": ["wave", "spider", "timings", "nerve control", "short"]
+      "tags": [
+        "wave",
+        "spider",
+        "timings",
+        "nerve control",
+        "short"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "sydno",
+        "underrated": ""
+      }
     },
     {
       "name": "Sakupen Circles",
       "url": "https://www.youtube.com/watch?v=ofG2mJi9kEA",
-      "tags": ["wave", "nerve control", "chokepoints"]
+      "tags": [
+        "wave",
+        "nerve control",
+        "chokepoints"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Doggie, Vorten, kloone, VXmaster",
+        "underrated": ""
+      }
     },
     {
       "name": "Exens Limit",
       "url": "https://www.youtube.com/watch?v=KZksoQVGmKw",
-      "tags": ["wave", "high CPS", "nerve control", "chokepoints"]
+      "tags": [
+        "wave",
+        "high CPS",
+        "nerve control",
+        "chokepoints"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Cursed",
+        "underrated": "Wity"
+      }
     },
     {
       "name": "Master of Puppets",
       "url": "https://www.youtube.com/watch?v=JBZ-lrBgkl0",
-      "tags": ["XXL+"]
+      "tags": [
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "agonom, Scotchtape",
+        "underrated": ""
+      }
     },
     {
       "name": "Centipede",
       "url": "https://www.youtube.com/watch?v=UFpfgXBQzhY",
-      "tags": ["wave", "long"]
+      "tags": [
+        "wave",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "LordVadercraft",
+        "underrated": ""
+      }
     },
     {
       "name": "Eyes in the Water",
       "url": "https://www.youtube.com/watch?v=yvLwiOy3KEA",
-      "tags": ["memory", "long"]
+      "tags": [
+        "memory",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "Zoink",
+        "fairlyPlaced": "Netermind, zLevii, Trick, PoCle, ProudGiraffe, WaterBottle, Slaughter, lanx, wPopoff",
+        "underrated": ""
+      }
     },
     {
       "name": "Voltage",
       "url": "https://www.youtube.com/watch?v=wBRvBN9tmlc",
-      "tags": ["ufo", "timings", "long"]
+      "tags": [
+        "ufo",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "eastshark, Cuatrocientos, Zephronox, Airez",
+        "fairlyPlaced": "Caillou, aeryn, mlxsel, 金艮, xplode",
+        "underrated": "Tired"
+      }
     },
     {
       "name": "KOSETSU",
       "url": "https://www.youtube.com/watch?v=hZ8vFX8z_BU",
-      "tags": ["timings", "long"]
+      "tags": [
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "Slaughter, mariner",
+        "fairlyPlaced": "MeQ8cNv43s6A, Nickname09, GuillExprex52, Trick, wPopoff, ProudGiraffe",
+        "underrated": "Hqmy, DibiiziCookie, Vorten, rediio, Komet"
+      }
     },
     {
       "name": "Ace",
       "url": "https://www.youtube.com/watch?v=7uYghOdos8I",
-      "tags": ["long"]
+      "tags": [
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Aidaen",
+        "underrated": ""
+      }
     },
     {
       "name": "Through The Gates",
       "url": "https://www.youtube.com/watch?v=4yHA6jux5UI",
-      "tags": ["wave", "spider", "chokepoints", "long"]
+      "tags": [
+        "wave",
+        "spider",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "Cuatrocientos, whfyre, agonom",
+        "fairlyPlaced": "zLevii, Hipo, Abdieldevil, Scotchtape",
+        "underrated": ""
+      }
     },
     {
       "name": "Silentlocked",
       "url": "https://www.youtube.com/watch?v=O-IQeUdEGvI",
-      "tags": ["high CPS", "timings", "chokepoints", "long"]
+      "tags": [
+        "high CPS",
+        "timings",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "vonic",
+        "fairlyPlaced": "eastshark, wPopoff",
+        "underrated": "npesta"
+      }
     },
     {
       "name": "Unnerfed Innards",
       "url": "https://www.youtube.com/watch?v=K77leSnLP0Y",
-      "tags": ["wave", "spider", "chokepoints", "long"]
+      "tags": [
+        "wave",
+        "spider",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "Hover",
+        "fairlyPlaced": "Eandis, Midgatal",
+        "underrated": ""
+      }
     },
     {
       "name": "Firework",
       "url": "https://www.youtube.com/watch?v=QBe5x2o9v2w",
-      "tags": ["nerve control", "timings", "XL"]
+      "tags": [
+        "nerve control",
+        "timings",
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "Hqmy, DibiiziCookie, Vorten, rediio, Komet",
+        "fairlyPlaced": "MeQ8cNv43s6A, Nickname09, GuillExprex52, Trick, wPopoff, ProudGiraffe",
+        "underrated": "Slaughter, mariner"
+      }
     },
     {
       "name": "The Lightning Rod",
       "url": "https://www.youtube.com/watch?v=nQDTi077O6M",
-      "tags": ["memory", "timings", "long"]
+      "tags": [
+        "memory",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "Whizkid05",
+        "fairlyPlaced": "Laniakea",
+        "underrated": "GuillExprex52, kloone"
+      }
     },
     {
       "name": "Wild Roses",
       "url": "https://www.youtube.com/watch?v=IJ0cLC98NOY",
-      "tags": ["cube", "ship", "wave", "timings"]
+      "tags": [
+        "cube",
+        "ship",
+        "wave",
+        "timings"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "theopex58, aidan",
+        "underrated": "bailey"
+      }
     },
     {
       "name": "Temporal Origin",
       "url": "https://www.youtube.com/watch?v=8oLCpwYNWXI",
       "thumb": "https://i.ytimg.com/vi/UQazt1Jz09g/maxresdefault.jpg",
-      "tags": ["ship", "timings", "chokepoints", "medium"]
+      "tags": [
+        "ship",
+        "timings",
+        "chokepoints",
+        "medium"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "TheLuin",
+        "underrated": ""
+      }
     },
     {
       "name": "NOMAD",
       "url": "https://www.youtube.com/watch?v=H2TkHbEX__A",
-      "tags": ["ship", "ufo", "timings", "medium"]
+      "tags": [
+        "ship",
+        "ufo",
+        "timings",
+        "medium"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "",
+        "underrated": ""
+      }
     },
     {
       "name": "Snowbound",
       "url": "https://www.youtube.com/watch?v=cjHwgbtAkXU",
-      "tags": ["timings", "XXL+"]
+      "tags": [
+        "timings",
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "",
+        "underrated": ""
+      }
     },
     {
       "name": "Acropolis Circles",
       "url": "https://www.youtube.com/watch?v=Zwkn0YQ-sYs",
-      "tags": ["wave", "high CPS", "timings", "chokepoints"]
+      "tags": [
+        "wave",
+        "high CPS",
+        "timings",
+        "chokepoints"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Yumira",
+        "underrated": ""
+      }
     },
     {
       "name": "BLAZEIT",
       "url": "https://www.youtube.com/watch?v=WFUJ7Tc3FPM",
-      "tags": ["cube", "ship", "wave", "long"]
+      "tags": [
+        "cube",
+        "ship",
+        "wave",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "turtl",
+        "underrated": ""
+      }
     },
     {
       "name": "wocky circles",
       "url": "https://www.youtube.com/watch?v=yOx5Q3BkWIg",
-      "tags": ["wave"]
+      "tags": [
+        "wave"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "ad3usgmd, ROZE",
+        "underrated": ""
+      }
     },
     {
       "name": "VOID",
       "url": "https://www.youtube.com/watch?v=uMv8iGVpeCc",
-      "tags": ["wave", "timings", "long"]
+      "tags": [
+        "wave",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "veshel",
+        "underrated": ""
+      }
     },
     {
       "name": "Battle of the Shades",
       "url": "https://www.youtube.com/watch?v=jsrqMqs1-Ao",
-      "tags": ["wave", "chokepoints", "XL"]
+      "tags": [
+        "wave",
+        "chokepoints",
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "KrNati",
+        "underrated": ""
+      }
     },
     {
       "name": "The Salt Factory",
       "url": "https://www.youtube.com/watch?v=lQ7M-Sgov24",
-      "tags": ["cube", "robot", "timings", "long"]
+      "tags": [
+        "cube",
+        "robot",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "Nickname09, BONN GD",
+        "fairlyPlaced": "seallover, momo0ogd",
+        "underrated": "agonom"
+      }
     },
     {
       "name": "CONVULSION",
       "url": "https://www.youtube.com/watch?v=qeRKuyU3eGI",
-      "tags": ["wave", "high CPS", "memory"]
+      "tags": [
+        "wave",
+        "high CPS",
+        "memory"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Whizkid05, dovv1n, rediio",
+        "underrated": ""
+      }
     },
     {
       "name": "Eclipse",
       "url": "https://www.youtube.com/watch?v=xLm0ClnvCNE",
-      "tags": ["timings", "long"]
+      "tags": [
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Kyy",
+        "underrated": ""
+      }
     },
     {
       "name": "NervHell",
       "url": "https://www.youtube.com/watch?v=1zrvPgDAoaA",
-      "tags": ["memory", "nerve control", "XXL"]
+      "tags": [
+        "memory",
+        "nerve control",
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "Samot, ChopBlox",
+        "fairlyPlaced": "Absolute, chips, OblivionUS, WolfBoi",
+        "underrated": "Johnlikediamond"
+      }
     },
     {
       "name": "poocubed",
       "url": "https://www.youtube.com/watch?v=fzL31vai1ms",
-      "tags": ["timings", "long"]
+      "tags": [
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Johnlikediamond",
+        "underrated": ""
+      }
     },
     {
       "name": "far apart",
       "url": "https://www.youtube.com/watch?v=yO6CkrSxZI4",
-      "tags": ["cube", "ship", "ball", "long"]
+      "tags": [
+        "cube",
+        "ship",
+        "ball",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Q1M",
+        "underrated": ""
+      }
     },
     {
       "name": "Calibrate",
       "url": "https://www.youtube.com/watch?v=6WYnZryX_mg",
-      "tags": ["cube", "ship", "wave", "long"]
+      "tags": [
+        "cube",
+        "ship",
+        "wave",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "",
+        "underrated": ""
+      }
     },
     {
       "name": "BANG BANG BANG",
       "url": "https://www.youtube.com/watch?v=3LqQhOPaOBA",
-      "tags": ["wave", "medium"]
+      "tags": [
+        "wave",
+        "medium"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "MegaCatMan",
+        "underrated": ""
+      }
     },
     {
       "name": "MINUSdry",
       "url": "https://www.youtube.com/watch?v=YvA8ehhzz0Q",
-      "tags": ["cube", "ship", "ball", "timings", "long"]
-    },
-    {
-      "name": "Kintetsu",
-      "url": "https://www.youtube.com/watch?v=JQDw15tJR58",
-      "tags": ["timings", "long"]
+      "tags": [
+        "cube",
+        "ship",
+        "ball",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "",
+        "underrated": ""
+      }
     }
-    
   ],
-
   "futureVideos": [
     {
       "name": "Vehemence",
@@ -544,17 +1488,17 @@
       "unverified": true
     },
     {
-      "name": "GRIEF",
-      "url": "https://www.youtube.com/watch?v=Emd2tWP2FkI",
-      "thumb": "https://i.ytimg.com/vi/yoLtaqEMZgA/maxresdefault.jpg",
-      "progress": 97,
-      "unverified": true
-    },
-    {
       "name": "Heliopolis",
       "url": "https://www.youtube.com/watch?v=Hld_6Bmzu8M",
       "thumb": "https://i.ytimg.com/vi/7yaKGl_2Dsw/maxresdefault.jpg",
       "progress": 51,
+      "unverified": true
+    },
+    {
+      "name": "GRIEF",
+      "url": "https://www.youtube.com/watch?v=Emd2tWP2FkI",
+      "thumb": "https://i.ytimg.com/vi/yoLtaqEMZgA/maxresdefault.jpg",
+      "progress": 97,
       "unverified": true
     },
     {
@@ -627,6 +1571,12 @@
       "unverified": true
     },
     {
+      "name": "Old Blade of Justice",
+      "url": "https://www.youtube.com/watch?v=LnSlXVOnG2Y",
+      "progress": 29,
+      "unverified": true
+    },
+    {
       "name": "Silent Acropolis",
       "url": "https://www.youtube.com/watch?v=KBJYaQrVx3Q",
       "progress": 99,
@@ -636,17 +1586,6 @@
       "name": "silent Acropolis",
       "url": "https://www.youtube.com/watch?v=4oV6fgdo4Eo",
       "progress": 66,
-      "unverified": true
-    },
-    {
-      "name": "Artemis 13",
-      "url": "https://www.youtube.com/watch?v=9YoER_0vYrE",
-      "tags": ["cube", "ship", "timings", "long"]
-    },
-    {
-      "name": "Old Blade of Justice",
-      "url": "https://www.youtube.com/watch?v=LnSlXVOnG2Y",
-      "progress": 29,
       "unverified": true
     },
     {
