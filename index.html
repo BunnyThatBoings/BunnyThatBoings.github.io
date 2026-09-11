@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EDL v2.3</title>
+  <title>EDL v2.4</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/7.2.3/css/flag-icons.min.css" />
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,14 +17,7 @@
     <button data-theme="dark">Dark</button>
   </div>
 
-  <h1>Efficient Demon List (v2.3)</h1>
-
-  <p>The EDL is made by CircularCyclone, ThePastaNebula, & urcool626</p>
-  <p>EDL list mods: CircularCyclone, oish, Lani, & lanx</p>
-  <p>The EDL was made because we didn't like the arbitrary restrictions that Pointercrate and the Global Demonlist put on levels, as their rate status (which is decided by RobTop, who has basically no connection to modern top play). Additionally, we didn't agree with the methodology of the other lists, as they take too long to place levels, don't listen to actual top player feedback, and cater too much to players who are opinion lying.</p>
-  <p>This site and our Discord (https://discord.gg/7vedun2qZe) are financially supported by our contributors, which include D1Chud, ratboygenius, terraboi59, and mickirbs.</p>
-  <p>Copyright © 2026 Efficient Demon List. All rights reserved.</p>
-  <p>No permission is granted to copy, reproduce, modify, redistribute, or use this source code or substantial portions of it as the basis for another website without explicit written permission from the copyright holder.</p>
+  <h1>Efficient Demon List (v2.4)</h1>
   <hr />
 
   <div class="tabs">
@@ -34,6 +28,15 @@
   </div>
 
   <hr />
+
+  <button id="tag-filter-toggle">Filter by Tags</button>
+  <div id="tag-filter-panel">
+    <div id="tag-filter-chips"></div>
+    <label id="tag-filter-monochrome-label">
+      <input type="checkbox" id="tag-filter-monochrome">
+      Monochrome tags
+    </label>
+  </div>
 
   <div class="tab-panel active" id="panel-main">
     <div id="list"></div>
@@ -84,6 +87,37 @@
     </div>
   </div>
 
+  <div class="opinions-overlay" id="opinions-overlay">
+    <div class="opinions-modal">
+      <div class="opinions-modal-header">
+        <div class="opinions-modal-name" id="opinions-modal-name"></div>
+        <button class="opinions-close" id="opinions-close">✕</button>
+      </div>
+      <div class="opinions-windows">
+        <div>
+          <div class="opinions-window-label">Overrated</div>
+          <div class="opinions-window" id="opinions-window-overrated"></div>
+        </div>
+        <div>
+          <div class="opinions-window-label">Fairly Placed</div>
+          <div class="opinions-window" id="opinions-window-fairlyplaced"></div>
+        </div>
+        <div>
+          <div class="opinions-window-label">Underrated</div>
+          <div class="opinions-window" id="opinions-window-underrated"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<p>The EDL is made by CircularCyclone, ThePastaNebula, & urcool626</p>
+  <p>EDL list mods: CircularCyclone, oish, Lani, & lanx</p>
+  <p>The EDL was made because we didn't like the arbitrary restrictions that Pointercrate and the Global Demonlist put on levels, as their rate status (which is decided by RobTop, who has basically no connection to modern top play). Additionally, we didn't agree with the methodology of the other lists, as they take too long to place levels, don't listen to actual top player feedback, and cater too much to players who are opinion lying.</p>
+  <p>This site and our Discord (https://discord.gg/7vedun2qZe) are financially supported by our contributors, which include D1Chud, ratboygenius, terraboi59, and mickirbs.</p>
+  <p>Copyright © 2026 Efficient Demon List. All rights reserved.</p>
+  <p>No permission is granted to copy, reproduce, modify, redistribute, or use this source code or substantial portions of it as the basis for another website without explicit written permission from the copyright holder.</p>
   <script src="script.js"></script>
+  
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"642255d447fd46dbbcd67f3ff9dbdf59","spa":2}' crossorigin="anonymous"></script>
 </body>
 </html>
