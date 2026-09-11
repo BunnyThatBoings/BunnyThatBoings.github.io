@@ -607,8 +607,8 @@
       ],
       "opinions": {
         "overrated": "",
-        "fairlyPlaced": "Netermind, Thnnder, wPopoff, Zoink",
-        "underrated": ""
+        "fairlyPlaced": "Thnnder, wPopoff, Zoink",
+        "underrated": "Netermind"
       }
     },
     {
@@ -723,8 +723,8 @@
         "short"
       ],
       "opinions": {
-        "overrated": "tera, ellie",
-        "fairlyPlaced": "seels, wPopoff",
+        "overrated": "tera, ellie, wPopoff",
+        "fairlyPlaced": "seels",
         "underrated": ""
       }
     },
