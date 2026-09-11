@@ -1,4 +1,4 @@
-<h1>Efficient Demon List (v2.3)</h1>
+<h1>Efficient Demon List (v2.4)</h1>
   
 <p>The EDL is made by CircularCyclone, ThePastaNebula, & urcool626</p>
 <p>EDL list mods: CircularCyclone, oish, Lani, & lanx</p>
