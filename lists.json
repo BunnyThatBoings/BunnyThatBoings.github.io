@@ -1188,6 +1188,19 @@
       }
     },
     {
+      "name": "The Golden unnerfed",
+      "url": "https://www.youtube.com/watch?v=zfIy-LRaeOc",
+      "tags": [
+        "wave",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Nkontion",
+        "underrated": ""
+      }
+    },
+    {
       "name": "The Lightning Rod",
       "url": "https://www.youtube.com/watch?v=nQDTi077O6M",
       "tags": [
@@ -1439,22 +1452,6 @@
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "MegaCatMan",
-        "underrated": ""
-      }
-    },
-    {
-      "name": "MINUSdry",
-      "url": "https://www.youtube.com/watch?v=YvA8ehhzz0Q",
-      "tags": [
-        "cube",
-        "ship",
-        "ball",
-        "timings",
-        "long"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "",
         "underrated": ""
       }
     }
