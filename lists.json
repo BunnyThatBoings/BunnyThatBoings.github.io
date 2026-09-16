@@ -836,6 +836,18 @@
       }
     },
     {
+      "name": "Deimos",
+      "url": "https://www.youtube.com/watch?v=b2yHaIk5zio",
+      "tags": [
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Doggie, Vorten, kloone, VXmaster",
+        "underrated": ""
+      }
+    },
+    {
       "name": "Unnerfed Zodiac",
       "url": "https://www.youtube.com/watch?v=3mvddPaNklg",
       "tags": [
@@ -934,18 +946,6 @@
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "Openix, Midgatal",
-        "underrated": ""
-      }
-    },
-    {
-      "name": "Deimos",
-      "url": "https://www.youtube.com/watch?v=b2yHaIk5zio",
-      "tags": [
-        "XL"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "Doggie, Vorten, kloone, VXmaster",
         "underrated": ""
       }
     },
