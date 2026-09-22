@@ -532,6 +532,20 @@
       }
     },
     {
+      "name": "Azure Flare",
+      "url": "https://youtu.be/r6hQ5Se2i8U?si",
+      "tags": [
+        "wave",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Diamond, Wity",
+        "underrated": ""
+      }
+    },
+    {
       "name": "Diabolic ClubStep",
       "url": "https://www.youtube.com/watch?v=WHOfO0OxbvM",
       "thumb": "https://i.ytimg.com/vi/ihNvOzgE8Sk/maxresdefault.jpg",
@@ -1439,19 +1453,6 @@
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "",
-        "underrated": ""
-      }
-    },
-    {
-      "name": "BANG BANG BANG",
-      "url": "https://www.youtube.com/watch?v=3LqQhOPaOBA",
-      "tags": [
-        "wave",
-        "medium"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "MegaCatMan",
         "underrated": ""
       }
     }
