@@ -201,7 +201,7 @@
     "Slaughterhouse",
     "Sakupen Circles",
     "poocubed"
-  ]
+  ],
   "Paliermu": [
     "Tidal Wave",
     "KOCMOC",
@@ -471,8 +471,7 @@
     "Deimos",
     "Sakupen Circles",
     "KOSETSU",
-    "poocubed",
-    "Calibrate (1)"
+    "poocubed"
   ],
   "hstorm": [
     "Silent clubstep",
@@ -636,8 +635,7 @@
     "Deimos",
     "Sakupen Circles",
     "Silentlocked",
-    "Firework",
-    "Calibrate"
+    "Firework"
   ],
   "Laniakea": [
     "andromeda",
@@ -673,8 +671,7 @@
     "Firework",
     "KOSETSU",
     "Snowbound",
-    "poocubed",
-    "Calibrate"
+    "poocubed"
   ],
   "Sharkified": [
     "Penumbral",
@@ -849,8 +846,7 @@
   "Lukie": [
     "Tunnel of Despair",
     "Deimos",
-    "KOSETSU",
-    "Calibrate"
+    "KOSETSU"
   ],
   "KrNati": [
     "Menace",
@@ -893,8 +889,7 @@
   ],
   "Blebae": [
     "Kyouki",
-    "Firework",
-    "Calibrate (V)"
+    "Firework"
   ],
   "goobs": [
     "Kyouki",
@@ -916,6 +911,9 @@
     "Based After Based (V)",
     "Kyouki",
     "Firework"
+  ],
+  "VovanPo": [
+    "3sh on Pointercrate"
   ],
   "Striker": [
     "Evolution (V)"
@@ -1008,8 +1006,7 @@
     "Firework"
   ],
   "Fexty": [
-    "Firework",
-    "Calibrate"
+    "Firework"
   ],
   "Nkontion": [
     "The Golden unnerfed (V)"
