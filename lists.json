@@ -742,20 +742,6 @@
       }
     },
     {
-      "name": "VSC",
-      "url": "https://www.youtube.com/watch?v=ewlMbTR-c_w",
-      "tags": [
-        "wave",
-        "high CPS",
-        "short"
-      ],
-      "opinions": {
-        "overrated": "tera, ellie, wPopoff",
-        "fairlyPlaced": "seels",
-        "underrated": ""
-      }
-    },
-    {
       "name": "Based After Based",
       "url": "https://www.youtube.com/watch?v=yQBFyUvB3lY",
       "tags": [
@@ -768,6 +754,8 @@
         "fairlyPlaced": "DiamondSplash, Samot",
         "underrated": ""
       }
+    },
+    {
     },
     {
       "name": "Thinking Space II",
@@ -799,6 +787,19 @@
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "playlino, Striker",
+        "underrated": ""
+      }
+    },
+    {
+      "name": "3sh on Pointercrate",
+      "url": "https://www.youtube.com/watch?v=oY-rlZxhLUM",
+      "tags": [
+        "wave",
+        "timings"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "VovanPo",
         "underrated": ""
       }
     },
@@ -890,21 +891,6 @@
       }
     },
     {
-      "name": "chloride hexahydrate",
-      "url": "https://www.youtube.com/watch?v=rCwzBWuAqS4",
-      "tags": [
-        "wave",
-        "high CPS",
-        "timings",
-        "tiny"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "",
-        "underrated": ""
-      }
-    },
-    {
       "name": "Shadow Of The Past",
       "url": "https://www.youtube.com/watch?v=LEyo0LJV8os",
       "tags": [
@@ -916,6 +902,21 @@
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "LennyFeus",
+        "underrated": ""
+      }
+    },
+    {
+      "name": "chloride hexahydrate",
+      "url": "https://www.youtube.com/watch?v=rCwzBWuAqS4",
+      "tags": [
+        "wave",
+        "high CPS",
+        "timings",
+        "tiny"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "",
         "underrated": ""
       }
     },
@@ -1170,6 +1171,20 @@
         "overrated": "vonic",
         "fairlyPlaced": "eastshark, wPopoff",
         "underrated": "npesta"
+      }
+    },
+    {
+      "name": "VSC",
+      "url": "https://www.youtube.com/watch?v=ewlMbTR-c_w",
+      "tags": [
+        "wave",
+        "high CPS",
+        "short"
+      ],
+      "opinions": {
+        "overrated": "Tihra, wPopoff",
+        "fairlyPlaced": "tera, ellie",
+        "underrated": "Trick, Netermind, seels"
       }
     },
     {
@@ -1438,21 +1453,6 @@
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "Q1M",
-        "underrated": ""
-      }
-    },
-    {
-      "name": "Calibrate",
-      "url": "https://www.youtube.com/watch?v=6WYnZryX_mg",
-      "tags": [
-        "cube",
-        "ship",
-        "wave",
-        "long"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "",
         "underrated": ""
       }
     }
