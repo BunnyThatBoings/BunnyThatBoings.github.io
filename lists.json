@@ -1273,6 +1273,19 @@
       }
     },
     {
+      "name": "Snowbound",
+      "url": "https://www.youtube.com/watch?v=cjHwgbtAkXU",
+      "tags": [
+        "timings",
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Zephronox, Amplitron",
+        "underrated": ""
+      }
+    },
+    {
       "name": "NOMAD",
       "url": "https://www.youtube.com/watch?v=H2TkHbEX__A",
       "tags": [
@@ -1283,20 +1296,7 @@
       ],
       "opinions": {
         "overrated": "",
-        "fairlyPlaced": "",
-        "underrated": ""
-      }
-    },
-    {
-      "name": "Snowbound",
-      "url": "https://www.youtube.com/watch?v=cjHwgbtAkXU",
-      "tags": [
-        "timings",
-        "XXL+"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "",
+        "fairlyPlaced": "Zephronox, Amplitron",
         "underrated": ""
       }
     },
