@@ -904,6 +904,18 @@
       }
     },
     {
+      "name": "Cyber Raptor",
+      "url": "https://www.youtube.com/watch?v=zxojmwuEBo0",
+      "tags": [
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Lobster",
+        "underrated": ""
+      },
+    },
+    {
       "name": "chloride hexahydrate",
       "url": "https://www.youtube.com/watch?v=rCwzBWuAqS4",
       "tags": [
@@ -1436,21 +1448,6 @@
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "Johnlikediamond",
-        "underrated": ""
-      }
-    },
-    {
-      "name": "far apart",
-      "url": "https://www.youtube.com/watch?v=yO6CkrSxZI4",
-      "tags": [
-        "cube",
-        "ship",
-        "ball",
-        "long"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "Q1M",
         "underrated": ""
       }
     }
