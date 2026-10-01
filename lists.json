@@ -611,6 +611,19 @@
       }
     },
     {
+      "name": "Spectre",
+      "url": "https://www.youtube.com/watch?v=MzsSLKJrLSI",
+      "tags": [
+        "nerve control",
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "Thnnder, Redacted Player 1, eastshark, Albert, NLShorty",
+        "fairlyPlaced": "w3rty, Vorten, weyolll3, Stefan Boss, Banned Player",
+        "underrated": ""
+      }
+    },
+    {
       "name": "Acheron",
       "url": "https://www.youtube.com/watch?v=sBKR6aUorzA",
       "thumb": "https://i.ytimg.com/vi/RMRBhZJrgkw/mqdefault.jpg",
@@ -624,21 +637,8 @@
       ],
       "opinions": {
         "overrated": "",
-        "fairlyPlaced": "Netermind, zLevii, eastshark, weyolll3, Thnnder, MostDefinitelyAlbert, NLShorty, SpaceRS, TimsTeam, ItzDexii, noxell, noname228gg, itzhealer, Vorten, Kole, Stefan Boss",
-        "underrated": "Redacted Player 1, ROZE, Mizukii, Redacted Player 2, xmercurylamp, faukkk"
-      }
-    },
-    {
-      "name": "Spectre",
-      "url": "https://www.youtube.com/watch?v=MzsSLKJrLSI",
-      "tags": [
-        "nerve control",
-        "XXL+"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "Netermind, zLevii, eastshark, weyolll3, Thnnder, MostDefinitelyAlbert, NLShorty, wPopoff, Zoink",
-        "underrated": ""
+        "fairlyPlaced": "Netermind, zLevii, eastshark, weyolll3, Thnnder, MostDefinitelyAlbert, SpaceRS, TimsTeam, ItzDexii, noxell, noname228gg, itzhealer, Vorten, Kole, Stefan Boss",
+        "underrated": "Redacted Player 1, ROZE, Mizukii, Redacted Player 2, xmercurylamp, faukkk, Thnnder, eastshark, Albert, NLShorty"
       }
     },
     {
