@@ -145,9 +145,9 @@
         "long"
       ],
       "opinions": {
-        "overrated": "Axinity",
-        "fairlyPlaced": "weyolll3, Kaza",
-        "underrated": ""
+        "overrated": "Axinity, Kaza",
+        "fairlyPlaced": "Netermind, weyolll3",
+        "underrated": "Zoink, Sharkified"
       }
     },
     {
@@ -1612,10 +1612,6 @@
       "unverified": true
     },
     {
-      "name": "Lesopowal",
-      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g"
-    },
-    {
       "name": "Labryinth",
       "url": "https://www.youtube.com/watch?v=bvU88Sm5Naw",
       "progress": 68,
@@ -1632,6 +1628,15 @@
       "name": "ORBIT",
       "url": "https://www.youtube.com/watch?v=QKcv8DkNPd0"
     },
+    {
+      "name": "Lesopowal",
+      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g"
+    },
+    {
+      "name": "Antarctic Lights",
+      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
+      "thumb": "thumbs/Antarctic_Lights.jpg"
+    }
     {
       "name": "Nullscapes",
       "url": "https://www.youtube.com/watch?v=EztneTPp5CU"
@@ -1671,11 +1676,6 @@
     {
       "name": "Quanteuse processing",
       "url": "https://www.youtube.com/watch?v=j5NC0u1Q91Q"
-    },
-    {
-      "name": "Antarctic Lights",
-      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
-      "thumb": "thumbs/Antarctic_Lights.jpg"
     }
   ]
 }
