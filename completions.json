@@ -118,7 +118,6 @@
     "Through The Gates",
     "Firework",
     "CONVULSION",
-    "poocubed",
     "BEING HOME"
   ],
   "w3rty": [
@@ -185,8 +184,7 @@
     "Firework",
     "Silentlocked",
     "The Salt Factory",
-    "Snowbound",
-    "poocubed"
+    "Snowbound"
   ],
   "레전드아잉몰라요": [
     "Tidal Wave",
@@ -199,14 +197,12 @@
     "Acheron",
     "Kyouki",
     "Slaughterhouse",
-    "Sakupen Circles",
-    "poocubed"
+    "Sakupen Circles"
   ],
   "Paliermu": [
     "Tidal Wave",
     "KOCMOC",
-    "Deimos",
-    "poocubed"
+    "Deimos"
   ],
   "Nickname09": [
     "Green Bullet (V)",
@@ -357,8 +353,7 @@
     "Re (V)",
     "Defeated Circles",
     "Kyouki",
-    "Sakupen Circles",
-    "poocubed"
+    "Sakupen Circles"
   ],
   "OverGD": [
     "Illusion of Hell (V)",
@@ -379,8 +374,7 @@
     "KOCMOC",
     "Sakupen Circles",
     "KOSETSU",
-    "NOMAD",
-    "poocubed"
+    "NOMAD"
   ],
   "garbag": [
     "Every End"
@@ -456,8 +450,7 @@
     "Deimos",
     "Sakupen Circles",
     "Eyes in the Water",
-    "Firework",
-    "poocubed"
+    "Firework"
   ],
   "Cursed": [
     "Subsuming Vortex (V)",
@@ -481,8 +474,7 @@
     "Slaughterhouse",
     "Deimos",
     "Sakupen Circles",
-    "KOSETSU",
-    "poocubed"
+    "KOSETSU"
   ],
   "hstorm": [
     "Silent clubstep",
@@ -515,8 +507,7 @@
     "Subterminal Point",
     "Slaughterhouse",
     "KOCMOC",
-    "KOSETSU",
-    "poocubed"
+    "KOSETSU"
   ],
   "zoe": [
     "Silent clubstep (V)",
@@ -550,8 +541,7 @@
     "Silent clubstep",
     "Acheron",
     "Slaughterhouse",
-    "Sakupen Circles",
-    "poocubed"
+    "Sakupen Circles"
   ],
   "구아이": [
     "Silent clubstep",
@@ -601,8 +591,7 @@
   ],
   "Flashl3ang": [
     "Silent clubstep",
-    "Eyes in the Water",
-    "poocubed"
+    "Eyes in the Water"
   ],
   "Horuszed": [
     "Silent clubstep",
@@ -657,8 +646,7 @@
     "Deimos",
     "Sakupen Circles",
     "Firework",
-    "NOMAD (V)",
-    "poocubed"
+    "NOMAD (V)"
   ],
   "DibiiziCookie": [
     "andromeda",
@@ -669,8 +657,7 @@
     "Slaughterhouse",
     "Deimos",
     "Firework",
-    "KOSETSU",
-    "poocubed"
+    "KOSETSU"
   ],
   "Slaughter": [
     "andromeda",
@@ -681,8 +668,7 @@
     "Eyes in the Water",
     "Firework",
     "KOSETSU",
-    "Snowbound",
-    "poocubed"
+    "Snowbound"
   ],
   "Sharkified": [
     "Penumbral",
@@ -738,8 +724,7 @@
     "Avernus",
     "Acheron",
     "Slaughterhouse",
-    "Sakupen Circles",
-    "poocubed"
+    "Sakupen Circles"
   ],
   "Yumira": [
     "Avernus",
@@ -761,8 +746,7 @@
     "Kyouki",
     "CHIL",
     "NOMAD",
-    "NervHell (1)",
-    "poocubed"
+    "NervHell (1)"
   ],
   "Abdieldevil": [
     "Avernus",
@@ -788,6 +772,12 @@
     "Slaughterhouse",
     "Deimos",
     "Eyes in the Water"
+  ],
+  "YeldA": [
+    "Spectre",
+    "KOCMOC",
+    "CHIL",
+    "Prismline"
   ],
   "Sevant": [
     "Diabolic ClubStep (V)"
@@ -935,8 +925,7 @@
   "Superjavicon": [
     "Slaughterhouse",
     "Deimos",
-    "Snowbound (1)",
-    "poocubed"
+    "Snowbound (1)"
   ],
   "Midgatal": [
     "Slaughterhouse",
@@ -1013,8 +1002,7 @@
     "Firework (1)"
   ],
   "Kyasshukodo": [
-    "Firework",
-    "poocubed (V)"
+    "Firework"
   ],
   "Hyperlith": [
     "Firework"
@@ -1032,7 +1020,11 @@
     "VOID (V)"
   ],
   "Kyy": [
-    "Eclipse (V)",
-    "poocubed"
+    "Eclipse (V)"
   ]
+  "Wain": [
+    "KILLSTEALER",
+    "CHIL",
+    "Prismline"
+  ],
 }
