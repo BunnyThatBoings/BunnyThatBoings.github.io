@@ -316,19 +316,6 @@
       }
     },
     {
-      "name": "Ultra Paracosm",
-      "url": "https://www.youtube.com/watch?v=4V24spYQWuE",
-      "tags": [
-        "wave",
-        "long"
-      ],
-      "opinions": {
-        "overrated": "LAMINGTON",
-        "fairlyPlaced": "Wity, youngs6",
-        "underrated": ""
-      }
-    },
-    {
       "name": "Subsuming Vortex",
       "url": "https://www.youtube.com/watch?v=0eYG1ogJpIQ",
       "tags": [
@@ -340,6 +327,19 @@
         "overrated": "",
         "fairlyPlaced": "9i, wPopoff, Zoink",
         "underrated": "A6, Vorten"
+      }
+    },
+    {
+      "name": "Ultra Paracosm",
+      "url": "https://www.youtube.com/watch?v=4V24spYQWuE",
+      "tags": [
+        "wave",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "LAMINGTON",
+        "fairlyPlaced": "",
+        "underrated": "Wity, Zoink"
       }
     },
     {
