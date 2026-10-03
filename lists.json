@@ -1048,6 +1048,15 @@
       }
     },
     {
+      "name": "Prismline",
+      "url": "https://www.youtube.com/watch?v=pIHOHz3i0Rw",
+      "tags": [
+        "cube",
+        "timings",
+        "long"
+      ],
+    },
+    {
       "name": "Sakupen Circles",
       "url": "https://www.youtube.com/watch?v=ofG2mJi9kEA",
       "tags": [
@@ -1436,19 +1445,6 @@
         "overrated": "Samot, ChopBlox",
         "fairlyPlaced": "Absolute, chips, OblivionUS, WolfBoi",
         "underrated": "Johnlikediamond"
-      }
-    },
-    {
-      "name": "poocubed",
-      "url": "https://www.youtube.com/watch?v=fzL31vai1ms",
-      "tags": [
-        "timings",
-        "long"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "Johnlikediamond",
-        "underrated": ""
       }
     }
   ],
