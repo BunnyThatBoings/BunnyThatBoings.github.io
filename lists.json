@@ -1,6 +1,22 @@
 {
   "videos": [
     {
+      "name": "GRIEF",
+      "url": "https://www.youtube.com/watch?v=fV9rheIAddk",
+      "thumb": "https://i.ytimg.com/vi/yoLtaqEMZgA/maxresdefault.jpg",
+      "tags": [
+        "wave",
+        "timings",
+        "nerve control",
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Doggie, Trick, Zoink",
+        "underrated": ""
+      },
+    },
+    {
       "name": "Society",
       "url": "https://www.youtube.com/watch?v=3CoEaH1CM7o",
       "tags": [
@@ -1437,20 +1453,6 @@
         "fairlyPlaced": "Kyy",
         "underrated": ""
       }
-    },
-    {
-      "name": "NervHell",
-      "url": "https://www.youtube.com/watch?v=1zrvPgDAoaA",
-      "tags": [
-        "memory",
-        "nerve control",
-        "XXL+"
-      ],
-      "opinions": {
-        "overrated": "Samot, ChopBlox",
-        "fairlyPlaced": "Absolute, chips, OblivionUS, WolfBoi",
-        "underrated": "Johnlikediamond"
-      }
     }
   ],
   "futureVideos": [
@@ -1483,10 +1485,8 @@
     },
     {
       "name": "GRIEF",
-      "url": "https://www.youtube.com/watch?v=Emd2tWP2FkI",
+      "url": "https://www.youtube.com/watch?v=fV9rheIAddk",
       "thumb": "https://i.ytimg.com/vi/yoLtaqEMZgA/maxresdefault.jpg",
-      "progress": 97,
-      "unverified": true
     },
     {
       "name": "Heliopolis",
