@@ -3,7 +3,6 @@
     {
       "name": "GRIEF",
       "url": "https://www.youtube.com/watch?v=fV9rheIAddk",
-      "thumb": "https://i.ytimg.com/vi/yoLtaqEMZgA/maxresdefault.jpg",
       "tags": [
         "wave",
         "timings",
@@ -222,21 +221,6 @@
       }
     },
     {
-      "name": "Quanteuse processing",
-      "url": "https://www.youtube.com/watch?v=j5NC0u1Q91Q",
-      "tags": [
-        "memory",
-        "high CPS",
-        "chokepoints",
-        "long"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "dovvin, wPopoff",
-        "underrated": ""
-      }
-    },
-    {
       "name": "Herr Machine",
       "url": "https://www.youtube.com/watch?v=CBcQqmqWFo4",
       "tags": [
@@ -279,6 +263,21 @@
         "overrated": "",
         "fairlyPlaced": "TheGoldenBo, Nickname09",
         "underrated": ""
+      }
+    },
+    {
+      "name": "Quanteuse processing",
+      "url": "https://www.youtube.com/watch?v=j5NC0u1Q91Q",
+      "tags": [
+        "memory",
+        "high CPS",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "karkito",
+        "fairlyPlaced": "dovv1n, wPopoff, Bacon, Nickname09, Banned Player 1",
+        "underrated": "Zoink"
       }
     },
     {
