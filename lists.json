@@ -100,8 +100,8 @@
         "XXL+"
       ],
       "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "Trick, A6, Netermind, wPopoff, Zoink",
+        "overrated": "Banned Player 1",
+        "fairlyPlaced": "Trick, A6, Netermind, wPopoff, Zoink, Nickname09",
         "underrated": ""
       }
     },
@@ -117,7 +117,36 @@
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "Nickname09",
-        "underrated": ""
+        "underrated": "Banned Player 1"
+      }
+    },
+    {
+      "name": "Lesopowal",
+      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g",
+      "tags": [
+        "ship",
+        "ball",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Bacon",
+        "underrated": "lanx"
+      }
+    },
+    {
+      "name": "Antarctic Lights",
+      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
+      "thumb": "thumbs/Antarctic_Lights.jpg",
+      "tags": [
+        "wave",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "Axinity, Kaza",
+        "fairlyPlaced": "Netermind, weyolll3",
+        "underrated": "Zoink, Sharkified"
       }
     },
     {
@@ -134,35 +163,6 @@
         "overrated": "",
         "fairlyPlaced": "dovv1n",
         "underrated": ""
-      }
-    },
-    {
-      "name": "Lesopowal",
-      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g",
-      "tags": [
-        "ship",
-        "ball",
-        "chokepoints",
-        "long"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "Bacon, lanx",
-        "underrated": ""
-      }
-    },
-    {
-      "name": "Antarctic Lights",
-      "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
-      "thumb": "thumbs/Antarctic_Lights.jpg",
-      "tags": [
-        "wave",
-        "long"
-      ],
-      "opinions": {
-        "overrated": "Axinity, Kaza",
-        "fairlyPlaced": "Netermind, weyolll3",
-        "underrated": "Zoink, Sharkified"
       }
     },
     {
@@ -1617,6 +1617,10 @@
       "unverified": true
     },
     {
+      "name": "Lesopowal",
+      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g"
+    },
+    {
       "name": "Africa Circles",
       "url": "https://www.youtube.com/watch?v=UHVqmFxujbA",
       "thumb": "https://bing.com/th/id/OVP.zq65fC-ZYWDZwQ9QYRzN_wEsDh?w=424&h=238&c=7&rs=1&qlt=90&o=6&pid=1.7&adlt=strict",
@@ -1624,17 +1628,13 @@
       "unverified": true
     },
     {
-      "name": "ORBIT",
-      "url": "https://www.youtube.com/watch?v=QKcv8DkNPd0"
-    },
-    {
-      "name": "Lesopowal",
-      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g"
-    },
-    {
       "name": "Antarctic Lights",
       "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
       "thumb": "thumbs/Antarctic_Lights.jpg"
+    },
+    {
+      "name": "ORBIT",
+      "url": "https://www.youtube.com/watch?v=QKcv8DkNPd0"
     },
     {
       "name": "Nullscapes",
