@@ -489,6 +489,20 @@
       }
     },
     {
+      "name": "Defeated Circles",
+      "url": "https://www.youtube.com/watch?v=nU5AQPzd2YA",
+      "tags": [
+        "wave",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Cannot disclose due to secrecy",
+        "underrated": ""
+      }
+    },
+    {
       "name": "FOREST OF SPIKES",
       "url": "https://www.youtube.com/watch?v=WJYh3dW8Bfo",
       "tags": [
@@ -500,20 +514,6 @@
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "Brian Cheese",
-        "underrated": ""
-      }
-    },
-    {
-      "name": "Defeated Circles",
-      "url": "https://www.youtube.com/watch?v=nU5AQPzd2YA",
-      "tags": [
-        "wave",
-        "chokepoints",
-        "long"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "Cannot disclose due to secrecy",
         "underrated": ""
       }
     },
@@ -772,6 +772,19 @@
       }
     },
     {
+      "name": "Sacrifice",
+      "url": "https://www.youtube.com/watch?v=Sth67PA8XBU",
+      "tags": [
+        "nerve control",
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "GDMuno",
+        "fairlyRated": "wPopoff",
+        "underrated": ""
+      }
+    },
+    {
       "name": "Thinking Space II",
       "url": "https://www.youtube.com/watch?v=RJedeB2wHCA",
       "thumb": "https://i.ytimg.com/vi/aBhjftGEao0/maxresdefault.jpg",
@@ -876,37 +889,6 @@
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "Mathematical Formula",
-        "underrated": ""
-      }
-    },
-    {
-      "name": "bosco busch",
-      "url": "https://www.youtube.com/watch?v=sPmCPA8K7nU",
-      "thumb": "https://www.youtube.com/watch?v=9RK0Op2MTvI",
-      "tags": [
-        "cube",
-        "wave",
-        "timings",
-        "high CPS",
-        "short"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "sydno",
-        "underrated": ""
-      }
-    },
-    {
-      "name": "lava",
-      "url": "https://www.youtube.com/watch?v=RX39jEns6vM",
-      "tags": [
-        "wave",
-        "timings",
-        "short"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "",
         "underrated": ""
       }
     },
@@ -1450,7 +1432,20 @@
         "fairlyPlaced": "veshel",
         "underrated": ""
       }
-    }
+    },
+    {
+      "name": "Battle of the Shades",
+      "url": "https://www.youtube.com/watch?v=jsrqMqs1-Ao",
+      "tags": [
+        "nerve control",
+        "XL"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "KrNati",
+        "underrated": ""
+      }
+    },
   ],
   "futureVideos": [
     {
