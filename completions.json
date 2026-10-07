@@ -81,8 +81,7 @@
     "Through The Gates (V)",
     "Firework",
     "Silentlocked (1)",
-    "Snowbound",
-    "CONVULSION"
+    "Snowbound"
   ],
   "Trick": [
     "Thinking Space II",
@@ -128,7 +127,6 @@
     "KOSETSU",
     "Through The Gates",
     "Firework",
-    "CONVULSION",
     "BEING HOME"
   ],
   "w3rty": [
@@ -194,7 +192,6 @@
     "KOSETSU",
     "Firework",
     "Silentlocked",
-    "The Salt Factory",
     "Snowbound"
   ],
   "레전드아잉몰라요": [
@@ -226,8 +223,7 @@
     "Acheron",
     "Tunnel of Despair",
     "Kyouki",
-    "KOCMOC",
-    "The Salt Factory (V)"
+    "KOCMOC"
   ],
   "dovv1n": [
     "ORBIT (1)",
@@ -236,8 +232,7 @@
     "Penumbral (1)",
     "Silent clubstep",
     "andromeda",
-    "Spectre",
-    "CONVULSION"
+    "Spectre"
   ],
   "noname228gg": [
     "Silent clubstep",
@@ -286,8 +281,7 @@
     "Herr Machine (1)",
     "Every End",
     "Tunnel of Despair",
-    "Eyes in the Water",
-    "The Salt Factory"
+    "Eyes in the Water"
   ],
   "eastshark": [
     "BOOBAWAMBA (V)",
@@ -305,8 +299,7 @@
   ],
   "agonom": [
     "BOOBAWAMBA (1)",
-    "Through The Gates",
-    "The Salt Factory"
+    "Through The Gates"
   ],
   "Vorten": [
     "Nullscapes",
@@ -701,12 +694,13 @@
     "Subterminal Point",
     "Slaughterhouse",
     "KOCMOC",
-    "The Lightning Rod",
-    "CONVULSION"
+    "The Lightning Rod"
   ],
   "seels": [
     "Aquamarine (V)",
     "Map Of Problematique (V)",
+    "lava (V)",
+    "EXPIRATION DATE (1)",
     "Sakupen Circles"
   ],
   "BONN GD": [
@@ -770,9 +764,7 @@
     "Menace (V)",
     "The Lightning Rod",
     "Eyes in the Water",
-    "Firework",
-    "The Salt Factory (1)",
-    "CONVULSION (V)"
+    "Firework"
   ],
   "PoCle": [
     "Anathema",
@@ -849,8 +841,7 @@
     "KOSETSU"
   ],
   "KrNati": [
-    "Menace",
-    "Battle of the Shades"
+    "Menace"
   ],
   "ViperVenom95": [
     "Abyss of Darkness",
@@ -899,9 +890,19 @@
   "apuu": [
     "Subconscious (V)"
   ],
+  "NucDev": [
+    "INTERCONNECTED (V)",
+    "my backyard (V)",
+    "VSC"
+  ],
+  "zStucc": [
+    "bosco busch (1)",
+    "VSC"
+  ],
   "sydno": [
     "VSC",
     "Forgotten Maiden (V)",
+    "bosco busch (V)",
     "Sakupen Circles"
   ],
   "Yossarian": [
@@ -912,14 +913,23 @@
     "Kyouki",
     "Firework"
   ],
-  "VovanPo": [
-    "3sh on Pointercrate"
+  "Revenant": [
+    "my backyard (V)"
+  ],
+  "zXdasfsa": [
+    "anodyne (V)"
   ],
   "Striker": [
     "Evolution (V)"
   ],
   "Lino": [
     "Subterminal Point"
+  ],
+  "Quad": [
+    "EXPIRATION DATE (V)"
+  ],
+  "kotyarachik": [
+    "lava (1)"
   ],
   "Superjavicon": [
     "Slaughterhouse",
@@ -944,8 +954,7 @@
   "Amplitron": [
     "CHIL",
     "NOMAD",
-    "Snowbound (V)",
-    "CONVULSION"
+    "Snowbound (V)"
   ],
   "Reapavon": [
     "Slaughterhouse"
@@ -1014,12 +1023,6 @@
   ],
   "TheLuin": [
     "Temporal Origin (V)"
-  ],
-  "veshel": [
-    "VOID (V)"
-  ],
-  "Kyy": [
-    "Eclipse (V)"
   ],
   "Wain": [
     "KILLSTEALER",
