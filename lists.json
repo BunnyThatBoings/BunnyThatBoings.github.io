@@ -93,19 +93,6 @@
       }
     },
     {
-      "name": "Tidal Wave",
-      "url": "https://www.youtube.com/watch?v=9fsZ014qB3s",
-      "tags": [
-        "wave",
-        "XXL+"
-      ],
-      "opinions": {
-        "overrated": "Banned Player 1",
-        "fairlyPlaced": "Trick, A6, Netermind, wPopoff, Zoink, Nickname09",
-        "underrated": ""
-      }
-    },
-    {
       "name": "Green Bullet",
       "url": "https://www.youtube.com/watch?v=JG-qcvVkZFw",
       "thumb": "thumbs/Green_Bullet.jpg",
@@ -116,8 +103,21 @@
       ],
       "opinions": {
         "overrated": "Anonymous Player 7",
-        "fairlyPlaced": "Nickname09",
-        "underrated": "Banned Player 1"
+        "fairlyPlaced": "Nickname09, Banned Player 1",
+        "underrated": ""
+      }
+    },
+    {
+      "name": "Tidal Wave",
+      "url": "https://www.youtube.com/watch?v=9fsZ014qB3s",
+      "tags": [
+        "wave",
+        "XXL+"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Trick, A6, Netermind, wPopoff, Zoink, Nickname09, Banned Player 1",
+        "underrated": ""
       }
     },
     {
