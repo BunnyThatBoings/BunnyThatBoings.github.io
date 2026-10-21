@@ -136,6 +136,23 @@
       }
     },
     {
+      "name": "SARY NEVER CLEAR",
+      "url": "https://www.youtube.com/live/6BLxeIIsELw",
+      "thumb": "https://www.youtube.com/watch?v=cU5wJRVZBuo",
+      "tags": [
+        "cube",
+        "ship",
+        "timings",
+        "chokepoints",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "안로",
+        "underrated": ""
+      }
+    },
+    {
       "name": "Antarctic Lights",
       "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
       "thumb": "thumbs/Antarctic_Lights.jpg",
@@ -1432,19 +1449,6 @@
         "fairlyPlaced": "veshel",
         "underrated": ""
       }
-    },
-    {
-      "name": "Battle of the Shades",
-      "url": "https://www.youtube.com/watch?v=jsrqMqs1-Ao",
-      "tags": [
-        "nerve control",
-        "XL"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "KrNati",
-        "underrated": ""
-      }
     }
   ],
   "futureVideos": [
@@ -1626,6 +1630,11 @@
       "unverified": true
     },
     {
+      "name": "SARY NEVER CLEAR",
+      "url": "https://www.youtube.com/live/6BLxeIIsELw",
+      "thumb": "https://www.youtube.com/watch?v=cU5wJRVZBuo"
+    },
+    {
       "name": "Antarctic Lights",
       "url": "https://www.youtube.com/watch?v=Uue4ZRhVf-I",
       "thumb": "thumbs/Antarctic_Lights.jpg"
@@ -1665,10 +1674,6 @@
       "thumb": "https://i.ytimg.com/vi/e7Z_-Y07pwo/maxresdefault.jpg",
       "progress": 41,
       "unverified": true
-    },
-    {
-      "name": "The Bloop",
-      "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA"
     }
   ]
 }
