@@ -138,7 +138,7 @@
     {
       "name": "SARY NEVER CLEAR",
       "url": "https://www.youtube.com/live/6BLxeIIsELw",
-      "thumb": "thumbs/SARYNEVERCLEAR.webp",
+      "thumb": "thumbs/SARYNEVERCLEAR.png",
       "tags": [
         "cube",
         "ship",
@@ -1548,12 +1548,6 @@
       "unverified": true
     },
     {
-      "name": "OG SARY NEVER CLEAR",
-      "url": "https://www.youtube.com/watch?v=ZiwownRl8KA",
-      "progress": 90,
-      "unverified": true
-    },
-    {
       "name": "Flamewall",
       "url": "https://www.youtube.com/watch?v=x4Io4zkWVRw",
       "thumb": "https://i.ytimg.com/vi/LCd1aljMPWs/maxresdefault.jpg"
@@ -1632,7 +1626,7 @@
     {
       "name": "SARY NEVER CLEAR",
       "url": "https://www.youtube.com/live/6BLxeIIsELw",
-      "thumb": "https://www.youtube.com/watch?v=cU5wJRVZBuo"
+      "thumb": "thumbs/SARYNEVERCLEAR.png"
     },
     {
       "name": "Antarctic Lights",
