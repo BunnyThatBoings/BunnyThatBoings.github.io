@@ -960,7 +960,8 @@
     },
     {
       "name": "KOCMOC",
-      "url": "https://www.youtube.com/watch?v=RsOVrVlcE2g",
+      "url": "https://www.youtube.com/watch?v=2CxE-UWCIG4",
+      "thumb": "https://www.youtube.com/watch?v=RsOVrVlcE2g",
       "tags": [
         "wave",
         "high CPS",
@@ -1490,6 +1491,13 @@
       "unverified": true
     },
     {
+      "name": "Exasperation",
+      "url": "https://www.youtube.com/watch?v=v9rpMj2iJb4",
+      "thumb": "https://th.bing.com/th/id/R.167af68e45e71417deb6dc1a5a74b934?rik=Dr2OmdCNFrB11A&pid=ImgRaw&r=0",
+      "progress": 67,
+      "unverified": true
+    },
+    {
       "name": "Misanthrope",
       "url": "https://www.youtube.com/watch?v=1WJ_FM1ODbw",
       "progress": 44,
@@ -1528,13 +1536,6 @@
       "url": "https://www.youtube.com/watch?v=NGSigVwuDUg",
       "thumb": "https://i.ytimg.com/vi/apiLRRNoefI/maxresdefault.jpg",
       "progress": 69,
-      "unverified": true
-    },
-    {
-      "name": "Exasperation",
-      "url": "https://www.youtube.com/watch?v=v9rpMj2iJb4",
-      "thumb": "https://th.bing.com/th/id/R.167af68e45e71417deb6dc1a5a74b934?rik=Dr2OmdCNFrB11A&pid=ImgRaw&r=0",
-      "progress": 67,
       "unverified": true
     },
     {
