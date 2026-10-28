@@ -106,11 +106,13 @@
   ],
   "Cuatrocientos": [
     "Flamewall (V)",
+    "Subterminal Point",
     "Voltage (1)",
     "Through The Gates"
   ],
   "zLevii": [
     "Flamewall",
+    "The Bloop",
     "KILLSTEALER",
     "Anathema",
     "Acheron",
@@ -153,12 +155,13 @@
     "Slaughterhouse",
     "Sakupen Circles",
     "KOSETSU (V)",
-    "Firework",
-    "Saul Goodman"
+    "Firework"
   ],
   "A6": [
     "Tidal Wave",
+    "The Bloop",
     "Subsuming Vortex",
+    "Penumbral",
     "andromeda",
     "Avernus",
     "Anathema (1)",
@@ -307,6 +310,9 @@
   "Vorten": [
     "Nullscapes",
     "BOOBAWAMBA",
+    "Penumbral",
+    "Anathema",
+    "Defeated Circles",
     "Avernus",
     "Acheron",
     "Spectre",
@@ -438,6 +444,7 @@
   ],
   "Axinity": [
     "Antarctic Lights (V)",
+    "Ashley Wave Trials",
     "Ultra Paracosm (1)",
     "andromeda",
     "Acheron",
@@ -474,6 +481,7 @@
   ],
   "weyolll3": [
     "Tidal Wave",
+    "Antarctic Lights",
     "Subsuming Vortex",
     "Avernus",
     "Acheron",
