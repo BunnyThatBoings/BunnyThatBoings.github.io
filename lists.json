@@ -519,21 +519,6 @@
       }
     },
     {
-      "name": "FOREST OF SPIKES",
-      "url": "https://www.youtube.com/watch?v=WJYh3dW8Bfo",
-      "tags": [
-        "ship",
-        "wave",
-        "timings",
-        "long"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "Brian Cheese",
-        "underrated": ""
-      }
-    },
-    {
       "name": "Bonfire",
       "url": "https://www.youtube.com/watch?v=7ZFoCGqCq3Y",
       "tags": [
@@ -620,6 +605,21 @@
       "opinions": {
         "overrated": "Thnnder, Redacted Player 1, eastshark, Albert, NLShorty",
         "fairlyPlaced": "w3rty, Vorten, weyolll3, Stefan Boss, Banned Player, PoCle",
+        "underrated": ""
+      }
+    },
+    {
+      "name": "FOREST OF SPIKES",
+      "url": "https://www.youtube.com/watch?v=WJYh3dW8Bfo",
+      "tags": [
+        "ship",
+        "wave",
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Brian Cheese",
         "underrated": ""
       }
     },
