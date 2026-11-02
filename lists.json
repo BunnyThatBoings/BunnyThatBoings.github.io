@@ -1562,6 +1562,12 @@
       "unverified": "true"
     },
     {
+      "name": "OUROBOROS",
+      "url": "https://www.youtube.com/watch?v=Gk1nEhZVP-4",
+      "progress": 52,
+      "unverified": "true"
+    },
+    {
       "name": "Old Blade of Justice",
       "url": "https://www.youtube.com/watch?v=LnSlXVOnG2Y",
       "progress": 29,
@@ -1673,10 +1679,6 @@
       "url": "https://www.youtube.com/watch?v=NGSigVwuDUg",
       "progress": 69,
       "unverified": true
-    },
-    {
-      "name": "The Bloop",
-      "url": "https://www.youtube.com/watch?v=ROuXHSKEhHA"
     }
   ]
 }
