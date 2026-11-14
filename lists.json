@@ -792,6 +792,18 @@
       }
     },
     {
+      "name": "FIBERGLASS",
+      "url": "https://www.youtube.com/watch?v=VCp8bv8AM54",
+      "tags": [
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Duv",
+        "underrated": ""
+      }
+    },
+    {
       "name": "Kyouki",
       "url": "https://www.youtube.com/watch?v=KDa5c0CJTHs",
       "tags": [
@@ -1437,21 +1449,6 @@
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "Yumira",
-        "underrated": ""
-      }
-    },
-    {
-      "name": "BLAZEIT",
-      "url": "https://www.youtube.com/watch?v=WFUJ7Tc3FPM",
-      "tags": [
-        "cube",
-        "ship",
-        "wave",
-        "long"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "turtl",
         "underrated": ""
       }
     }
