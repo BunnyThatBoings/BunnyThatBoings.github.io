@@ -138,21 +138,6 @@
       }
     },
     {
-      "name": "Lesopowal",
-      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g",
-      "tags": [
-        "ship",
-        "ball",
-        "chokepoints",
-        "long"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "Bacon",
-        "underrated": "lanx"
-      }
-    },
-    {
       "name": "OG SARY NEVER CLEAR",
       "url": "https://www.youtube.com/watch?v=MbyrV2VzdaM",
       "tags": [
@@ -213,17 +198,18 @@
       }
     },
     {
-      "name": "Sakupen circles",
-      "url": "https://www.youtube.com/watch?v=AdrmZsy52EY",
+      "name": "Lesopowal",
+      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g",
       "tags": [
-        "wave",
-        "high CPS",
-        "chokepoints"
+        "ship",
+        "ball",
+        "chokepoints",
+        "long"
       ],
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "Bacon",
-        "underrated": ""
+        "underrated": "Banned Player"
       }
     },
     {
@@ -236,6 +222,20 @@
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "Vorten, wPopoff, Bacon",
+        "underrated": ""
+      }
+    },
+    {
+      "name": "Sakupen circles",
+      "url": "https://www.youtube.com/watch?v=AdrmZsy52EY",
+      "tags": [
+        "wave",
+        "high CPS",
+        "chokepoints"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Bacon",
         "underrated": ""
       }
     },
@@ -792,7 +792,7 @@
       }
     },
     {
-      "name": "FIBERGLASS",
+      "name": "Fiberglass",
       "url": "https://www.youtube.com/watch?v=VCp8bv8AM54",
       "tags": [
         "long"
@@ -1616,10 +1616,6 @@
       "url": "https://www.youtube.com/watch?v=bvU88Sm5Naw",
       "progress": 68,
       "unverified": true
-    },
-    {
-      "name": "Lesopowal",
-      "url": "https://www.youtube.com/watch?v=RTXnFHkGO_g"
     },
     {
       "name": "Africa Circles",
