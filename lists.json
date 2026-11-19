@@ -706,6 +706,19 @@
       }
     },
     {
+      "name": "METROPOLIS",
+      "url": "https://www.youtube.com/watch?v=JtWMtMFdK24",
+      "tags": [
+        "cube",
+        "medium"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Ascended",
+        "underrated": ""
+      }
+    },
+    {
       "name": "Subterminal Point",
       "url": "https://www.youtube.com/watch?v=h2wmRMgACH4",
       "tags": [
@@ -762,19 +775,6 @@
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "kloone",
-        "underrated": ""
-      }
-    },
-    {
-      "name": "METROPOLIS",
-      "url": "https://www.youtube.com/watch?v=JtWMtMFdK24",
-      "tags": [
-        "cube",
-        "medium"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "Ascended",
         "underrated": ""
       }
     },
