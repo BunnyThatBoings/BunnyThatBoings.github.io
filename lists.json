@@ -672,6 +672,20 @@
       }
     },
     {
+      "name": "SKRTSKRTSKRTSKRT",
+      "url": "https://www.youtube.com/watch?v=wHZ_WQlsKtA",
+      "tags": [
+        "wave",
+        "timings",
+        "medium"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Nickname09",
+        "underrated": ""
+      }
+    },
+    {
       "name": "Acheron",
       "url": "https://www.youtube.com/watch?v=sBKR6aUorzA",
       "thumb": "https://i.ytimg.com/vi/RMRBhZJrgkw/mqdefault.jpg",
@@ -1434,21 +1448,6 @@
       "opinions": {
         "overrated": "",
         "fairlyPlaced": "Zephronox, Amplitron",
-        "underrated": ""
-      }
-    },
-    {
-      "name": "Acropolis Circles",
-      "url": "https://www.youtube.com/watch?v=Zwkn0YQ-sYs",
-      "tags": [
-        "wave",
-        "high CPS",
-        "timings",
-        "chokepoints"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "Yumira",
         "underrated": ""
       }
     }
