@@ -1102,6 +1102,20 @@
       }
     },
     {
+      "name": "ZANBOT",
+      "url": "https://www.youtube.com/watch?v=2dAiaCWb9gw",
+      "tags": [
+        "memory",
+        "high CPS",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "Cala",
+        "underrated": ""
+      }
+    },
+    {
       "name": "Firework Ice Nation",
       "url": "https://www.youtube.com/watch?v=He3iRW6Usv4",
       "tags": [
@@ -1429,21 +1443,6 @@
       "tags": [
         "timings",
         "XXL+"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "Zephronox, Amplitron",
-        "underrated": ""
-      }
-    },
-    {
-      "name": "NOMAD",
-      "url": "https://www.youtube.com/watch?v=H2TkHbEX__A",
-      "tags": [
-        "ship",
-        "ufo",
-        "timings",
-        "medium"
       ],
       "opinions": {
         "overrated": "",
