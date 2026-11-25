@@ -121,6 +121,19 @@
       }
     },
     {
+      "name": "Labyrinth",
+      "url": "https://www.youtube.com/watch?v=jNQVG9iZPGo",
+      "tags": [
+        "timings",
+        "long"
+      ],
+      "opinions": {
+        "overrated": "",
+        "fairlyPlaced": "GGonop",
+        "underrated": ""
+      }
+    },
+    {
       "name": "IT MEANS EVERYTHING",
       "url": "https://www.youtube.com/watch?v=_QV11PEwiIo",
       "tags": [
@@ -1436,19 +1449,6 @@
         "fairlyPlaced": "TheLuin",
         "underrated": ""
       }
-    },
-    {
-      "name": "Snowbound",
-      "url": "https://www.youtube.com/watch?v=cjHwgbtAkXU",
-      "tags": [
-        "timings",
-        "XXL+"
-      ],
-      "opinions": {
-        "overrated": "",
-        "fairlyPlaced": "Zephronox, Amplitron",
-        "underrated": ""
-      }
     }
   ],
   "futureVideos": [
@@ -1606,6 +1606,10 @@
       "unverified": true
     },
     {
+      "name": "Labyrinth",
+      "url": "https://www.youtube.com/watch?v=jNQVG9iZPGo"
+    },
+    {
       "name": "IT MEANS EVERYTHING",
       "url": "https://www.youtube.com/watch?v=_QV11PEwiIo"
     },
@@ -1613,12 +1617,6 @@
       "name": "BANSHEE",
       "url": "https://www.youtube.com/watch?v=AkAcvx32BII",
       "progress": 86,
-      "unverified": true
-    },
-    {
-      "name": "Labryinth",
-      "url": "https://www.youtube.com/watch?v=bvU88Sm5Naw",
-      "progress": 68,
       "unverified": true
     },
     {
